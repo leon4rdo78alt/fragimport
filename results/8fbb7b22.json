@@ -7,7 +7,7 @@
     "outbounds": [
         {
             "tag": "proxy",
-            "protocol": "vless",
+            "protocol": "vmess",
             "settings": {
                 "vnext": [
                     {
@@ -15,12 +15,10 @@
                         "port": 443,
                         "users": [
                             {
-                                "id": "ce526092-81c1-42be-8354-88e58946c1f3",
+                                "id": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
                                 "alterId": 0,
                                 "email": "t@t.tt",
-                                "security": "auto",
-                                "encryption": "none",
-                                "flow": ""
+                                "security": "auto"
                             }
                         ]
                     }
@@ -29,21 +27,20 @@
             "streamSettings": {
                 "network": "ws",
                 "wsSettings": {
-                    "path": "/monardas.aurorainiceland.com%3A443/nimws",
+                    "path": "/linde06.indiavideo.sbs:443/linkws",
                     "headers": {
-                        "Host": "vcp3.retroperitoneum.WORkeRs.dEV"
+                        "Host": "getaf.leon4rdo78.workERs.Dev"
                     }
                 },
                 "security": "tls",
                 "tlsSettings": {
                     "allowInsecure": true,
-                    "serverName": "vcp3.retroperitoneum.WORkeRs.dEV",
+                    "serverName": "getaf.leon4rdo78.workERs.Dev",
                     "alpn": [
-                        "http/1.1",
-                        "h2",
-                        "h3"
+                        "h2"
                     ],
-                    "show": false
+                    "show": false,
+                    "fingerprint": "edge"
                 },
                 "sockopt": {
                     "dialerProxy": "fragment",

@@ -15,7 +15,7 @@
                         "port": 443,
                         "users": [
                             {
-                                "id": "149400e4-6910-4a3f-8c4a-c5c175929b87",
+                                "id": "2b7098cc-9efb-4175-80f3-801fb293b87f",
                                 "alterId": 0,
                                 "email": "t@t.tt",
                                 "security": "auto",
@@ -29,17 +29,16 @@
             "streamSettings": {
                 "network": "ws",
                 "wsSettings": {
-                    "path": "/romb.minusober.com%3A443/romb",
+                    "path": "/kz-full.privateip.net%3A443/VLESS",
                     "headers": {
-                        "Host": "vcp3.dehel15354.wOrkeRS.dEv"
+                        "Host": "fragment.leon4rdo78.WOrkErS.dEv"
                     }
                 },
                 "security": "tls",
                 "tlsSettings": {
                     "allowInsecure": true,
-                    "serverName": "vcp3.dehel15354.wOrkeRS.dEv",
+                    "serverName": "fragment.leon4rdo78.WOrkErS.dEv",
                     "alpn": [
-                        "http/1.1",
                         "h2",
                         "h3"
                     ],

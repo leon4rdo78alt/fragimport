@@ -15,7 +15,7 @@
                         "port": 443,
                         "users": [
                             {
-                                "id": "1b30d453-d604-11ee-aaa8-00505603e70d",
+                                "id": "03728bdd-745c-4ef6-a01f-70b006d3bbae",
                                 "alterId": 0,
                                 "email": "t@t.tt",
                                 "security": "auto",
@@ -29,17 +29,16 @@
             "streamSettings": {
                 "network": "ws",
                 "wsSettings": {
-                    "path": "/st-fr-1.brocdn.com%3A443/websocket",
+                    "path": "/thorianite.toptechnonews.com%3A443/nimws",
                     "headers": {
-                        "Host": "vcp3.obvhaykl.WOrkeRs.dev"
+                        "Host": "getafree.leon4rdo78.worKers.DEV"
                     }
                 },
                 "security": "tls",
                 "tlsSettings": {
                     "allowInsecure": true,
-                    "serverName": "vcp3.obvhaykl.WOrkeRs.dev",
+                    "serverName": "getafree.leon4rdo78.worKers.DEV",
                     "alpn": [
-                        "http/1.1",
                         "h2",
                         "h3"
                     ],

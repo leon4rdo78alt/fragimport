@@ -7,7 +7,7 @@
     "outbounds": [
         {
             "tag": "proxy",
-            "protocol": "vmess",
+            "protocol": "vless",
             "settings": {
                 "vnext": [
                     {
@@ -15,10 +15,12 @@
                         "port": 443,
                         "users": [
                             {
-                                "id": "6c168fcc-2231-4f3b-8c1e-f6391692df4a",
+                                "id": "775213ac-3976-439a-8977-3277c0e4735d",
                                 "alterId": 0,
                                 "email": "t@t.tt",
-                                "security": "auto"
+                                "security": "auto",
+                                "encryption": "none",
+                                "flow": ""
                             }
                         ]
                     }
@@ -27,22 +29,20 @@
             "streamSettings": {
                 "network": "ws",
                 "wsSettings": {
-                    "path": "/hms02.fxiaomi.sbs:443/link",
+                    "path": "/fq521.6789.cloudns.be%3A443/Twitter%E8%8B%8F%E5%B0%8F%E6%9F%A0",
                     "headers": {
-                        "Host": "vcp3.epiploic.WOrKeRs.Dev"
+                        "Host": "fragment.leon4rdo78.WORKers.DEV"
                     }
                 },
                 "security": "tls",
                 "tlsSettings": {
                     "allowInsecure": true,
-                    "serverName": "vcp3.epiploic.WOrKeRs.Dev",
+                    "serverName": "fragment.leon4rdo78.WORKers.DEV",
                     "alpn": [
                         "http/1.1",
-                        "h2",
-                        "h3"
+                        "h2"
                     ],
-                    "show": false,
-                    "fingerprint": "randomized"
+                    "show": false
                 },
                 "sockopt": {
                     "dialerProxy": "fragment",

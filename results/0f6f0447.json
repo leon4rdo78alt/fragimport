@@ -7,7 +7,7 @@
     "outbounds": [
         {
             "tag": "proxy",
-            "protocol": "vmess",
+            "protocol": "vless",
             "settings": {
                 "vnext": [
                     {
@@ -15,10 +15,12 @@
                         "port": 443,
                         "users": [
                             {
-                                "id": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
+                                "id": "5dc23bba-0e31-4016-895f-517ce4b7ccc0",
                                 "alterId": 0,
                                 "email": "t@t.tt",
-                                "security": "auto"
+                                "security": "auto",
+                                "encryption": "none",
+                                "flow": ""
                             }
                         ]
                     }
@@ -27,18 +29,19 @@
             "streamSettings": {
                 "network": "ws",
                 "wsSettings": {
-                    "path": "/glweidf.sbs/linkws",
+                    "path": "/glassiest.toptechnonews.com%3A443/nimws",
                     "headers": {
-                        "Host": "vfarid.surfboardv2ray8830.WOrkErS.DEv"
+                        "Host": "getafree.leon4rdo78.WorkeRs.deV"
                     }
                 },
                 "security": "tls",
                 "tlsSettings": {
                     "allowInsecure": true,
-                    "serverName": "vfarid.surfboardv2ray8830.WOrkErS.DEv",
-                    "alpn": [],
-                    "show": false,
-                    "fingerprint": "chrome"
+                    "serverName": "getafree.leon4rdo78.WorkeRs.deV",
+                    "alpn": [
+                        "h2"
+                    ],
+                    "show": false
                 },
                 "sockopt": {
                     "dialerProxy": "fragment",
