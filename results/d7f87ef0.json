@@ -1,5 +1,5 @@
 {
-    "remarks": "Temporary - TCI - پیشنهادی مخابرات فعلی",
+    "remarks": "Temporary%20-%20TCI%20-%20%D9%BE%DB%8C%D8%B4%D9%86%D9%87%D8%A7%D8%AF%DB%8C%20%D9%85%D8%AE%D8%A7%D8%A8%D8%B1%D8%A7%D8%AA%20%D9%81%D8%B9%D9%84%DB%8C",
     "log": {
         "access": "",
         "error": "",
@@ -8,50 +8,31 @@
     "outbounds": [
         {
             "tag": "proxy",
-            "protocol": "vmess",
+            "protocol": "vless",
             "settings": {
                 "vnext": [
                     {
-                        "address": "51.79.28.250",
-                        "port": 80,
+                        "address": "104.21.20.148",
+                        "port": 8880,
                         "users": [
                             {
-                                "id": "58fe1542-5290-40ad-815a-77707a81afe5",
+                                "id": "935705ed-576b-45a1-fa6c-60e911678a68",
                                 "alterId": 0,
                                 "email": "t@t.tt",
-                                "security": "auto"
+                                "security": "auto",
+                                "encryption": "none",
+                                "flow": ""
                             }
                         ]
                     }
                 ]
             },
             "streamSettings": {
-                "network": "tcp",
-                "tcpSettings": {
-                    "header": {
-                        "type": "http",
-                        "request": {
-                            "version": "1.1",
-                            "method": "GET",
-                            "path": [
-                                "/IOebhLMhl1CYpkVm23UCOKYhmm"
-                            ],
-                            "headers": {
-                                "Host": [
-                                    "speedtest.net"
-                                ],
-                                "User-Agent": [
-                                    ""
-                                ],
-                                "Accept-Encoding": [
-                                    "gzip, deflate"
-                                ],
-                                "Connection": [
-                                    "keep-alive"
-                                ],
-                                "Pragma": "no-cache"
-                            }
-                        }
+                "network": "ws",
+                "wsSettings": {
+                    "path": "",
+                    "headers": {
+                        "Host": "kiava.aws.amazon.com.fxp1.debian.org.speedtest.net.xn--mgba2h8quf.kiava.fun"
                     }
                 },
                 "sockopt": {
