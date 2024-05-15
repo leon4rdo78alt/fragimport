@@ -1,5 +1,5 @@
 {
-    "remarks": "%F0%9F%8F%81%20RELAY-Vmix%20x%20LcWd",
+    "remarks": "Mokhaberat",
     "log": {
         "access": "",
         "error": "",
@@ -12,11 +12,11 @@
             "settings": {
                 "vnext": [
                     {
-                        "address": "crackthecode.ftp.sh",
-                        "port": 443,
+                        "address": "104.21.20.148",
+                        "port": 8880,
                         "users": [
                             {
-                                "id": "03728bdd-745c-4ef6-a01f-70b006d3bbae",
+                                "id": "935705ed-576b-45a1-fa6c-60e911678a68",
                                 "alterId": 0,
                                 "email": "t@t.tt",
                                 "security": "auto",
@@ -32,18 +32,8 @@
                 "wsSettings": {
                     "path": "",
                     "headers": {
-                        "Host": "getafree.leon4rdo78.worKers.DEV"
+                        "Host": "kiava.aws.amazon.com.fxp1.debian.org.speedtest.net.xn--mgba2h8quf.kiava.fun"
                     }
-                },
-                "security": "tls",
-                "tlsSettings": {
-                    "allowInsecure": true,
-                    "serverName": "getafree.leon4rdo78.worKers.DEV",
-                    "alpn": [
-                        "h2",
-                        "h3"
-                    ],
-                    "show": false
                 },
                 "sockopt": {
                     "dialerProxy": "fragment",

@@ -1,5 +1,5 @@
 {
-    "remarks": "🇩🇪 Germany x LcWd",
+    "remarks": "Mokhaberat",
     "log": {
         "access": "",
         "error": "",
@@ -8,18 +8,20 @@
     "outbounds": [
         {
             "tag": "proxy",
-            "protocol": "vmess",
+            "protocol": "vless",
             "settings": {
                 "vnext": [
                     {
-                        "address": "crackthecode.ftp.sh",
-                        "port": 443,
+                        "address": "198.41.204.86",
+                        "port": 80,
                         "users": [
                             {
-                                "id": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
+                                "id": "435bda4c-fe5e-42c9-a3ad-15334943b38a",
                                 "alterId": 0,
                                 "email": "t@t.tt",
-                                "security": "auto"
+                                "security": "auto",
+                                "encryption": "none",
+                                "flow": ""
                             }
                         ]
                     }
@@ -28,21 +30,10 @@
             "streamSettings": {
                 "network": "ws",
                 "wsSettings": {
-                    "path": "/glweidf.sbs:443/linkws",
+                    "path": "",
                     "headers": {
-                        "Host": "getaf.leon4rdo78.wOrKErS.dEv"
+                        "Host": "us1.rtacg.com"
                     }
-                },
-                "security": "tls",
-                "tlsSettings": {
-                    "allowInsecure": true,
-                    "serverName": "getaf.leon4rdo78.wOrKErS.dEv",
-                    "alpn": [
-                        "http/1.1",
-                        "h2"
-                    ],
-                    "show": false,
-                    "fingerprint": "randomized"
                 },
                 "sockopt": {
                     "dialerProxy": "fragment",

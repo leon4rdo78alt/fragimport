@@ -1,5 +1,5 @@
 {
-    "remarks": "%F0%9F%87%A9%F0%9F%87%AA%20Germany-VM%20x%20LcWd",
+    "remarks": "Mokhaberat",
     "log": {
         "access": "",
         "error": "",
@@ -12,11 +12,11 @@
             "settings": {
                 "vnext": [
                     {
-                        "address": "crackthecode.ftp.sh",
+                        "address": "172.67.111.59",
                         "port": 443,
                         "users": [
                             {
-                                "id": "8a052c65-bdf6-485a-c1d7-cb2b23f15dfa",
+                                "id": "d0be39fd-4bca-4e37-80d5-715d512aad7e",
                                 "alterId": 0,
                                 "email": "t@t.tt",
                                 "security": "auto",
@@ -32,14 +32,15 @@
                 "wsSettings": {
                     "path": "",
                     "headers": {
-                        "Host": "getafree.leon4rdo78.WOrKErS.dEV"
+                        "Host": "server17.aibox.tv"
                     }
                 },
                 "security": "tls",
                 "tlsSettings": {
                     "allowInsecure": true,
-                    "serverName": "getafree.leon4rdo78.WOrKErS.dEV",
+                    "serverName": "server17.aibox.tv",
                     "alpn": [
+                        "http/1.1",
                         "h2"
                     ],
                     "show": false
