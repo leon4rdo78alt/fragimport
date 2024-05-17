@@ -1,5 +1,5 @@
 {
-    "remarks": "%F0%9F%87%B3%F0%9F%87%A6%20Namibia-V%20x%20LcWd",
+    "remarks": "%F0%9F%87%B3%F0%9F%87%B1%20Netherlands-Vmix%20x%20LcWd",
     "log": {
         "access": "",
         "error": "",
@@ -16,7 +16,7 @@
                         "port": 443,
                         "users": [
                             {
-                                "id": "ebfdccb6-7416-4b6e-860d-98587344d500",
+                                "id": "d03aa9a0-f43a-4d7d-89be-b558dedda405",
                                 "alterId": 0,
                                 "email": "t@t.tt",
                                 "security": "auto",
@@ -32,14 +32,15 @@
                 "wsSettings": {
                     "path": "",
                     "headers": {
-                        "Host": "vfari23.leon4rdo78.WoRKers.dEv"
+                        "Host": "vmixed23.leon4rdo78.WORkErS.DEv"
                     }
                 },
                 "security": "tls",
                 "tlsSettings": {
                     "allowInsecure": true,
-                    "serverName": "vfari23.leon4rdo78.WoRKers.dEv",
+                    "serverName": "vmixed23.leon4rdo78.WORkErS.DEv",
                     "alpn": [
+                        "http/1.1",
                         "h2"
                     ],
                     "show": false

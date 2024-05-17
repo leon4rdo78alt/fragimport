@@ -1,5 +1,5 @@
 {
-    "remarks": "Mokhaberat-2",
+    "remarks": "%F0%9F%87%B3%F0%9F%87%A6%20Namibia-Vmix%20x%20LcWd",
     "log": {
         "access": "",
         "error": "",
@@ -12,11 +12,11 @@
             "settings": {
                 "vnext": [
                     {
-                        "address": "172.67.111.59",
+                        "address": "crackthecode.ftp.sh",
                         "port": 443,
                         "users": [
                             {
-                                "id": "d0be39fd-4bca-4e37-80d5-715d512aad7e",
+                                "id": "7b7ae6b2-d755-11ee-aaa8-00505603e70d",
                                 "alterId": 0,
                                 "email": "t@t.tt",
                                 "security": "auto",
@@ -32,16 +32,17 @@
                 "wsSettings": {
                     "path": "",
                     "headers": {
-                        "Host": "server17.aibox.tv"
+                        "Host": "vmixed23.leon4rdo78.workeRS.DEV"
                     }
                 },
                 "security": "tls",
                 "tlsSettings": {
                     "allowInsecure": true,
-                    "serverName": "server17.aibox.tv",
+                    "serverName": "vmixed23.leon4rdo78.workeRS.DEV",
                     "alpn": [
                         "http/1.1",
-                        "h2"
+                        "h2",
+                        "h3"
                     ],
                     "show": false
                 },

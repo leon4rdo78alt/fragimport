@@ -1,5 +1,5 @@
 {
-    "remarks": "%F0%9F%87%AB%F0%9F%87%B7%20France-VM%20x%20LcWd",
+    "remarks": "🏁RELAY-VM22 x LcWd",
     "log": {
         "access": "",
         "error": "",
@@ -8,7 +8,7 @@
     "outbounds": [
         {
             "tag": "proxy",
-            "protocol": "vless",
+            "protocol": "vmess",
             "settings": {
                 "vnext": [
                     {
@@ -16,12 +16,10 @@
                         "port": 443,
                         "users": [
                             {
-                                "id": "2f0b8dcd-8c01-4714-89f0-5a855049cebd",
+                                "id": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
                                 "alterId": 0,
                                 "email": "t@t.tt",
-                                "security": "auto",
-                                "encryption": "none",
-                                "flow": ""
+                                "security": "auto"
                             }
                         ]
                     }
@@ -30,21 +28,20 @@
             "streamSettings": {
                 "network": "ws",
                 "wsSettings": {
-                    "path": "",
+                    "path": "/linde06.indiavideo.sbs/linkws",
                     "headers": {
-                        "Host": "getafree.leon4rdo78.WoRKERS.dev"
+                        "Host": "vmess22.leon4rdo78.WorkerS.dev"
                     }
                 },
                 "security": "tls",
                 "tlsSettings": {
                     "allowInsecure": true,
-                    "serverName": "getafree.leon4rdo78.WoRKERS.dev",
+                    "serverName": "vmess22.leon4rdo78.WorkerS.dev",
                     "alpn": [
-                        "http/1.1",
-                        "h2",
-                        "h3"
+                        "http/1.1"
                     ],
-                    "show": false
+                    "show": false,
+                    "fingerprint": "ios"
                 },
                 "sockopt": {
                     "dialerProxy": "fragment",

@@ -1,5 +1,5 @@
 {
-    "remarks": "%F0%9F%8F%81%20RELAY-VA%20x%20LcWd",
+    "remarks": "%E5%A1%94%E5%90%89%E5%85%8B%E6%96%AF%E5%9D%A6-Vmix%20x%20LcWd",
     "log": {
         "access": "",
         "error": "",
@@ -16,7 +16,7 @@
                         "port": 443,
                         "users": [
                             {
-                                "id": "bffead23-bd0b-44dd-b4cb-b2a745ae069f",
+                                "id": "766767a5-2b7e-4500-8472-99308888308d",
                                 "alterId": 0,
                                 "email": "t@t.tt",
                                 "security": "auto",
@@ -32,15 +32,14 @@
                 "wsSettings": {
                     "path": "",
                     "headers": {
-                        "Host": "fragment.leon4rdo78.workers.dEv"
+                        "Host": "vmixed23.leon4rdo78.WoRKers.deV"
                     }
                 },
                 "security": "tls",
                 "tlsSettings": {
                     "allowInsecure": true,
-                    "serverName": "fragment.leon4rdo78.workers.dEv",
+                    "serverName": "vmixed23.leon4rdo78.WoRKers.deV",
                     "alpn": [
-                        "http/1.1",
                         "h2",
                         "h3"
                     ],

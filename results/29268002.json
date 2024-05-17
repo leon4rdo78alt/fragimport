@@ -1,5 +1,5 @@
 {
-    "remarks": "%F0%9F%87%BA%F0%9F%87%B8%20United%20States-V%20x%20LcWd",
+    "remarks": "🏁RELAY-VM22 x LcWd",
     "log": {
         "access": "",
         "error": "",
@@ -8,7 +8,7 @@
     "outbounds": [
         {
             "tag": "proxy",
-            "protocol": "vless",
+            "protocol": "vmess",
             "settings": {
                 "vnext": [
                     {
@@ -16,12 +16,10 @@
                         "port": 443,
                         "users": [
                             {
-                                "id": "ebfdccb6-7416-4b6e-860d-98587344d500",
+                                "id": "f584de15-2034-4170-a723-f48c2bae5e0f",
                                 "alterId": 0,
                                 "email": "t@t.tt",
-                                "security": "auto",
-                                "encryption": "none",
-                                "flow": ""
+                                "security": "auto"
                             }
                         ]
                     }
@@ -30,21 +28,21 @@
             "streamSettings": {
                 "network": "ws",
                 "wsSettings": {
-                    "path": "",
+                    "path": "/afrhms16v.bestxray.buzz/linkws",
                     "headers": {
-                        "Host": "vfari23.leon4rdo78.WOrkeRs.DEv"
+                        "Host": "vmess22.leon4rdo78.WoRKErS.dEv"
                     }
                 },
                 "security": "tls",
                 "tlsSettings": {
                     "allowInsecure": true,
-                    "serverName": "vfari23.leon4rdo78.WOrkeRs.DEv",
+                    "serverName": "vmess22.leon4rdo78.WoRKErS.dEv",
                     "alpn": [
                         "http/1.1",
-                        "h2",
-                        "h3"
+                        "h2"
                     ],
-                    "show": false
+                    "show": false,
+                    "fingerprint": "ios"
                 },
                 "sockopt": {
                     "dialerProxy": "fragment",

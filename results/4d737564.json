@@ -1,5 +1,5 @@
 {
-    "remarks": "%F0%9F%87%A9%F0%9F%87%AA%20Germany-VM%20x%20LcWd",
+    "remarks": "🇫🇷 France-Vmix x LcWd",
     "log": {
         "access": "",
         "error": "",
@@ -8,7 +8,7 @@
     "outbounds": [
         {
             "tag": "proxy",
-            "protocol": "vless",
+            "protocol": "vmess",
             "settings": {
                 "vnext": [
                     {
@@ -16,12 +16,10 @@
                         "port": 443,
                         "users": [
                             {
-                                "id": "8a052c65-bdf6-485a-c1d7-cb2b23f15dfa",
+                                "id": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
                                 "alterId": 0,
                                 "email": "t@t.tt",
-                                "security": "auto",
-                                "encryption": "none",
-                                "flow": ""
+                                "security": "auto"
                             }
                         ]
                     }
@@ -30,19 +28,21 @@
             "streamSettings": {
                 "network": "ws",
                 "wsSettings": {
-                    "path": "",
+                    "path": "/glweidf.sbs:443/linkws",
                     "headers": {
-                        "Host": "getafree.leon4rdo78.WOrKErS.dEV"
+                        "Host": "vmixed23.leon4rdo78.WOrkers.dEV"
                     }
                 },
                 "security": "tls",
                 "tlsSettings": {
                     "allowInsecure": true,
-                    "serverName": "getafree.leon4rdo78.WOrKErS.dEV",
+                    "serverName": "vmixed23.leon4rdo78.WOrkers.dEV",
                     "alpn": [
-                        "h2"
+                        "h2",
+                        "h3"
                     ],
-                    "show": false
+                    "show": false,
+                    "fingerprint": "ios"
                 },
                 "sockopt": {
                     "dialerProxy": "fragment",

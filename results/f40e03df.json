@@ -1,5 +1,5 @@
 {
-    "remarks": "🇩🇪 Germany x LcWd",
+    "remarks": "%F0%9F%87%B3%F0%9F%87%A6%20Namibia-Vmix%20x%20LcWd",
     "log": {
         "access": "",
         "error": "",
@@ -8,7 +8,7 @@
     "outbounds": [
         {
             "tag": "proxy",
-            "protocol": "vmess",
+            "protocol": "vless",
             "settings": {
                 "vnext": [
                     {
@@ -16,10 +16,12 @@
                         "port": 443,
                         "users": [
                             {
-                                "id": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
+                                "id": "5bdf790f-0af2-4481-a624-41b66e7e3489",
                                 "alterId": 0,
                                 "email": "t@t.tt",
-                                "security": "auto"
+                                "security": "auto",
+                                "encryption": "none",
+                                "flow": ""
                             }
                         ]
                     }
@@ -28,21 +30,19 @@
             "streamSettings": {
                 "network": "ws",
                 "wsSettings": {
-                    "path": "/glweidf.sbs:443/linkws",
+                    "path": "",
                     "headers": {
-                        "Host": "getaf.leon4rdo78.wOrKErS.dEv"
+                        "Host": "vmixed23.leon4rdo78.WorkErs.DEv"
                     }
                 },
                 "security": "tls",
                 "tlsSettings": {
                     "allowInsecure": true,
-                    "serverName": "getaf.leon4rdo78.wOrKErS.dEv",
+                    "serverName": "vmixed23.leon4rdo78.WorkErs.DEv",
                     "alpn": [
-                        "http/1.1",
-                        "h2"
+                        "http/1.1"
                     ],
-                    "show": false,
-                    "fingerprint": "randomized"
+                    "show": false
                 },
                 "sockopt": {
                     "dialerProxy": "fragment",
