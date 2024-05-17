@@ -1,5 +1,5 @@
 {
-    "remarks": "🏁 RELAY-Vmix x LcWd",
+    "remarks": "211-🇳🇦 Namibia - NA 🌍 VM-WS-TLS 4⃣-Vmix x LcWd",
     "log": {
         "access": "",
         "error": "",
@@ -16,7 +16,7 @@
                         "port": 443,
                         "users": [
                             {
-                                "id": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
+                                "id": "f584de15-2034-4170-a723-f48c2bae5e0f",
                                 "alterId": 0,
                                 "email": "t@t.tt",
                                 "security": "auto"
@@ -28,20 +28,22 @@
             "streamSettings": {
                 "network": "ws",
                 "wsSettings": {
-                    "path": "/linde06.indiavideo.sbs:443/linkws",
+                    "path": "/afrhms16v.bestxray.buzz:443/linkws",
                     "headers": {
-                        "Host": "getafree.leon4rdo78.wOrkeRs.deV"
+                        "Host": "getafree.leon4rdo78.WOrkeRs.deV"
                     }
                 },
                 "security": "tls",
                 "tlsSettings": {
                     "allowInsecure": true,
-                    "serverName": "getafree.leon4rdo78.wOrkeRs.deV",
+                    "serverName": "getafree.leon4rdo78.WOrkeRs.deV",
                     "alpn": [
-                        "http/1.1"
+                        "http/1.1",
+                        "h2",
+                        "h3"
                     ],
                     "show": false,
-                    "fingerprint": "safari"
+                    "fingerprint": "firefox"
                 },
                 "sockopt": {
                     "dialerProxy": "fragment",
