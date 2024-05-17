@@ -1,5 +1,5 @@
 {
-    "remarks": "32-🇺🇸 美国 CloudFlare节点-Vmix x LcWd",
+    "remarks": "%F0%9F%87%B3%F0%9F%87%A6%20Namibia-V%20x%20LcWd",
     "log": {
         "access": "",
         "error": "",
@@ -8,7 +8,7 @@
     "outbounds": [
         {
             "tag": "proxy",
-            "protocol": "vmess",
+            "protocol": "vless",
             "settings": {
                 "vnext": [
                     {
@@ -16,10 +16,12 @@
                         "port": 443,
                         "users": [
                             {
-                                "id": "93ea486a-bada-42a4-ac38-d088b320fa1e",
+                                "id": "ebfdccb6-7416-4b6e-860d-98587344d500",
                                 "alterId": 0,
                                 "email": "t@t.tt",
-                                "security": "auto"
+                                "security": "auto",
+                                "encryption": "none",
+                                "flow": ""
                             }
                         ]
                     }
@@ -28,20 +30,19 @@
             "streamSettings": {
                 "network": "ws",
                 "wsSettings": {
-                    "path": "/xmivideo.cfd:443/linkws",
+                    "path": "",
                     "headers": {
-                        "Host": "getafree.leon4rdo78.wOrkERs.dEv"
+                        "Host": "vfari23.leon4rdo78.WoRKers.dEv"
                     }
                 },
                 "security": "tls",
                 "tlsSettings": {
                     "allowInsecure": true,
-                    "serverName": "getafree.leon4rdo78.wOrkERs.dEv",
+                    "serverName": "vfari23.leon4rdo78.WoRKers.dEv",
                     "alpn": [
                         "h2"
                     ],
-                    "show": false,
-                    "fingerprint": "randomized"
+                    "show": false
                 },
                 "sockopt": {
                     "dialerProxy": "fragment",
