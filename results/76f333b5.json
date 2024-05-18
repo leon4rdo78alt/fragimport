@@ -1,5 +1,5 @@
 {
-    "remarks": "%5B%F0%9F%87%A8%F0%9F%87%A6%5Dt.me/ConfigsHub",
+    "remarks": "%5B%F0%9F%87%BA%F0%9F%87%B8%5Dt.me/ConfigsHub",
     "log": {
         "access": "",
         "error": "",
@@ -12,11 +12,11 @@
             "settings": {
                 "vnext": [
                     {
-                        "address": "104.18.202.232",
-                        "port": 80,
+                        "address": "69.84.182.50",
+                        "port": 8080,
                         "users": [
                             {
-                                "id": "c0cf878e-08b3-4e10-b055-b334da6a6f71",
+                                "id": "d6470e59-749d-4a80-96ea-1d9c48174f54",
                                 "alterId": 0,
                                 "email": "t@t.tt",
                                 "security": "auto",
@@ -32,7 +32,7 @@
                 "wsSettings": {
                     "path": "",
                     "headers": {
-                        "Host": "mihanyas.ir.zula.ir.xn--4all.vipleech.cc."
+                        "Host": "Daily-ConfigsV2rayGmSix6.6.6.6.ir.Com.Site.xn--fhq0la447aac5504dea701axr1g.vigilantecollection.com."
                     }
                 },
                 "sockopt": {

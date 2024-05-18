@@ -1,5 +1,5 @@
 {
-    "remarks": "🏁RELAY-VM22 x LcWd",
+    "remarks": "%5B%F0%9F%87%B3%F0%9F%87%B1%5Dt.me/ConfigsHub",
     "log": {
         "access": "",
         "error": "",
@@ -8,18 +8,20 @@
     "outbounds": [
         {
             "tag": "proxy",
-            "protocol": "vmess",
+            "protocol": "vless",
             "settings": {
                 "vnext": [
                     {
-                        "address": "crackthecode.ftp.sh",
-                        "port": 443,
+                        "address": "91.195.110.64",
+                        "port": 8080,
                         "users": [
                             {
-                                "id": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
+                                "id": "b61e0fed-b970-4625-923c-cdadf1d56637",
                                 "alterId": 0,
                                 "email": "t@t.tt",
-                                "security": "auto"
+                                "security": "auto",
+                                "encryption": "none",
+                                "flow": ""
                             }
                         ]
                     }
@@ -28,20 +30,10 @@
             "streamSettings": {
                 "network": "ws",
                 "wsSettings": {
-                    "path": "/linde06.indiavideo.sbs/linkws",
+                    "path": "",
                     "headers": {
-                        "Host": "vmess22.leon4rdo78.WoRKeRs.Dev"
+                        "Host": "Daily-ConfigsV2rayGmSix6.6.6.6.ir.Com.Site.xn--fhq0la447aac5504dea701axr1g.vigilantecollection.com."
                     }
-                },
-                "security": "tls",
-                "tlsSettings": {
-                    "allowInsecure": true,
-                    "serverName": "vmess22.leon4rdo78.WoRKeRs.Dev",
-                    "alpn": [
-                        "http/1.1"
-                    ],
-                    "show": false,
-                    "fingerprint": "safari"
                 },
                 "sockopt": {
                     "dialerProxy": "fragment",

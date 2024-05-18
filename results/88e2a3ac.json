@@ -1,5 +1,5 @@
 {
-    "remarks": "%E7%BE%8E%E5%9B%BD-Vmix%20x%20LcWd",
+    "remarks": "%5B%F0%9F%87%B8%F0%9F%87%AA%5Dt.me/ConfigsHub-X",
     "log": {
         "access": "",
         "error": "",
@@ -12,11 +12,11 @@
             "settings": {
                 "vnext": [
                     {
-                        "address": "crackthecode.ftp.sh",
-                        "port": 443,
+                        "address": "185.146.173.169",
+                        "port": 8880,
                         "users": [
                             {
-                                "id": "ec880e3c-2817-4b89-9887-ccc1fb7e3a52",
+                                "id": "1a16b075-171f-4b12-ac7d-c257953edf3a",
                                 "alterId": 0,
                                 "email": "t@t.tt",
                                 "security": "auto",
@@ -32,17 +32,8 @@
                 "wsSettings": {
                     "path": "",
                     "headers": {
-                        "Host": "vmixed23.leon4rdo78.wOrkErs.dEv"
+                        "Host": "2.V2ray.debian.org.fxp.debian.org.speedtest.net.zula.ir.%E3%82%89%E3%82%8F%E3%81%AA%E3%81%95%E3%82%89%E3%82%8F.mralpha-vpn.COM."
                     }
-                },
-                "security": "tls",
-                "tlsSettings": {
-                    "allowInsecure": true,
-                    "serverName": "vmixed23.leon4rdo78.wOrkErs.dEv",
-                    "alpn": [
-                        "h2"
-                    ],
-                    "show": false
                 },
                 "sockopt": {
                     "dialerProxy": "fragment",

@@ -1,5 +1,5 @@
 {
-    "remarks": "%5B%F0%9F%87%B8%F0%9F%87%AA%5Dt.me/ConfigsHub",
+    "remarks": "%5B%F0%9F%87%A8%F0%9F%87%A6%5Dt.me/ConfigsHub",
     "log": {
         "access": "",
         "error": "",
@@ -12,11 +12,11 @@
             "settings": {
                 "vnext": [
                     {
-                        "address": "185.146.173.1",
-                        "port": 2095,
+                        "address": "tgju.org",
+                        "port": 80,
                         "users": [
                             {
-                                "id": "6b616295-8d13-48b6-bb0e-b59c71724eab",
+                                "id": "0c25e5ef-15f2-4ea5-9520-f1955ef1605a",
                                 "alterId": 0,
                                 "email": "t@t.tt",
                                 "security": "auto",
@@ -32,7 +32,7 @@
                 "wsSettings": {
                     "path": "",
                     "headers": {
-                        "Host": "www.myket.ir.www.cafebazaar.ir.%E5%83%8F%E9%B8%9F%E4%B8%80%E6%A0%B7%E8%87%AA%E7%94%B1.online."
+                        "Host": "xjftydftg7654AafHvF.ir.com.bargo.lol."
                     }
                 },
                 "sockopt": {
