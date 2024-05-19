@@ -1,5 +1,5 @@
 {
-    "remarks": "[🇮🇷]t.me/ConfigsHub",
+    "remarks": "%5B%F0%9F%87%A8%F0%9F%87%A6%5Dt.me/ConfigsHub",
     "log": {
         "access": "",
         "error": "",
@@ -8,50 +8,31 @@
     "outbounds": [
         {
             "tag": "proxy",
-            "protocol": "vmess",
+            "protocol": "vless",
             "settings": {
                 "vnext": [
                     {
-                        "address": "46.36.100.93",
-                        "port": 55735,
+                        "address": "104.16.54.150",
+                        "port": 80,
                         "users": [
                             {
-                                "id": "a95d7880-276c-490f-815b-bff708722f09",
+                                "id": "a81b314c-3ab7-48d3-b8c0-584c89e5f616",
                                 "alterId": 0,
                                 "email": "t@t.tt",
-                                "security": "auto"
+                                "security": "auto",
+                                "encryption": "none",
+                                "flow": ""
                             }
                         ]
                     }
                 ]
             },
             "streamSettings": {
-                "network": "tcp",
-                "tcpSettings": {
-                    "header": {
-                        "type": "http",
-                        "request": {
-                            "version": "1.1",
-                            "method": "GET",
-                            "path": [
-                                "/"
-                            ],
-                            "headers": {
-                                "Host": [
-                                    "fast.com"
-                                ],
-                                "User-Agent": [
-                                    ""
-                                ],
-                                "Accept-Encoding": [
-                                    "gzip, deflate"
-                                ],
-                                "Connection": [
-                                    "keep-alive"
-                                ],
-                                "Pragma": "no-cache"
-                            }
-                        }
+                "network": "ws",
+                "wsSettings": {
+                    "path": "",
+                    "headers": {
+                        "Host": "xswa.kevani8800.workers.dev"
                     }
                 },
                 "sockopt": {

@@ -1,5 +1,5 @@
 {
-    "remarks": "%5B%F0%9F%87%BA%F0%9F%87%B8%5Dt.me/ConfigsHub",
+    "remarks": "%E7%BE%8E%E5%9B%BD%20Vmix%20x%20LcWd",
     "log": {
         "access": "",
         "error": "",
@@ -12,11 +12,11 @@
             "settings": {
                 "vnext": [
                     {
-                        "address": "5.161.159.111",
-                        "port": 39379,
+                        "address": "crackthecode.ftp.sh",
+                        "port": 443,
                         "users": [
                             {
-                                "id": "37b9c44c-bba1-4add-ac39-2f01774caa7d",
+                                "id": "803d36fa-f6e5-4a15-9e52-82b99b9fc7d5",
                                 "alterId": 0,
                                 "email": "t@t.tt",
                                 "security": "auto",
@@ -28,15 +28,22 @@
                 ]
             },
             "streamSettings": {
-                "network": "",
-                "security": "reality",
-                "realitySettings": {
-                    "serverName": "discord.com",
-                    "fingerprint": "firefox",
-                    "show": false,
-                    "publicKey": "3TO2yeC8KYTVCLzLRR9dW4AAzHFGxorRZzvxdV2kDW4",
-                    "shortId": "0333e61c",
-                    "spiderX": ""
+                "network": "ws",
+                "wsSettings": {
+                    "path": "",
+                    "headers": {
+                        "Host": "vmixed23.leon4rdo78.worKeRs.dev"
+                    }
+                },
+                "security": "tls",
+                "tlsSettings": {
+                    "allowInsecure": true,
+                    "serverName": "vmixed23.leon4rdo78.worKeRs.dev",
+                    "alpn": [
+                        "http/1.1",
+                        "h2"
+                    ],
+                    "show": false
                 },
                 "sockopt": {
                     "dialerProxy": "fragment",

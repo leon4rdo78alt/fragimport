@@ -1,5 +1,5 @@
 {
-    "remarks": "%5B%F0%9F%87%B8%F0%9F%87%AA%5Dt.me/ConfigsHub",
+    "remarks": "[🇨🇦]t.me/ConfigsHub",
     "log": {
         "access": "",
         "error": "",
@@ -8,20 +8,18 @@
     "outbounds": [
         {
             "tag": "proxy",
-            "protocol": "vless",
+            "protocol": "vmess",
             "settings": {
                 "vnext": [
                     {
-                        "address": "185.146.173.24",
-                        "port": 8080,
+                        "address": "172.67.170.103",
+                        "port": 443,
                         "users": [
                             {
-                                "id": "5989ec6d-ca32-4ed7-8c02-e287f0d0fcfe",
+                                "id": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
                                 "alterId": 0,
                                 "email": "t@t.tt",
-                                "security": "auto",
-                                "encryption": "none",
-                                "flow": ""
+                                "security": "auto"
                             }
                         ]
                     }
@@ -30,10 +28,20 @@
             "streamSettings": {
                 "network": "ws",
                 "wsSettings": {
-                    "path": "",
+                    "path": "/linkws",
                     "headers": {
-                        "Host": "Daily-ConfigsV2rayGmSix6.6.6.6.ir.Com.Site.xn--fhq0la447aac5504dea701axr1g.vigilantecollection.com."
+                        "Host": "glweidf.sbs"
                     }
+                },
+                "security": "tls",
+                "tlsSettings": {
+                    "allowInsecure": true,
+                    "serverName": "glweidf.sbs",
+                    "alpn": [
+                        "h3"
+                    ],
+                    "show": false,
+                    "fingerprint": "chrome"
                 },
                 "sockopt": {
                     "dialerProxy": "fragment",

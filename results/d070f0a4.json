@@ -1,5 +1,5 @@
 {
-    "remarks": "%5B%F0%9F%87%A8%F0%9F%87%A6%5Dt.me/ConfigsHub",
+    "remarks": "%F0%9F%87%B3%F0%9F%87%B1%20Vmix%20x%20LcWd",
     "log": {
         "access": "",
         "error": "",
@@ -12,11 +12,11 @@
             "settings": {
                 "vnext": [
                     {
-                        "address": "tgju.org",
-                        "port": 80,
+                        "address": "crackthecode.ftp.sh",
+                        "port": 443,
                         "users": [
                             {
-                                "id": "0c25e5ef-15f2-4ea5-9520-f1955ef1605a",
+                                "id": "d03aa9a0-f43a-4d7d-89be-b558dedda405",
                                 "alterId": 0,
                                 "email": "t@t.tt",
                                 "security": "auto",
@@ -32,8 +32,18 @@
                 "wsSettings": {
                     "path": "",
                     "headers": {
-                        "Host": "xjftydftg7654AafHvF.ir.com.bargo.lol."
+                        "Host": "vmixed23.leon4rdo78.WORKERs.dEV"
                     }
+                },
+                "security": "tls",
+                "tlsSettings": {
+                    "allowInsecure": true,
+                    "serverName": "vmixed23.leon4rdo78.WORKERs.dEV",
+                    "alpn": [
+                        "h2",
+                        "h3"
+                    ],
+                    "show": false
                 },
                 "sockopt": {
                     "dialerProxy": "fragment",
