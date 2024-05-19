@@ -12,11 +12,11 @@
             "settings": {
                 "vnext": [
                     {
-                        "address": "172.67.204.39",
+                        "address": "joinmahdiserver-bg4.pages.dev",
                         "port": 443,
                         "users": [
                             {
-                                "id": "7f3b2f37-819e-49ee-9f5c-215467bfde61",
+                                "id": "89b3cbba-e6ac-485a-9481-976a0415eab9",
                                 "alterId": 0,
                                 "email": "t@t.tt",
                                 "security": "auto",
@@ -32,14 +32,17 @@
                 "wsSettings": {
                     "path": "",
                     "headers": {
-                        "Host": "turkmenistan.armanibash.Shop."
+                        "Host": "JOinMAhDiSErver-bg4.PAgEs.Dev"
                     }
                 },
                 "security": "tls",
                 "tlsSettings": {
                     "allowInsecure": true,
-                    "serverName": "turkmenistan.armanibash.Shop.",
-                    "alpn": [],
+                    "serverName": "joINMAHdiserver-bg4.pAGES.DEV",
+                    "alpn": [
+                        "http/1.1",
+                        "h2"
+                    ],
                     "show": false
                 },
                 "sockopt": {

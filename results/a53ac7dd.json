@@ -12,11 +12,11 @@
             "settings": {
                 "vnext": [
                     {
-                        "address": "discord.org",
-                        "port": 8080,
+                        "address": "zula.ir",
+                        "port": 80,
                         "users": [
                             {
-                                "id": "21592c87-7389-4b07-9d6a-b7aee2dfe17d",
+                                "id": "c264b4db-daf2-4a20-a606-37104255f5c9",
                                 "alterId": 0,
                                 "email": "t@t.tt",
                                 "security": "auto",
@@ -32,7 +32,7 @@
                 "wsSettings": {
                     "path": "",
                     "headers": {
-                        "Host": "maz.%E5%83%8F%E9%B8%9F%E4%B8%80%E6%A0%B7%E8%87%AA%E7%94%B1.online."
+                        "Host": "111631353.ir.www.zula.ir.xn--4all.king4usd.shop."
                     }
                 },
                 "sockopt": {

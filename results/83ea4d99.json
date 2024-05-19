@@ -1,5 +1,5 @@
 {
-    "remarks": "%E7%BE%8E%E5%9B%BD%20Vmix%20x%20LcWd",
+    "remarks": "%5B%F0%9F%87%A8%F0%9F%87%A6%5Dt.me/ConfigsHub",
     "log": {
         "access": "",
         "error": "",
@@ -12,11 +12,11 @@
             "settings": {
                 "vnext": [
                     {
-                        "address": "crackthecode.ftp.sh",
-                        "port": 443,
+                        "address": "zula.ir.",
+                        "port": 2095,
                         "users": [
                             {
-                                "id": "803d36fa-f6e5-4a15-9e52-82b99b9fc7d5",
+                                "id": "81fbd00f-844e-48ac-b31c-45a2f36aa209",
                                 "alterId": 0,
                                 "email": "t@t.tt",
                                 "security": "auto",
@@ -32,18 +32,8 @@
                 "wsSettings": {
                     "path": "",
                     "headers": {
-                        "Host": "vmixed23.leon4rdo78.worKeRs.dev"
+                        "Host": "V2ray-_-_-_-_-vMESSKHODAM.lars1.nl."
                     }
-                },
-                "security": "tls",
-                "tlsSettings": {
-                    "allowInsecure": true,
-                    "serverName": "vmixed23.leon4rdo78.worKeRs.dev",
-                    "alpn": [
-                        "http/1.1",
-                        "h2"
-                    ],
-                    "show": false
                 },
                 "sockopt": {
                     "dialerProxy": "fragment",

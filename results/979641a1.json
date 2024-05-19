@@ -1,5 +1,5 @@
 {
-    "remarks": "🇳🇦 Vmix x LcWd",
+    "remarks": "%5B%F0%9F%87%A8%F0%9F%87%A6%5Dt.me/ConfigsHub",
     "log": {
         "access": "",
         "error": "",
@@ -8,18 +8,20 @@
     "outbounds": [
         {
             "tag": "proxy",
-            "protocol": "vmess",
+            "protocol": "vless",
             "settings": {
                 "vnext": [
                     {
-                        "address": "crackthecode.ftp.sh",
-                        "port": 443,
+                        "address": "zula.ir",
+                        "port": 80,
                         "users": [
                             {
-                                "id": "5f726fe3-d82e-4da5-a711-8af0cbb2b682",
+                                "id": "1f98b5cc-140f-46b4-987f-6936da9f2238",
                                 "alterId": 0,
                                 "email": "t@t.tt",
-                                "security": "auto"
+                                "security": "auto",
+                                "encryption": "none",
+                                "flow": ""
                             }
                         ]
                     }
@@ -28,22 +30,10 @@
             "streamSettings": {
                 "network": "ws",
                 "wsSettings": {
-                    "path": "/b62a948c-faa2-4e8a-bf8a-3ff3121c875a.asoul-ava.top:443/azumase.ren",
+                    "path": "",
                     "headers": {
-                        "Host": "vmixed23.leon4rdo78.WORkers.DEv"
+                        "Host": "crxre.ribiwa9933.workers.dev"
                     }
-                },
-                "security": "tls",
-                "tlsSettings": {
-                    "allowInsecure": true,
-                    "serverName": "vmixed23.leon4rdo78.WORkers.DEv",
-                    "alpn": [
-                        "http/1.1",
-                        "h2",
-                        "h3"
-                    ],
-                    "show": false,
-                    "fingerprint": "chrome"
                 },
                 "sockopt": {
                     "dialerProxy": "fragment",

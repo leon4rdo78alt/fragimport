@@ -12,11 +12,11 @@
             "settings": {
                 "vnext": [
                     {
-                        "address": "185.146.173.1",
+                        "address": "185.146.173.237",
                         "port": 2095,
                         "users": [
                             {
-                                "id": "dc93db5d-c438-4627-b466-dc20751b9982",
+                                "id": "940e1197-a540-4146-883b-2bee66e83de2",
                                 "alterId": 0,
                                 "email": "t@t.tt",
                                 "security": "auto",
@@ -32,7 +32,7 @@
                 "wsSettings": {
                     "path": "",
                     "headers": {
-                        "Host": "www.myket.ir.www.cafebazaar.ir.%E5%83%8F%E9%B8%9F%E4%B8%80%E6%A0%B7%E8%87%AA%E7%94%B1.online."
+                        "Host": "V2ray-_-_-_-_-Vpn_Mikey.Amir-Mikey.Tech."
                     }
                 },
                 "sockopt": {

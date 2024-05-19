@@ -12,11 +12,11 @@
             "settings": {
                 "vnext": [
                     {
-                        "address": "172.67.217.107",
-                        "port": 80,
+                        "address": "188.114.98.224",
+                        "port": 8880,
                         "users": [
                             {
-                                "id": "7143e704-5957-42db-bd38-670062722461",
+                                "id": "c9a8ea38-4a49-400f-8915-1a184f731fe4",
                                 "alterId": 0,
                                 "email": "t@t.tt",
                                 "security": "auto",
@@ -32,7 +32,7 @@
                 "wsSettings": {
                     "path": "",
                     "headers": {
-                        "Host": "buyz.ribiwa9933.workers.dev"
+                        "Host": "2.V2ray.debian.org.fxp.debian.org.speedtest.net.zula.ir.%E3%82%89%E3%82%8F%E3%81%AA%E3%81%95%E3%82%89%E3%82%8F.mralpha-vpn.COM."
                     }
                 },
                 "sockopt": {

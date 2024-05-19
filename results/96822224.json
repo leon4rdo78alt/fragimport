@@ -1,5 +1,5 @@
 {
-    "remarks": "🇳🇦 Vmix x LcWd",
+    "remarks": "%5B%F0%9F%87%A8%F0%9F%87%A6%5Dt.me/ConfigsHub",
     "log": {
         "access": "",
         "error": "",
@@ -8,18 +8,20 @@
     "outbounds": [
         {
             "tag": "proxy",
-            "protocol": "vmess",
+            "protocol": "vless",
             "settings": {
                 "vnext": [
                     {
-                        "address": "crackthecode.ftp.sh",
+                        "address": "188.114.96.3",
                         "port": 443,
                         "users": [
                             {
-                                "id": "a1655f51-1e20-4a92-8a11-b7ca30a7a353",
+                                "id": "1a94747b-8901-4812-ba23-7eb44cc1162f",
                                 "alterId": 0,
                                 "email": "t@t.tt",
-                                "security": "auto"
+                                "security": "auto",
+                                "encryption": "none",
+                                "flow": ""
                             }
                         ]
                     }
@@ -28,22 +30,20 @@
             "streamSettings": {
                 "network": "ws",
                 "wsSettings": {
-                    "path": "/afrhms07.xfixedfloat.cfd:443/linkws",
+                    "path": "",
                     "headers": {
-                        "Host": "vmixed23.leon4rdo78.wOrkERS.dev"
+                        "Host": "kIngOFIRAN.PAGes.DEv"
                     }
                 },
                 "security": "tls",
                 "tlsSettings": {
                     "allowInsecure": true,
-                    "serverName": "vmixed23.leon4rdo78.wOrkERS.dev",
+                    "serverName": "kingOfIRaN.Pages.DEV",
                     "alpn": [
                         "http/1.1",
-                        "h2",
-                        "h3"
+                        "h2"
                     ],
-                    "show": false,
-                    "fingerprint": "randomized"
+                    "show": false
                 },
                 "sockopt": {
                     "dialerProxy": "fragment",

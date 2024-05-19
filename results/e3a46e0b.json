@@ -12,11 +12,11 @@
             "settings": {
                 "vnext": [
                     {
-                        "address": "104.16.54.150",
-                        "port": 80,
+                        "address": "188.114.97.3",
+                        "port": 443,
                         "users": [
                             {
-                                "id": "a81b314c-3ab7-48d3-b8c0-584c89e5f616",
+                                "id": "a5542579-59e9-4bd3-8d93-eb609f83e19b",
                                 "alterId": 0,
                                 "email": "t@t.tt",
                                 "security": "auto",
@@ -32,8 +32,18 @@
                 "wsSettings": {
                     "path": "",
                     "headers": {
-                        "Host": "xswa.kevani8800.workers.dev"
+                        "Host": "ariameHr-Eyq.paGES.Dev"
                     }
+                },
+                "security": "tls",
+                "tlsSettings": {
+                    "allowInsecure": true,
+                    "serverName": "ARiAMEHr-EYQ.PAGeS.deV",
+                    "alpn": [
+                        "http/1.1",
+                        "h2"
+                    ],
+                    "show": false
                 },
                 "sockopt": {
                     "dialerProxy": "fragment",

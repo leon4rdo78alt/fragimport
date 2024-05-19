@@ -12,11 +12,11 @@
             "settings": {
                 "vnext": [
                     {
-                        "address": "172.67.217.107",
-                        "port": 80,
+                        "address": "188.114.96.3",
+                        "port": 443,
                         "users": [
                             {
-                                "id": "7143e704-5957-42db-bd38-670062722461",
+                                "id": "a2f001eb-632b-4e05-b962-580b050ea46c",
                                 "alterId": 0,
                                 "email": "t@t.tt",
                                 "security": "auto",
@@ -32,8 +32,18 @@
                 "wsSettings": {
                     "path": "",
                     "headers": {
-                        "Host": "buyz.ribiwa9933.workers.dev"
+                        "Host": "ArIAmehR-447.PAgES.Dev"
                     }
+                },
+                "security": "tls",
+                "tlsSettings": {
+                    "allowInsecure": true,
+                    "serverName": "ariAmEhr-447.PaGes.dEV",
+                    "alpn": [
+                        "http/1.1",
+                        "h2"
+                    ],
+                    "show": false
                 },
                 "sockopt": {
                     "dialerProxy": "fragment",

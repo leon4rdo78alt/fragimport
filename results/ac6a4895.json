@@ -1,5 +1,5 @@
 {
-    "remarks": "%5B%F0%9F%87%A8%F0%9F%87%A6%5Dt.me/ConfigsHub",
+    "remarks": "%5B%F0%9F%87%B8%F0%9F%87%AA%5Dt.me/ConfigsHub",
     "log": {
         "access": "",
         "error": "",
@@ -12,11 +12,11 @@
             "settings": {
                 "vnext": [
                     {
-                        "address": "bia-to2.unlimiteddev.site",
-                        "port": 8443,
+                        "address": "185.146.173.80",
+                        "port": 8880,
                         "users": [
                             {
-                                "id": "99140fd9-a80e-4da3-875a-51e3caf0eeeb",
+                                "id": "bd41fd8c-351f-4cb2-b250-44f7c6e4e82c",
                                 "alterId": 0,
                                 "email": "t@t.tt",
                                 "security": "auto",
@@ -32,15 +32,8 @@
                 "wsSettings": {
                     "path": "",
                     "headers": {
-                        "Host": "unlimiteddev.xn--9iqr0tm1r4wg.co"
+                        "Host": "2.V2ray.debian.org.fxp.debian.org.speedtest.net.%E3%82%89%E3%82%8F%E3%81%AA%E3%81%95%E3%82%89%E3%82%8F.mralpha-vpn.COM."
                     }
-                },
-                "security": "tls",
-                "tlsSettings": {
-                    "allowInsecure": true,
-                    "serverName": "unlimiteddev.xn--9iqr0tm1r4wg.co",
-                    "alpn": [],
-                    "show": false
                 },
                 "sockopt": {
                     "dialerProxy": "fragment",

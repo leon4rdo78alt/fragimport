@@ -1,5 +1,5 @@
 {
-    "remarks": "[🇨🇦]t.me/ConfigsHub",
+    "remarks": "%5B%F0%9F%87%A8%F0%9F%87%A6%5Dt.me/ConfigsHub",
     "log": {
         "access": "",
         "error": "",
@@ -8,18 +8,20 @@
     "outbounds": [
         {
             "tag": "proxy",
-            "protocol": "vmess",
+            "protocol": "vless",
             "settings": {
                 "vnext": [
                     {
-                        "address": "172.67.170.103",
-                        "port": 443,
+                        "address": "zula.ir",
+                        "port": 8080,
                         "users": [
                             {
-                                "id": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
+                                "id": "a4edfb97-0d41-4393-a665-9e8945dd83c6",
                                 "alterId": 0,
                                 "email": "t@t.tt",
-                                "security": "auto"
+                                "security": "auto",
+                                "encryption": "none",
+                                "flow": ""
                             }
                         ]
                     }
@@ -28,20 +30,10 @@
             "streamSettings": {
                 "network": "ws",
                 "wsSettings": {
-                    "path": "/linkws",
+                    "path": "",
                     "headers": {
-                        "Host": "glweidf.sbs"
+                        "Host": "cloudflare.cdn.discord.telegram.zula.ir.fars.ir.iranserver.bazaar.ir.nokia.apple.google.dontbow.store."
                     }
-                },
-                "security": "tls",
-                "tlsSettings": {
-                    "allowInsecure": true,
-                    "serverName": "glweidf.sbs",
-                    "alpn": [
-                        "h3"
-                    ],
-                    "show": false,
-                    "fingerprint": "chrome"
                 },
                 "sockopt": {
                     "dialerProxy": "fragment",
