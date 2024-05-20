@@ -13,10 +13,10 @@
                 "vnext": [
                     {
                         "address": "zula.ir",
-                        "port": 8080,
+                        "port": 80,
                         "users": [
                             {
-                                "id": "a4edfb97-0d41-4393-a665-9e8945dd83c6",
+                                "id": "314a1497-f753-435f-8139-ea8c21a6255c",
                                 "alterId": 0,
                                 "email": "t@t.tt",
                                 "security": "auto",
@@ -32,7 +32,7 @@
                 "wsSettings": {
                     "path": "",
                     "headers": {
-                        "Host": "cloudflare.cdn.discord.telegram.zula.ir.fars.ir.iranserver.bazaar.ir.nokia.apple.google.dontbow.store."
+                        "Host": "1125251.ir.www.zula.ir.xn--4all.king4usd.shop."
                     }
                 },
                 "sockopt": {

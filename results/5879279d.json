@@ -12,11 +12,11 @@
             "settings": {
                 "vnext": [
                     {
-                        "address": "zula.ir",
-                        "port": 80,
+                        "address": "188.114.97.3",
+                        "port": 443,
                         "users": [
                             {
-                                "id": "c264b4db-daf2-4a20-a606-37104255f5c9",
+                                "id": "fb853741-88ef-4aa0-ba2f-999f04535960",
                                 "alterId": 0,
                                 "email": "t@t.tt",
                                 "security": "auto",
@@ -32,8 +32,18 @@
                 "wsSettings": {
                     "path": "",
                     "headers": {
-                        "Host": "111631353.ir.www.zula.ir.xn--4all.king4usd.shop."
+                        "Host": "HovEYda-arIamehr-KINg.pAgES.dev"
                     }
+                },
+                "security": "tls",
+                "tlsSettings": {
+                    "allowInsecure": true,
+                    "serverName": "HovEyda-ARIAMEHR-KinG.PAgEs.Dev",
+                    "alpn": [
+                        "http/1.1",
+                        "h2"
+                    ],
+                    "show": false
                 },
                 "sockopt": {
                     "dialerProxy": "fragment",

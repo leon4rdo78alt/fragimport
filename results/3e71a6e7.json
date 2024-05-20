@@ -1,5 +1,5 @@
 {
-    "remarks": "%5B%F0%9F%87%B8%F0%9F%87%AA%5Dt.me/ConfigsHub",
+    "remarks": "%5B%F0%9F%87%A8%F0%9F%87%A6%5Dt.me/ConfigsHub",
     "log": {
         "access": "",
         "error": "",
@@ -12,11 +12,11 @@
             "settings": {
                 "vnext": [
                     {
-                        "address": "185.146.173.237",
-                        "port": 2095,
+                        "address": "v2ray1ng.pages.dev",
+                        "port": 443,
                         "users": [
                             {
-                                "id": "940e1197-a540-4146-883b-2bee66e83de2",
+                                "id": "a185e716-0553-4716-8775-aeb2338a923f",
                                 "alterId": 0,
                                 "email": "t@t.tt",
                                 "security": "auto",
@@ -32,8 +32,15 @@
                 "wsSettings": {
                     "path": "",
                     "headers": {
-                        "Host": "V2ray-_-_-_-_-Vpn_Mikey.Amir-Mikey.Tech."
+                        "Host": "v2ray1ng.pages.dev"
                     }
+                },
+                "security": "tls",
+                "tlsSettings": {
+                    "allowInsecure": true,
+                    "serverName": "v2ray1ng.pages.dev",
+                    "alpn": [],
+                    "show": false
                 },
                 "sockopt": {
                     "dialerProxy": "fragment",
