@@ -12,11 +12,11 @@
             "settings": {
                 "vnext": [
                     {
-                        "address": "v2ray1ng.pages.dev",
+                        "address": "188.114.96.3",
                         "port": 443,
                         "users": [
                             {
-                                "id": "3e493845-b8dd-4ccb-ab97-d6592435996f",
+                                "id": "7356184e-5d9b-48aa-b185-5ee8632b7f46",
                                 "alterId": 0,
                                 "email": "t@t.tt",
                                 "security": "auto",
@@ -32,14 +32,17 @@
                 "wsSettings": {
                     "path": "",
                     "headers": {
-                        "Host": "v2ray1ng.pages.dev"
+                        "Host": "join-telegraam-channel-disvpn.pages.dev"
                     }
                 },
                 "security": "tls",
                 "tlsSettings": {
                     "allowInsecure": true,
-                    "serverName": "v2ray1ng.pages.dev",
-                    "alpn": [],
+                    "serverName": "join-telegraam-channel-disvpn.pages.dev",
+                    "alpn": [
+                        "http/1.1",
+                        "h2"
+                    ],
                     "show": false
                 },
                 "sockopt": {

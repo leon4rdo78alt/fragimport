@@ -1,5 +1,5 @@
 {
-    "remarks": "%5B%F0%9F%87%B8%F0%9F%87%AA%5Dt.me/ConfigsHub",
+    "remarks": "%5B%F0%9F%87%A8%F0%9F%87%A6%5Dt.me/ConfigsHub",
     "log": {
         "access": "",
         "error": "",
@@ -12,11 +12,11 @@
             "settings": {
                 "vnext": [
                     {
-                        "address": "185.146.173.58",
-                        "port": 8880,
+                        "address": "188.114.98.224",
+                        "port": 8080,
                         "users": [
                             {
-                                "id": "c9a8ea38-4a49-400f-8915-1a184f731fe4",
+                                "id": "63ce0cb0-ad12-4916-9b79-7116b19975cb",
                                 "alterId": 0,
                                 "email": "t@t.tt",
                                 "security": "auto",
@@ -32,7 +32,7 @@
                 "wsSettings": {
                     "path": "",
                     "headers": {
-                        "Host": "2.V2ray.debian.org.fxp.debian.org.speedtest.net.zula.ir.%E3%82%89%E3%82%8F%E3%81%AA%E3%81%95%E3%82%89%E3%82%8F.mralpha-vpn.COM."
+                        "Host": "V2ray-_-_-_-_-MdVpnSec.TelegramChannelJoinBede.com."
                     }
                 },
                 "sockopt": {

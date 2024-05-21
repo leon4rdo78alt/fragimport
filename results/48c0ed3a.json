@@ -12,11 +12,11 @@
             "settings": {
                 "vnext": [
                     {
-                        "address": "188.114.96.3",
-                        "port": 2082,
+                        "address": "188.114.97.3",
+                        "port": 443,
                         "users": [
                             {
-                                "id": "b0138d55-a493-4dc3-9932-c6f0391707c1",
+                                "id": "82299fb9-f8b0-43bc-ae63-290881a89f72",
                                 "alterId": 0,
                                 "email": "t@t.tt",
                                 "security": "auto",
@@ -32,8 +32,18 @@
                 "wsSettings": {
                     "path": "",
                     "headers": {
-                        "Host": "malaysiadj.card-937.workers.dev"
+                        "Host": "jAviDSHAH-ArIamEhR.PageS.deV"
                     }
+                },
+                "security": "tls",
+                "tlsSettings": {
+                    "allowInsecure": true,
+                    "serverName": "jAVidSHAH-aRiaMeHR.pagEs.DEV",
+                    "alpn": [
+                        "http/1.1",
+                        "h2"
+                    ],
+                    "show": false
                 },
                 "sockopt": {
                     "dialerProxy": "fragment",
