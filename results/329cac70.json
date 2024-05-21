@@ -12,11 +12,11 @@
             "settings": {
                 "vnext": [
                     {
-                        "address": "v2ray1ng.pages.dev",
-                        "port": 443,
+                        "address": "zula.ir",
+                        "port": 8443,
                         "users": [
                             {
-                                "id": "a185e716-0553-4716-8775-aeb2338a923f",
+                                "id": "4f0efec2-9a6e-4122-9bcc-a8ab1c83c298",
                                 "alterId": 0,
                                 "email": "t@t.tt",
                                 "security": "auto",
@@ -32,13 +32,13 @@
                 "wsSettings": {
                     "path": "",
                     "headers": {
-                        "Host": "v2ray1ng.pages.dev"
+                        "Host": "telegram-falcunargo-ukrine.falcunar.asso.eu.org"
                     }
                 },
                 "security": "tls",
                 "tlsSettings": {
                     "allowInsecure": true,
-                    "serverName": "v2ray1ng.pages.dev",
+                    "serverName": "telegram-falcunargo-ukrine.falcunar.asso.eu.org",
                     "alpn": [],
                     "show": false
                 },

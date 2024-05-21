@@ -1,5 +1,5 @@
 {
-    "remarks": "%5B%F0%9F%87%B8%F0%9F%87%AA%5Dt.me/ConfigsHub",
+    "remarks": "%5B%F0%9F%87%A8%F0%9F%87%A6%5Dt.me/ConfigsHub",
     "log": {
         "access": "",
         "error": "",
@@ -12,11 +12,11 @@
             "settings": {
                 "vnext": [
                     {
-                        "address": "185.146.173.58",
-                        "port": 8080,
+                        "address": "v2ray1ng.pages.dev",
+                        "port": 443,
                         "users": [
                             {
-                                "id": "51fca790-3099-41b3-9737-deb745f8de55",
+                                "id": "3e493845-b8dd-4ccb-ab97-d6592435996f",
                                 "alterId": 0,
                                 "email": "t@t.tt",
                                 "security": "auto",
@@ -32,8 +32,15 @@
                 "wsSettings": {
                     "path": "",
                     "headers": {
-                        "Host": "2.V2ray.debian.org.fxp.debian.org.speedtest.net.%E3%82%89%E3%82%8F%E3%81%AA%E3%81%95%E3%82%89%E3%82%8F.%E5%88%97%E5%88%97%E7%94%B7%E4%BA%8B%E7%9A%84%E4%BA%8B%E5%88%97%E4%B8%8A%E8%B5%9B%E7%94%B7.Online."
+                        "Host": "v2ray1ng.pages.dev"
                     }
+                },
+                "security": "tls",
+                "tlsSettings": {
+                    "allowInsecure": true,
+                    "serverName": "v2ray1ng.pages.dev",
+                    "alpn": [],
+                    "show": false
                 },
                 "sockopt": {
                     "dialerProxy": "fragment",
