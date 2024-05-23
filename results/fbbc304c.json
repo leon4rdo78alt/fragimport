@@ -1,5 +1,5 @@
 {
-    "remarks": "🇨🇦 CA-VA x LcWd",
+    "remarks": "🏁 RELAY-VM22 x LcWd",
     "log": {
         "access": "",
         "error": "",
@@ -12,11 +12,11 @@
             "settings": {
                 "vnext": [
                     {
-                        "address": "188.114.97.6",
+                        "address": "188.114.97.3",
                         "port": 443,
                         "users": [
                             {
-                                "id": "3dee9636-9663-404d-a9d9-459d9e6d4459",
+                                "id": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
                                 "alterId": 0,
                                 "email": "t@t.tt",
                                 "security": "auto"
@@ -28,19 +28,18 @@
             "streamSettings": {
                 "network": "ws",
                 "wsSettings": {
-                    "path": "/es-full.privateip.net:443/RACEVPN",
+                    "path": "/linde06.indiavideo.sbs/linkws",
                     "headers": {
-                        "Host": "fragment.leon4rdo78.woRkers.dEV"
+                        "Host": "vmess22.leon4rdo78.WORKeRs.DeV"
                     }
                 },
                 "security": "tls",
                 "tlsSettings": {
                     "allowInsecure": true,
-                    "serverName": "fragment.leon4rdo78.woRkers.dEV",
+                    "serverName": "vmess22.leon4rdo78.WORKeRs.DeV",
                     "alpn": [
                         "http/1.1",
-                        "h2",
-                        "h3"
+                        "h2"
                     ],
                     "show": false,
                     "fingerprint": "randomized"

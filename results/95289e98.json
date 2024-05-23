@@ -1,5 +1,5 @@
 {
-    "remarks": "%5B%F0%9F%87%A9%F0%9F%87%AA%5Dt.me/ConfigsHub",
+    "remarks": "%F0%9F%8F%81%20RELAY-VL%20x%20LcWd",
     "log": {
         "access": "",
         "error": "",
@@ -12,11 +12,11 @@
             "settings": {
                 "vnext": [
                     {
-                        "address": "5.42.107.242",
-                        "port": 59062,
+                        "address": "188.114.97.6",
+                        "port": 443,
                         "users": [
                             {
-                                "id": "8a9fff15-c1d3-4e0f-fdda-dc1c4c2305ca",
+                                "id": "f9e0b36b-f1d5-4f3f-87dd-1e14919915b9",
                                 "alterId": 0,
                                 "email": "t@t.tt",
                                 "security": "auto",
@@ -28,7 +28,24 @@
                 ]
             },
             "streamSettings": {
-                "network": "tcp",
+                "network": "ws",
+                "wsSettings": {
+                    "path": "",
+                    "headers": {
+                        "Host": "vl23.leon4rdo78.wOrKErS.dev"
+                    }
+                },
+                "security": "tls",
+                "tlsSettings": {
+                    "allowInsecure": true,
+                    "serverName": "vl23.leon4rdo78.wOrKErS.dev",
+                    "alpn": [
+                        "http/1.1",
+                        "h2",
+                        "h3"
+                    ],
+                    "show": false
+                },
                 "sockopt": {
                     "dialerProxy": "fragment",
                     "tcpKeepAliveIdle": 100,

@@ -1,5 +1,5 @@
 {
-    "remarks": "🏁 RELAY-Vmix x LcWd",
+    "remarks": "%F0%9F%8F%81%20RELAY-VL%20x%20LcWd",
     "log": {
         "access": "",
         "error": "",
@@ -8,18 +8,20 @@
     "outbounds": [
         {
             "tag": "proxy",
-            "protocol": "vmess",
+            "protocol": "vless",
             "settings": {
                 "vnext": [
                     {
-                        "address": "188.114.97.3",
+                        "address": "188.114.97.6",
                         "port": 443,
                         "users": [
                             {
-                                "id": "3dee9636-9663-404d-a9d9-459d9e6d4459",
+                                "id": "182f5df8-95e0-427f-9d49-1fd245eafe01",
                                 "alterId": 0,
                                 "email": "t@t.tt",
-                                "security": "auto"
+                                "security": "auto",
+                                "encryption": "none",
+                                "flow": ""
                             }
                         ]
                     }
@@ -28,21 +30,20 @@
             "streamSettings": {
                 "network": "ws",
                 "wsSettings": {
-                    "path": "/es-full.privateip.net:443/RACEVPN",
+                    "path": "",
                     "headers": {
-                        "Host": "vmixed23.leon4rdo78.worKErs.dEv"
+                        "Host": "vl23.leon4rdo78.workeRs.DeV"
                     }
                 },
                 "security": "tls",
                 "tlsSettings": {
                     "allowInsecure": true,
-                    "serverName": "vmixed23.leon4rdo78.worKErs.dEv",
+                    "serverName": "vl23.leon4rdo78.workeRs.DeV",
                     "alpn": [
-                        "h2",
-                        "h3"
+                        "http/1.1",
+                        "h2"
                     ],
-                    "show": false,
-                    "fingerprint": "firefox"
+                    "show": false
                 },
                 "sockopt": {
                     "dialerProxy": "fragment",

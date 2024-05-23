@@ -1,5 +1,5 @@
 {
-    "remarks": "%F0%9F%87%A8%F0%9F%87%A6%20CA-VA%20x%20LcWd",
+    "remarks": "🇧🇪 Belgium-VM x LcWd",
     "log": {
         "access": "",
         "error": "",
@@ -8,20 +8,18 @@
     "outbounds": [
         {
             "tag": "proxy",
-            "protocol": "vless",
+            "protocol": "vmess",
             "settings": {
                 "vnext": [
                     {
-                        "address": "188.114.97.6",
+                        "address": "188.114.96.3",
                         "port": 443,
                         "users": [
                             {
-                                "id": "02952842-d7fe-42d2-bebd-7e13ebee5d8e",
+                                "id": "de14e232-5965-4222-8cdb-193d89d2fb1b",
                                 "alterId": 0,
                                 "email": "t@t.tt",
-                                "security": "auto",
-                                "encryption": "none",
-                                "flow": ""
+                                "security": "auto"
                             }
                         ]
                     }
@@ -30,21 +28,22 @@
             "streamSettings": {
                 "network": "ws",
                 "wsSettings": {
-                    "path": "",
+                    "path": "/be1-vmess.sshmax.xyz:443/vmess",
                     "headers": {
-                        "Host": "fragment.leon4rdo78.WoRkeRs.dev"
+                        "Host": "vm23.leon4rdo78.WorKers.DEV"
                     }
                 },
                 "security": "tls",
                 "tlsSettings": {
                     "allowInsecure": true,
-                    "serverName": "fragment.leon4rdo78.WoRkeRs.dev",
+                    "serverName": "vm23.leon4rdo78.WorKers.DEV",
                     "alpn": [
                         "http/1.1",
                         "h2",
                         "h3"
                     ],
-                    "show": false
+                    "show": false,
+                    "fingerprint": "edge"
                 },
                 "sockopt": {
                     "dialerProxy": "fragment",

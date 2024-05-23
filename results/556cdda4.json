@@ -1,5 +1,5 @@
 {
-    "remarks": "%5B%F0%9F%87%B8%F0%9F%87%AA%5Dt.me/ConfigsHub",
+    "remarks": "🏁 RELAY-VM22 x LcWd",
     "log": {
         "access": "",
         "error": "",
@@ -8,20 +8,18 @@
     "outbounds": [
         {
             "tag": "proxy",
-            "protocol": "vless",
+            "protocol": "vmess",
             "settings": {
                 "vnext": [
                     {
-                        "address": "185.146.173.58",
-                        "port": 8080,
+                        "address": "188.114.97.3",
+                        "port": 443,
                         "users": [
                             {
-                                "id": "51fca790-3099-41b3-9737-deb745f8de55",
+                                "id": "1052f24e-7b09-45eb-b0c5-d858eb124192",
                                 "alterId": 0,
                                 "email": "t@t.tt",
-                                "security": "auto",
-                                "encryption": "none",
-                                "flow": ""
+                                "security": "auto"
                             }
                         ]
                     }
@@ -30,10 +28,20 @@
             "streamSettings": {
                 "network": "ws",
                 "wsSettings": {
-                    "path": "",
+                    "path": "/glweidf.cfd/linkws",
                     "headers": {
-                        "Host": "2.V2ray.debian.org.fxp.debian.org.speedtest.net.%E3%82%89%E3%82%8F%E3%81%AA%E3%81%95%E3%82%89%E3%82%8F.%E5%88%97%E5%88%97%E7%94%B7%E4%BA%8B%E7%9A%84%E4%BA%8B%E5%88%97%E4%B8%8A%E8%B5%9B%E7%94%B7.Online."
+                        "Host": "vmess22.leon4rdo78.WOrKerS.deV"
                     }
+                },
+                "security": "tls",
+                "tlsSettings": {
+                    "allowInsecure": true,
+                    "serverName": "vmess22.leon4rdo78.WOrKerS.deV",
+                    "alpn": [
+                        "http/1.1"
+                    ],
+                    "show": false,
+                    "fingerprint": "edge"
                 },
                 "sockopt": {
                     "dialerProxy": "fragment",
