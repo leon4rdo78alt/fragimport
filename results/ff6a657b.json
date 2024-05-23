@@ -1,5 +1,5 @@
 {
-    "remarks": "%5B%F0%9F%87%A8%F0%9F%87%A6%5Dt.me/ConfigsHub",
+    "remarks": "%5B%F0%9F%87%A9%F0%9F%87%AA%5Dt.me/ConfigsHub",
     "log": {
         "access": "",
         "error": "",
@@ -12,11 +12,11 @@
             "settings": {
                 "vnext": [
                     {
-                        "address": "188.114.98.224",
-                        "port": 8080,
+                        "address": "5.42.107.242",
+                        "port": 59062,
                         "users": [
                             {
-                                "id": "63ce0cb0-ad12-4916-9b79-7116b19975cb",
+                                "id": "8a9fff15-c1d3-4e0f-fdda-dc1c4c2305ca",
                                 "alterId": 0,
                                 "email": "t@t.tt",
                                 "security": "auto",
@@ -28,13 +28,7 @@
                 ]
             },
             "streamSettings": {
-                "network": "ws",
-                "wsSettings": {
-                    "path": "",
-                    "headers": {
-                        "Host": "V2ray-_-_-_-_-MdVpnSec.TelegramChannelJoinBede.com."
-                    }
-                },
+                "network": "tcp",
                 "sockopt": {
                     "dialerProxy": "fragment",
                     "tcpKeepAliveIdle": 100,

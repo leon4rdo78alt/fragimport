@@ -1,5 +1,5 @@
 {
-    "remarks": "%5B%F0%9F%87%B8%F0%9F%87%AA%5Dt.me/ConfigsHub",
+    "remarks": "%5B%F0%9F%87%A8%F0%9F%87%A6%5Dt.me/ConfigsHub",
     "log": {
         "access": "",
         "error": "",
@@ -12,11 +12,11 @@
             "settings": {
                 "vnext": [
                     {
-                        "address": "185.146.173.59",
-                        "port": 8080,
+                        "address": "188.114.96.6",
+                        "port": 443,
                         "users": [
                             {
-                                "id": "25b48da4-1fb7-451f-9d8e-cde216572c92",
+                                "id": "7abaae82-3681-4b61-899f-4cdfb275d09f",
                                 "alterId": 0,
                                 "email": "t@t.tt",
                                 "security": "auto",
@@ -32,8 +32,15 @@
                 "wsSettings": {
                     "path": "",
                     "headers": {
-                        "Host": "V2ray-_-_-_-_-MdVpnSec.TelegramChannelJoinBede.com."
+                        "Host": "v2ray1ng.pages.dev"
                     }
+                },
+                "security": "tls",
+                "tlsSettings": {
+                    "allowInsecure": true,
+                    "serverName": "v2ray1ng.pages.dev",
+                    "alpn": [],
+                    "show": false
                 },
                 "sockopt": {
                     "dialerProxy": "fragment",

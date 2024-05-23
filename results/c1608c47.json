@@ -12,11 +12,11 @@
             "settings": {
                 "vnext": [
                     {
-                        "address": "188.114.96.3",
+                        "address": "188.114.97.3",
                         "port": 443,
                         "users": [
                             {
-                                "id": "7356184e-5d9b-48aa-b185-5ee8632b7f46",
+                                "id": "fb853741-88ef-4aa0-ba2f-999f04535960",
                                 "alterId": 0,
                                 "email": "t@t.tt",
                                 "security": "auto",
@@ -32,13 +32,13 @@
                 "wsSettings": {
                     "path": "",
                     "headers": {
-                        "Host": "join-telegraam-channel-disvpn.pages.dev"
+                        "Host": "HovEYda-arIamehr-KINg.pAgES.dev"
                     }
                 },
                 "security": "tls",
                 "tlsSettings": {
                     "allowInsecure": true,
-                    "serverName": "join-telegraam-channel-disvpn.pages.dev",
+                    "serverName": "HovEyda-ARIAMEHR-KinG.PAgEs.Dev",
                     "alpn": [
                         "http/1.1",
                         "h2"

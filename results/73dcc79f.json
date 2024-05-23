@@ -1,5 +1,5 @@
 {
-    "remarks": "[🇹🇷]t.me/ConfigsHub",
+    "remarks": "%5B%F0%9F%87%A8%F0%9F%87%A6%5Dt.me/ConfigsHub",
     "log": {
         "access": "",
         "error": "",
@@ -8,51 +8,42 @@
     "outbounds": [
         {
             "tag": "proxy",
-            "protocol": "vmess",
+            "protocol": "vless",
             "settings": {
                 "vnext": [
                     {
-                        "address": "45.8.21.93",
-                        "port": 3563,
+                        "address": "188.114.96.3",
+                        "port": 443,
                         "users": [
                             {
-                                "id": "c40b75bc-4ed2-4fc1-93f3-d4adb578ba4f",
+                                "id": "1a94747b-8901-4812-ba23-7eb44cc1162f",
                                 "alterId": 0,
                                 "email": "t@t.tt",
-                                "security": "auto"
+                                "security": "auto",
+                                "encryption": "none",
+                                "flow": ""
                             }
                         ]
                     }
                 ]
             },
             "streamSettings": {
-                "network": "tcp",
-                "tcpSettings": {
-                    "header": {
-                        "type": "http",
-                        "request": {
-                            "version": "1.1",
-                            "method": "GET",
-                            "path": [
-                                "/"
-                            ],
-                            "headers": {
-                                "Host": [
-                                    "chess.com"
-                                ],
-                                "User-Agent": [
-                                    ""
-                                ],
-                                "Accept-Encoding": [
-                                    "gzip, deflate"
-                                ],
-                                "Connection": [
-                                    "keep-alive"
-                                ],
-                                "Pragma": "no-cache"
-                            }
-                        }
+                "network": "ws",
+                "wsSettings": {
+                    "path": "",
+                    "headers": {
+                        "Host": "kIngOFIRAN.PAGes.DEv"
                     }
+                },
+                "security": "tls",
+                "tlsSettings": {
+                    "allowInsecure": true,
+                    "serverName": "kingOfIRaN.Pages.DEV",
+                    "alpn": [
+                        "http/1.1",
+                        "h2"
+                    ],
+                    "show": false
                 },
                 "sockopt": {
                     "dialerProxy": "fragment",
