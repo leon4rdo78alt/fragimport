@@ -12,11 +12,11 @@
             "settings": {
                 "vnext": [
                     {
-                        "address": "joinmahdiserver-bg4.pages.dev",
-                        "port": 443,
+                        "address": "162.159.128.53",
+                        "port": 8880,
                         "users": [
                             {
-                                "id": "89b3cbba-e6ac-485a-9481-976a0415eab9",
+                                "id": "d14567b9-95cf-4e03-8710-0b957758d352",
                                 "alterId": 0,
                                 "email": "t@t.tt",
                                 "security": "auto",
@@ -32,18 +32,8 @@
                 "wsSettings": {
                     "path": "",
                     "headers": {
-                        "Host": "JOinMAhDiSErver-bg4.PAgEs.Dev"
+                        "Host": "V2ray.digikala.com-mykit.ir.nobitex.com.IMhyW5477e.DAILYCONFIGS.vigilantecollection.com."
                     }
-                },
-                "security": "tls",
-                "tlsSettings": {
-                    "allowInsecure": true,
-                    "serverName": "joINMAHdiserver-bg4.pAGES.DEV",
-                    "alpn": [
-                        "http/1.1",
-                        "h2"
-                    ],
-                    "show": false
                 },
                 "sockopt": {
                     "dialerProxy": "fragment",
