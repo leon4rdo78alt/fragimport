@@ -1,5 +1,5 @@
 {
-    "remarks": "%5B%F0%9F%87%A8%F0%9F%87%A6%5Dt.me/ConfigsHub",
+    "remarks": "%5B%F0%9F%87%B8%F0%9F%87%AA%5Dt.me/ConfigsHub",
     "log": {
         "access": "",
         "error": "",
@@ -12,11 +12,11 @@
             "settings": {
                 "vnext": [
                     {
-                        "address": "188.114.98.224",
-                        "port": 80,
+                        "address": "lightning6-joinbed.filj.top",
+                        "port": 8880,
                         "users": [
                             {
-                                "id": "7f50d282-62a1-4d26-bfe2-40038244ce93",
+                                "id": "879f8452-368a-4f18-aab8-d2fbf53e1d97",
                                 "alterId": 0,
                                 "email": "t@t.tt",
                                 "security": "auto",
@@ -32,7 +32,7 @@
                 "wsSettings": {
                     "path": "",
                     "headers": {
-                        "Host": "1.ftp.debian.org.www.speedtest.net.%E5%85%8D%E8%B4%B9%E4%B8%8A%E7%BD%9167.Site."
+                        "Host": "xn--v2ray-qhantayawi--a-mwxzc08arba93xpvac79043ht5ia.xn--v2-gn1d638jbjx.xyz."
                     }
                 },
                 "sockopt": {

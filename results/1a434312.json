@@ -1,5 +1,5 @@
 {
-    "remarks": "%5B%F0%9F%87%B8%F0%9F%87%AA%5Dt.me/ConfigsHub",
+    "remarks": "%5B%F0%9F%87%A8%F0%9F%87%A6%5Dt.me/ConfigsHub",
     "log": {
         "access": "",
         "error": "",
@@ -12,11 +12,11 @@
             "settings": {
                 "vnext": [
                     {
-                        "address": "185.146.173.158",
-                        "port": 80,
+                        "address": "188.114.98.224",
+                        "port": 8080,
                         "users": [
                             {
-                                "id": "2b7d10ca-01d9-4176-84ad-650f4333cdc1",
+                                "id": "86d25875-3262-43fc-9c5a-4da6ee34d228",
                                 "alterId": 0,
                                 "email": "t@t.tt",
                                 "security": "auto",
@@ -32,7 +32,7 @@
                 "wsSettings": {
                     "path": "",
                     "headers": {
-                        "Host": "4.V2ray.mihanyas.ir.mbj.farsroid.com.%E5%88%97%E5%88%97%E7%94%B7%E4%BA%8B%E7%9A%84%E4%BA%8B%E5%88%97%E4%B8%8A%E8%B5%9B%E7%94%B778.ShoP."
+                        "Host": "V2ray-_-_-_-_-MdVpnSec.TelegramChannelJoinBede.com."
                     }
                 },
                 "sockopt": {
