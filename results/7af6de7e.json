@@ -1,5 +1,5 @@
 {
-    "remarks": "%F0%9F%8F%81%20RELAY-Vmix%20x%20LcWd",
+    "remarks": "%5B%F0%9F%87%A9%F0%9F%87%AA%5Dt.me/ConfigsHub",
     "log": {
         "access": "",
         "error": "",
@@ -12,11 +12,11 @@
             "settings": {
                 "vnext": [
                     {
-                        "address": "188.114.97.3",
-                        "port": 8443,
+                        "address": "5.42.107.242",
+                        "port": 32354,
                         "users": [
                             {
-                                "id": "38a2070d-a256-48f3-891b-c9b68b01c8f7",
+                                "id": "d3af9aee-7289-48e7-9305-093cf7bf93a0",
                                 "alterId": 0,
                                 "email": "t@t.tt",
                                 "security": "auto",
@@ -28,24 +28,7 @@
                 ]
             },
             "streamSettings": {
-                "network": "ws",
-                "wsSettings": {
-                    "path": "",
-                    "headers": {
-                        "Host": "vmixed23.leon4rdo78.wORKers.dEV"
-                    }
-                },
-                "security": "tls",
-                "tlsSettings": {
-                    "allowInsecure": true,
-                    "serverName": "vmixed23.leon4rdo78.wORKers.dEV",
-                    "alpn": [
-                        "http/1.1",
-                        "h2",
-                        "h3"
-                    ],
-                    "show": false
-                },
+                "network": "tcp",
                 "sockopt": {
                     "dialerProxy": "fragment",
                     "tcpKeepAliveIdle": 100,
