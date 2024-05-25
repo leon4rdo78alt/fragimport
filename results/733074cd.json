@@ -1,5 +1,5 @@
 {
-    "remarks": "%5B%F0%9F%87%A9%F0%9F%87%AA%5Dt.me/ConfigsHub",
+    "remarks": "64-%E5%BE%B7%E5%9B%BD_052518107-Vmix%20x%20LcWd",
     "log": {
         "access": "",
         "error": "",
@@ -12,11 +12,11 @@
             "settings": {
                 "vnext": [
                     {
-                        "address": "5.42.107.242",
-                        "port": 32354,
+                        "address": "188.114.98.224",
+                        "port": 443,
                         "users": [
                             {
-                                "id": "d3af9aee-7289-48e7-9305-093cf7bf93a0",
+                                "id": "48198295-b7ba-4b5c-8d85-085d55a6c869",
                                 "alterId": 0,
                                 "email": "t@t.tt",
                                 "security": "auto",
@@ -28,7 +28,24 @@
                 ]
             },
             "streamSettings": {
-                "network": "tcp",
+                "network": "ws",
+                "wsSettings": {
+                    "path": "",
+                    "headers": {
+                        "Host": "vmixed23.leon4rdo78.WoRkeRs.DeV"
+                    }
+                },
+                "security": "tls",
+                "tlsSettings": {
+                    "allowInsecure": true,
+                    "serverName": "vmixed23.leon4rdo78.WoRkeRs.DeV",
+                    "alpn": [
+                        "http/1.1",
+                        "h2",
+                        "h3"
+                    ],
+                    "show": false
+                },
                 "sockopt": {
                     "dialerProxy": "fragment",
                     "tcpKeepAliveIdle": 100,

@@ -1,5 +1,5 @@
 {
-    "remarks": "%5B%F0%9F%87%B8%F0%9F%87%AA%5Dt.me/ConfigsHub",
+    "remarks": "55-%E5%BE%B7%E5%9B%BD_052518037-Vmix%20x%20LcWd",
     "log": {
         "access": "",
         "error": "",
@@ -12,11 +12,11 @@
             "settings": {
                 "vnext": [
                     {
-                        "address": "lightning6-joinbed.filj.top",
-                        "port": 8880,
+                        "address": "188.114.98.224",
+                        "port": 8443,
                         "users": [
                             {
-                                "id": "879f8452-368a-4f18-aab8-d2fbf53e1d97",
+                                "id": "38a2070d-a256-48f3-891b-c9b68b01c8f7",
                                 "alterId": 0,
                                 "email": "t@t.tt",
                                 "security": "auto",
@@ -32,8 +32,17 @@
                 "wsSettings": {
                     "path": "",
                     "headers": {
-                        "Host": "xn--v2ray-qhantayawi--a-mwxzc08arba93xpvac79043ht5ia.xn--v2-gn1d638jbjx.xyz."
+                        "Host": "vmixed23.leon4rdo78.wORkeRs.DeV"
                     }
+                },
+                "security": "tls",
+                "tlsSettings": {
+                    "allowInsecure": true,
+                    "serverName": "vmixed23.leon4rdo78.wORkeRs.DeV",
+                    "alpn": [
+                        "h2"
+                    ],
+                    "show": false
                 },
                 "sockopt": {
                     "dialerProxy": "fragment",

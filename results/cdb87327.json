@@ -1,5 +1,5 @@
 {
-    "remarks": "%5B%F0%9F%87%B8%F0%9F%87%AA%5Dt.me/ConfigsHub",
+    "remarks": "22-%E4%BA%9A%E7%BE%8E%E5%B0%BC%E4%BA%9A_052518012-Vmix%20x%20LcWd",
     "log": {
         "access": "",
         "error": "",
@@ -12,11 +12,11 @@
             "settings": {
                 "vnext": [
                     {
-                        "address": "185.146.173.158",
-                        "port": 2082,
+                        "address": "188.114.98.224",
+                        "port": 443,
                         "users": [
                             {
-                                "id": "c0dd14fe-9db6-4d59-928e-00fa676b487b",
+                                "id": "38a2070d-a256-48f3-891b-c9b68b01c8f7",
                                 "alterId": 0,
                                 "email": "t@t.tt",
                                 "security": "auto",
@@ -32,8 +32,19 @@
                 "wsSettings": {
                     "path": "",
                     "headers": {
-                        "Host": "SvnProBotV2rayFnOne6.9.6.9.ir.shop.com.xn--fhqpqv8rrth13sbaaac958pc94anf0d8gmha8i.Com.ArvinBaluch.Ir."
+                        "Host": "vmixed23.leon4rdo78.wOrkers.DEV"
                     }
+                },
+                "security": "tls",
+                "tlsSettings": {
+                    "allowInsecure": true,
+                    "serverName": "vmixed23.leon4rdo78.wOrkers.DEV",
+                    "alpn": [
+                        "http/1.1",
+                        "h2",
+                        "h3"
+                    ],
+                    "show": false
                 },
                 "sockopt": {
                     "dialerProxy": "fragment",

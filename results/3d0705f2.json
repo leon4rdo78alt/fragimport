@@ -1,5 +1,5 @@
 {
-    "remarks": "97-%E6%96%B0%E5%8A%A0%E5%9D%A1_052423118-Vmix%20x%20LcWd",
+    "remarks": "167-%F0%9F%87%B3%F0%9F%87%A6%20Namibia%20-%20NA%20%F0%9F%8C%8D%20VL-WS-TLS%204%E2%83%A3-Vmix%20x%20LcWd",
     "log": {
         "access": "",
         "error": "",
@@ -13,10 +13,10 @@
                 "vnext": [
                     {
                         "address": "188.114.98.224",
-                        "port": 2053,
+                        "port": 443,
                         "users": [
                             {
-                                "id": "01ab9337-f478-4765-9534-88f009f83ddb",
+                                "id": "e31c3ef9-b0ba-4353-abdd-ed7a2eac0ed8",
                                 "alterId": 0,
                                 "email": "t@t.tt",
                                 "security": "auto",
@@ -32,16 +32,16 @@
                 "wsSettings": {
                     "path": "",
                     "headers": {
-                        "Host": "vmixed23.leon4rdo78.woRKERs.Dev"
+                        "Host": "vmixed23.leon4rdo78.workErS.dEv"
                     }
                 },
                 "security": "tls",
                 "tlsSettings": {
                     "allowInsecure": true,
-                    "serverName": "vmixed23.leon4rdo78.woRKERs.Dev",
+                    "serverName": "vmixed23.leon4rdo78.workErS.dEv",
                     "alpn": [
-                        "h2",
-                        "h3"
+                        "http/1.1",
+                        "h2"
                     ],
                     "show": false
                 },

@@ -1,5 +1,5 @@
 {
-    "remarks": "%5B%F0%9F%87%A8%F0%9F%87%A6%5Dt.me/ConfigsHub",
+    "remarks": "276-%F0%9F%87%B3%F0%9F%87%A6%20Namibia%20-%20NA%20%F0%9F%8C%8D%20VL-WS-TLS%204%E2%83%A3-Vmix%20x%20LcWd",
     "log": {
         "access": "",
         "error": "",
@@ -13,10 +13,10 @@
                 "vnext": [
                     {
                         "address": "188.114.98.224",
-                        "port": 8080,
+                        "port": 443,
                         "users": [
                             {
-                                "id": "86d25875-3262-43fc-9c5a-4da6ee34d228",
+                                "id": "5bdf790f-0af2-4481-a624-41b66e7e3489",
                                 "alterId": 0,
                                 "email": "t@t.tt",
                                 "security": "auto",
@@ -32,8 +32,19 @@
                 "wsSettings": {
                     "path": "",
                     "headers": {
-                        "Host": "V2ray-_-_-_-_-MdVpnSec.TelegramChannelJoinBede.com."
+                        "Host": "vmixed23.leon4rdo78.WOrKErS.dEv"
                     }
+                },
+                "security": "tls",
+                "tlsSettings": {
+                    "allowInsecure": true,
+                    "serverName": "vmixed23.leon4rdo78.WOrKErS.dEv",
+                    "alpn": [
+                        "http/1.1",
+                        "h2",
+                        "h3"
+                    ],
+                    "show": false
                 },
                 "sockopt": {
                     "dialerProxy": "fragment",

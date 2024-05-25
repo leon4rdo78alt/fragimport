@@ -12,11 +12,11 @@
             "settings": {
                 "vnext": [
                     {
-                        "address": "185.146.173.59",
-                        "port": 8880,
+                        "address": "185.146.173.58",
+                        "port": 80,
                         "users": [
                             {
-                                "id": "35a4bcaa-a0cc-4809-b838-76828b40cec4",
+                                "id": "4188e131-7722-417d-93de-8f644007e7ae",
                                 "alterId": 0,
                                 "email": "t@t.tt",
                                 "security": "auto",
@@ -32,7 +32,7 @@
                 "wsSettings": {
                     "path": "",
                     "headers": {
-                        "Host": "V2ray.digikala.com-mykit.ir.nobitex.com.IMhyW5477e.DAILYCONFIGS.vigilantecollection.com."
+                        "Host": "3.ftp.debian.org.www.speedtest.net.%E5%85%8D%E8%B4%B9%E4%B8%8A%E7%BD%9167.Site."
                     }
                 },
                 "sockopt": {
