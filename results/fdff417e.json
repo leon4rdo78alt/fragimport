@@ -1,5 +1,5 @@
 {
-    "remarks": "%5B%F0%9F%87%B8%F0%9F%87%AA%5Dt.me/ConfigsHub",
+    "remarks": "[🇨🇦]t.me/ConfigsHub",
     "log": {
         "access": "",
         "error": "",
@@ -8,20 +8,18 @@
     "outbounds": [
         {
             "tag": "proxy",
-            "protocol": "vless",
+            "protocol": "vmess",
             "settings": {
                 "vnext": [
                     {
-                        "address": "185.146.173.1",
-                        "port": 2095,
+                        "address": "104.22.30.97",
+                        "port": 80,
                         "users": [
                             {
-                                "id": "87648098-14f4-481e-988f-c0dfba8f1b9c",
+                                "id": "6d3a8c49-85ea-47cc-97d1-0993959787c1",
                                 "alterId": 0,
                                 "email": "t@t.tt",
-                                "security": "auto",
-                                "encryption": "none",
-                                "flow": ""
+                                "security": "auto"
                             }
                         ]
                     }
@@ -30,10 +28,18 @@
             "streamSettings": {
                 "network": "ws",
                 "wsSettings": {
-                    "path": "",
+                    "path": "/RACEVPN",
                     "headers": {
-                        "Host": "www.myket.ir.www.cafebazaar.ir.%E5%83%8F%E9%B8%9F%E4%B8%80%E6%A0%B7%E8%87%AA%E7%94%B1.online."
+                        "Host": "mrarsha.便便泉和其他人.oldfoxyhelastkumite.州拉罗.suonycars.buzz."
                     }
+                },
+                "security": "",
+                "tlsSettings": {
+                    "allowInsecure": true,
+                    "serverName": "",
+                    "alpn": [],
+                    "show": false,
+                    "fingerprint": ""
                 },
                 "sockopt": {
                     "dialerProxy": "fragment",

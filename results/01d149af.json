@@ -1,5 +1,5 @@
 {
-    "remarks": "%5B%F0%9F%87%B8%F0%9F%87%AA%5Dt.me/ConfigsHub",
+    "remarks": "[🇸🇪]t.me/ConfigsHub",
     "log": {
         "access": "",
         "error": "",
@@ -8,20 +8,18 @@
     "outbounds": [
         {
             "tag": "proxy",
-            "protocol": "vless",
+            "protocol": "vmess",
             "settings": {
                 "vnext": [
                     {
-                        "address": "lightning6-joinbed.filj.top",
-                        "port": 8880,
+                        "address": "web.mobilemostafa.ir",
+                        "port": 8080,
                         "users": [
                             {
-                                "id": "ba1c3b26-17c8-4d6e-9789-b6ea68c16ffd",
+                                "id": "4739c52b-c1a3-450a-822d-f9dbbbec2f3b",
                                 "alterId": 0,
                                 "email": "t@t.tt",
-                                "security": "auto",
-                                "encryption": "none",
-                                "flow": ""
+                                "security": "auto"
                             }
                         ]
                     }
@@ -30,10 +28,18 @@
             "streamSettings": {
                 "network": "ws",
                 "wsSettings": {
-                    "path": "",
+                    "path": "/mesh-vmws/package.zip",
                     "headers": {
-                        "Host": "xn--v2ray-qhantayawi--a-mwxzc08arba93xpvac79043ht5ia.xn--v2-gn1d638jbjx.xyz."
+                        "Host": "c311b5f2679ffadfddV2rayVDsdw.mobilemostafa.ir"
                     }
+                },
+                "security": "",
+                "tlsSettings": {
+                    "allowInsecure": true,
+                    "serverName": "",
+                    "alpn": [],
+                    "show": false,
+                    "fingerprint": ""
                 },
                 "sockopt": {
                     "dialerProxy": "fragment",
