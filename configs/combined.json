@@ -1,0 +1,4953 @@
+[
+    {
+        "remarks": "%E5%BE%B7%E5%9B%BD-Vmix%20x%20LcWd",
+        "log": {
+            "access": "",
+            "error": "",
+            "loglevel": "warning"
+        },
+        "outbounds": [
+            {
+                "tag": "proxy",
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "188.114.98.224",
+                            "port": 8443,
+                            "users": [
+                                {
+                                    "id": "38a2070d-a256-48f3-891b-c9b68b01c8f7",
+                                    "alterId": 0,
+                                    "email": "t@t.tt",
+                                    "security": "auto",
+                                    "encryption": "none",
+                                    "flow": ""
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "wsSettings": {
+                        "path": "",
+                        "headers": {
+                            "Host": "vmixed23.leon4rdo78.worKErs.dev"
+                        }
+                    },
+                    "security": "tls",
+                    "tlsSettings": {
+                        "allowInsecure": true,
+                        "serverName": "vmixed23.leon4rdo78.worKErs.dev",
+                        "alpn": [
+                            "http/1.1",
+                            "h2",
+                            "h3"
+                        ],
+                        "show": false
+                    }
+                },
+                "mux": {
+                    "enabled": false,
+                    "concurrency": -1
+                }
+            },
+            {
+                "tag": "direct",
+                "protocol": "freedom",
+                "settings": {}
+            },
+            {
+                "tag": "block",
+                "protocol": "blackhole",
+                "settings": {
+                    "response": {
+                        "type": "http"
+                    }
+                }
+            }
+        ],
+        "inbounds": [
+            {
+                "tag": "socks",
+                "port": 10808,
+                "listen": "127.0.0.1",
+                "protocol": "socks",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            },
+            {
+                "tag": "http",
+                "port": 10809,
+                "listen": "127.0.0.1",
+                "protocol": "http",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            }
+        ]
+    },
+    {
+        "remarks": "\ud83c\uddf3\ud83c\udde6 Namibia-Vmix x LcWd",
+        "log": {
+            "access": "",
+            "error": "",
+            "loglevel": "warning"
+        },
+        "outbounds": [
+            {
+                "tag": "proxy",
+                "protocol": "vmess",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "188.114.98.224",
+                            "port": 443,
+                            "users": [
+                                {
+                                    "id": "e87bbfd4-7382-4c25-b2fd-03c695b49190",
+                                    "alterId": 0,
+                                    "email": "t@t.tt",
+                                    "security": "auto"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "wsSettings": {
+                        "path": "/fr2-vmess.sshmax.xyz:443/vmess",
+                        "headers": {
+                            "Host": "vmixed23.leon4rdo78.WoRkERS.dEV"
+                        }
+                    },
+                    "security": "tls",
+                    "tlsSettings": {
+                        "allowInsecure": true,
+                        "serverName": "vmixed23.leon4rdo78.WoRkERS.dEV",
+                        "alpn": [
+                            "h2",
+                            "h3"
+                        ],
+                        "show": false,
+                        "fingerprint": "randomized"
+                    }
+                },
+                "mux": {
+                    "enabled": false,
+                    "concurrency": -1
+                }
+            },
+            {
+                "tag": "direct",
+                "protocol": "freedom",
+                "settings": {}
+            },
+            {
+                "tag": "block",
+                "protocol": "blackhole",
+                "settings": {
+                    "response": {
+                        "type": "http"
+                    }
+                }
+            }
+        ],
+        "inbounds": [
+            {
+                "tag": "socks",
+                "port": 10808,
+                "listen": "127.0.0.1",
+                "protocol": "socks",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            },
+            {
+                "tag": "http",
+                "port": 10809,
+                "listen": "127.0.0.1",
+                "protocol": "http",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            }
+        ]
+    },
+    {
+        "remarks": "%E7%BE%8E%E5%9B%BD-VA%20x%20LcWd",
+        "log": {
+            "access": "",
+            "error": "",
+            "loglevel": "warning"
+        },
+        "outbounds": [
+            {
+                "tag": "proxy",
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "162.159.130.25",
+                            "port": 8443,
+                            "users": [
+                                {
+                                    "id": "38a2070d-a256-48f3-891b-c9b68b01c8f7",
+                                    "alterId": 0,
+                                    "email": "t@t.tt",
+                                    "security": "auto",
+                                    "encryption": "none",
+                                    "flow": ""
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "wsSettings": {
+                        "path": "",
+                        "headers": {
+                            "Host": "fragment.leon4rdo78.wOrkeRS.dEv"
+                        }
+                    },
+                    "security": "tls",
+                    "tlsSettings": {
+                        "allowInsecure": true,
+                        "serverName": "fragment.leon4rdo78.wOrkeRS.dEv",
+                        "alpn": [
+                            "http/1.1",
+                            "h2",
+                            "h3"
+                        ],
+                        "show": false
+                    }
+                },
+                "mux": {
+                    "enabled": false,
+                    "concurrency": -1
+                }
+            },
+            {
+                "tag": "direct",
+                "protocol": "freedom",
+                "settings": {}
+            },
+            {
+                "tag": "block",
+                "protocol": "blackhole",
+                "settings": {
+                    "response": {
+                        "type": "http"
+                    }
+                }
+            }
+        ],
+        "inbounds": [
+            {
+                "tag": "socks",
+                "port": 10808,
+                "listen": "127.0.0.1",
+                "protocol": "socks",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            },
+            {
+                "tag": "http",
+                "port": 10809,
+                "listen": "127.0.0.1",
+                "protocol": "http",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            }
+        ]
+    },
+    {
+        "remarks": "\ud83c\uddf3\ud83c\udde6 Namibia-VA x LcWd",
+        "log": {
+            "access": "",
+            "error": "",
+            "loglevel": "warning"
+        },
+        "outbounds": [
+            {
+                "tag": "proxy",
+                "protocol": "vmess",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "162.159.4.59",
+                            "port": 443,
+                            "users": [
+                                {
+                                    "id": "93ea486a-bada-42a4-ac38-d088b320fa1e",
+                                    "alterId": 0,
+                                    "email": "t@t.tt",
+                                    "security": "auto"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "wsSettings": {
+                        "path": "/xmivideo.cfd:443/linkws",
+                        "headers": {
+                            "Host": "fragment.leon4rdo78.WorKERs.deV"
+                        }
+                    },
+                    "security": "tls",
+                    "tlsSettings": {
+                        "allowInsecure": true,
+                        "serverName": "fragment.leon4rdo78.WorKERs.deV",
+                        "alpn": [
+                            "http/1.1",
+                            "h2",
+                            "h3"
+                        ],
+                        "show": false,
+                        "fingerprint": "randomized"
+                    }
+                },
+                "mux": {
+                    "enabled": false,
+                    "concurrency": -1
+                }
+            },
+            {
+                "tag": "direct",
+                "protocol": "freedom",
+                "settings": {}
+            },
+            {
+                "tag": "block",
+                "protocol": "blackhole",
+                "settings": {
+                    "response": {
+                        "type": "http"
+                    }
+                }
+            }
+        ],
+        "inbounds": [
+            {
+                "tag": "socks",
+                "port": 10808,
+                "listen": "127.0.0.1",
+                "protocol": "socks",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            },
+            {
+                "tag": "http",
+                "port": 10809,
+                "listen": "127.0.0.1",
+                "protocol": "http",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            }
+        ]
+    },
+    {
+        "remarks": "%5B%F0%9F%87%A8%F0%9F%87%A6%5Dt.me/ConfigsHub",
+        "log": {
+            "access": "",
+            "error": "",
+            "loglevel": "warning"
+        },
+        "outbounds": [
+            {
+                "tag": "proxy",
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "188.114.98.224",
+                            "port": 8080,
+                            "users": [
+                                {
+                                    "id": "ea2b501d-c78d-498d-8d4b-a362d76a3849",
+                                    "alterId": 0,
+                                    "email": "t@t.tt",
+                                    "security": "auto",
+                                    "encryption": "none",
+                                    "flow": ""
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "wsSettings": {
+                        "path": "",
+                        "headers": {
+                            "Host": "V2ray-_-_-_-_-MdVpnSec.TelegramChannelJoinBede.com."
+                        }
+                    }
+                },
+                "mux": {
+                    "enabled": false,
+                    "concurrency": -1
+                }
+            },
+            {
+                "tag": "direct",
+                "protocol": "freedom",
+                "settings": {}
+            },
+            {
+                "tag": "block",
+                "protocol": "blackhole",
+                "settings": {
+                    "response": {
+                        "type": "http"
+                    }
+                }
+            }
+        ],
+        "inbounds": [
+            {
+                "tag": "socks",
+                "port": 10808,
+                "listen": "127.0.0.1",
+                "protocol": "socks",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            },
+            {
+                "tag": "http",
+                "port": 10809,
+                "listen": "127.0.0.1",
+                "protocol": "http",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            }
+        ]
+    },
+    {
+        "remarks": "\ud83c\uddf3\ud83c\udde6 Namibia-VM x LcWd",
+        "log": {
+            "access": "",
+            "error": "",
+            "loglevel": "warning"
+        },
+        "outbounds": [
+            {
+                "tag": "proxy",
+                "protocol": "vmess",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "104.19.147.121",
+                            "port": 443,
+                            "users": [
+                                {
+                                    "id": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
+                                    "alterId": 0,
+                                    "email": "t@t.tt",
+                                    "security": "auto"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "wsSettings": {
+                        "path": "/linde06.indiavideo.sbs:443/linkws",
+                        "headers": {
+                            "Host": "vm23.leon4rdo78.WOrKeRS.dEV"
+                        }
+                    },
+                    "security": "tls",
+                    "tlsSettings": {
+                        "allowInsecure": true,
+                        "serverName": "vm23.leon4rdo78.WOrKeRS.dEV",
+                        "alpn": [
+                            "h2"
+                        ],
+                        "show": false,
+                        "fingerprint": "randomized"
+                    }
+                },
+                "mux": {
+                    "enabled": false,
+                    "concurrency": -1
+                }
+            },
+            {
+                "tag": "direct",
+                "protocol": "freedom",
+                "settings": {}
+            },
+            {
+                "tag": "block",
+                "protocol": "blackhole",
+                "settings": {
+                    "response": {
+                        "type": "http"
+                    }
+                }
+            }
+        ],
+        "inbounds": [
+            {
+                "tag": "socks",
+                "port": 10808,
+                "listen": "127.0.0.1",
+                "protocol": "socks",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            },
+            {
+                "tag": "http",
+                "port": 10809,
+                "listen": "127.0.0.1",
+                "protocol": "http",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            }
+        ]
+    },
+    {
+        "remarks": "%F0%9F%87%B3%F0%9F%87%A6%20Namibia-VA%20x%20LcWd",
+        "log": {
+            "access": "",
+            "error": "",
+            "loglevel": "warning"
+        },
+        "outbounds": [
+            {
+                "tag": "proxy",
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "162.159.4.59",
+                            "port": 443,
+                            "users": [
+                                {
+                                    "id": "7f3b2f37-819e-49ee-9f5c-215467bfde61",
+                                    "alterId": 0,
+                                    "email": "t@t.tt",
+                                    "security": "auto",
+                                    "encryption": "none",
+                                    "flow": ""
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "wsSettings": {
+                        "path": "",
+                        "headers": {
+                            "Host": "fragment.leon4rdo78.WoRkERS.DEv"
+                        }
+                    },
+                    "security": "tls",
+                    "tlsSettings": {
+                        "allowInsecure": true,
+                        "serverName": "fragment.leon4rdo78.WoRkERS.DEv",
+                        "alpn": [
+                            "http/1.1"
+                        ],
+                        "show": false
+                    }
+                },
+                "mux": {
+                    "enabled": false,
+                    "concurrency": -1
+                }
+            },
+            {
+                "tag": "direct",
+                "protocol": "freedom",
+                "settings": {}
+            },
+            {
+                "tag": "block",
+                "protocol": "blackhole",
+                "settings": {
+                    "response": {
+                        "type": "http"
+                    }
+                }
+            }
+        ],
+        "inbounds": [
+            {
+                "tag": "socks",
+                "port": 10808,
+                "listen": "127.0.0.1",
+                "protocol": "socks",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            },
+            {
+                "tag": "http",
+                "port": 10809,
+                "listen": "127.0.0.1",
+                "protocol": "http",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            }
+        ]
+    },
+    {
+        "remarks": "%E6%9C%AA%E7%9F%A5-VA%20x%20LcWd",
+        "log": {
+            "access": "",
+            "error": "",
+            "loglevel": "warning"
+        },
+        "outbounds": [
+            {
+                "tag": "proxy",
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "162.159.130.25",
+                            "port": 443,
+                            "users": [
+                                {
+                                    "id": "8a052c65-bdf6-485a-c1d7-cb2b23f15dfa",
+                                    "alterId": 0,
+                                    "email": "t@t.tt",
+                                    "security": "auto",
+                                    "encryption": "none",
+                                    "flow": ""
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "wsSettings": {
+                        "path": "",
+                        "headers": {
+                            "Host": "fragment.leon4rdo78.wOrKeRs.DEv"
+                        }
+                    },
+                    "security": "tls",
+                    "tlsSettings": {
+                        "allowInsecure": true,
+                        "serverName": "fragment.leon4rdo78.wOrKeRs.DEv",
+                        "alpn": [
+                            "http/1.1"
+                        ],
+                        "show": false
+                    }
+                },
+                "mux": {
+                    "enabled": false,
+                    "concurrency": -1
+                }
+            },
+            {
+                "tag": "direct",
+                "protocol": "freedom",
+                "settings": {}
+            },
+            {
+                "tag": "block",
+                "protocol": "blackhole",
+                "settings": {
+                    "response": {
+                        "type": "http"
+                    }
+                }
+            }
+        ],
+        "inbounds": [
+            {
+                "tag": "socks",
+                "port": 10808,
+                "listen": "127.0.0.1",
+                "protocol": "socks",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            },
+            {
+                "tag": "http",
+                "port": 10809,
+                "listen": "127.0.0.1",
+                "protocol": "http",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            }
+        ]
+    },
+    {
+        "remarks": "%E6%9C%AA%E7%9F%A5-Vmix%20x%20LcWd",
+        "log": {
+            "access": "",
+            "error": "",
+            "loglevel": "warning"
+        },
+        "outbounds": [
+            {
+                "tag": "proxy",
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "188.114.98.224",
+                            "port": 443,
+                            "users": [
+                                {
+                                    "id": "38a2070d-a256-48f3-891b-c9b68b01c8f7",
+                                    "alterId": 0,
+                                    "email": "t@t.tt",
+                                    "security": "auto",
+                                    "encryption": "none",
+                                    "flow": ""
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "wsSettings": {
+                        "path": "",
+                        "headers": {
+                            "Host": "vmixed23.leon4rdo78.WoRKeRS.deV"
+                        }
+                    },
+                    "security": "tls",
+                    "tlsSettings": {
+                        "allowInsecure": true,
+                        "serverName": "vmixed23.leon4rdo78.WoRKeRS.deV",
+                        "alpn": [
+                            "h2",
+                            "h3"
+                        ],
+                        "show": false
+                    }
+                },
+                "mux": {
+                    "enabled": false,
+                    "concurrency": -1
+                }
+            },
+            {
+                "tag": "direct",
+                "protocol": "freedom",
+                "settings": {}
+            },
+            {
+                "tag": "block",
+                "protocol": "blackhole",
+                "settings": {
+                    "response": {
+                        "type": "http"
+                    }
+                }
+            }
+        ],
+        "inbounds": [
+            {
+                "tag": "socks",
+                "port": 10808,
+                "listen": "127.0.0.1",
+                "protocol": "socks",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            },
+            {
+                "tag": "http",
+                "port": 10809,
+                "listen": "127.0.0.1",
+                "protocol": "http",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            }
+        ]
+    },
+    {
+        "remarks": "%E6%96%B0%E5%8A%A0%E5%9D%A1-VA%20x%20LcWd",
+        "log": {
+            "access": "",
+            "error": "",
+            "loglevel": "warning"
+        },
+        "outbounds": [
+            {
+                "tag": "proxy",
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "162.159.4.59",
+                            "port": 2083,
+                            "users": [
+                                {
+                                    "id": "cfd0935c-8dda-4243-9622-dc2fe8f868c8",
+                                    "alterId": 0,
+                                    "email": "t@t.tt",
+                                    "security": "auto",
+                                    "encryption": "none",
+                                    "flow": ""
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "wsSettings": {
+                        "path": "",
+                        "headers": {
+                            "Host": "fragment.leon4rdo78.WOrKeRS.dev"
+                        }
+                    },
+                    "security": "tls",
+                    "tlsSettings": {
+                        "allowInsecure": true,
+                        "serverName": "fragment.leon4rdo78.WOrKeRS.dev",
+                        "alpn": [
+                            "h2"
+                        ],
+                        "show": false
+                    }
+                },
+                "mux": {
+                    "enabled": false,
+                    "concurrency": -1
+                }
+            },
+            {
+                "tag": "direct",
+                "protocol": "freedom",
+                "settings": {}
+            },
+            {
+                "tag": "block",
+                "protocol": "blackhole",
+                "settings": {
+                    "response": {
+                        "type": "http"
+                    }
+                }
+            }
+        ],
+        "inbounds": [
+            {
+                "tag": "socks",
+                "port": 10808,
+                "listen": "127.0.0.1",
+                "protocol": "socks",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            },
+            {
+                "tag": "http",
+                "port": 10809,
+                "listen": "127.0.0.1",
+                "protocol": "http",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            }
+        ]
+    },
+    {
+        "remarks": "%5B%F0%9F%87%B8%F0%9F%87%AA%5Dt.me/ConfigsHub",
+        "log": {
+            "access": "",
+            "error": "",
+            "loglevel": "warning"
+        },
+        "outbounds": [
+            {
+                "tag": "proxy",
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "ap.elmahstyle.ir",
+                            "port": 80,
+                            "users": [
+                                {
+                                    "id": "f560ede6-914c-4dd8-94e0-10ee1982d3f4",
+                                    "alterId": 0,
+                                    "email": "t@t.tt",
+                                    "security": "auto",
+                                    "encryption": "none",
+                                    "flow": ""
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "wsSettings": {
+                        "path": "",
+                        "headers": {
+                            "Host": "netflixv%F0%9F%A5%B1%F0%9F%96%95giufyduuvgguiigyquhoihtfxtopuihojV2rayolhgyfyvyvlknouvrdfed2s2svyhij22kkuogifjfkfifofotitirruye63467r8t8t8tgigjgjvnvmfsraew4w4w5e5e7t8y9u9uhoihopjjpkbbkvngnmcmchfyfdy6deuyeywueotogicih7uhihfyyydhdhfydfyjjhfdhfy1.1.naziitness.com."
+                        }
+                    }
+                },
+                "mux": {
+                    "enabled": false,
+                    "concurrency": -1
+                }
+            },
+            {
+                "tag": "direct",
+                "protocol": "freedom",
+                "settings": {}
+            },
+            {
+                "tag": "block",
+                "protocol": "blackhole",
+                "settings": {
+                    "response": {
+                        "type": "http"
+                    }
+                }
+            }
+        ],
+        "inbounds": [
+            {
+                "tag": "socks",
+                "port": 10808,
+                "listen": "127.0.0.1",
+                "protocol": "socks",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            },
+            {
+                "tag": "http",
+                "port": 10809,
+                "listen": "127.0.0.1",
+                "protocol": "http",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            }
+        ]
+    },
+    {
+        "remarks": "%E6%96%B0%E5%8A%A0%E5%9D%A1-VA%20x%20LcWd",
+        "log": {
+            "access": "",
+            "error": "",
+            "loglevel": "warning"
+        },
+        "outbounds": [
+            {
+                "tag": "proxy",
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "162.159.4.59",
+                            "port": 443,
+                            "users": [
+                                {
+                                    "id": "cfd0935c-8dda-4243-9622-dc2fe8f868c8",
+                                    "alterId": 0,
+                                    "email": "t@t.tt",
+                                    "security": "auto",
+                                    "encryption": "none",
+                                    "flow": ""
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "wsSettings": {
+                        "path": "",
+                        "headers": {
+                            "Host": "fragment.leon4rdo78.wOrKERs.DeV"
+                        }
+                    },
+                    "security": "tls",
+                    "tlsSettings": {
+                        "allowInsecure": true,
+                        "serverName": "fragment.leon4rdo78.wOrKERs.DeV",
+                        "alpn": [
+                            "h2"
+                        ],
+                        "show": false
+                    }
+                },
+                "mux": {
+                    "enabled": false,
+                    "concurrency": -1
+                }
+            },
+            {
+                "tag": "direct",
+                "protocol": "freedom",
+                "settings": {}
+            },
+            {
+                "tag": "block",
+                "protocol": "blackhole",
+                "settings": {
+                    "response": {
+                        "type": "http"
+                    }
+                }
+            }
+        ],
+        "inbounds": [
+            {
+                "tag": "socks",
+                "port": 10808,
+                "listen": "127.0.0.1",
+                "protocol": "socks",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            },
+            {
+                "tag": "http",
+                "port": 10809,
+                "listen": "127.0.0.1",
+                "protocol": "http",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            }
+        ]
+    },
+    {
+        "remarks": "%E6%9C%AA%E7%9F%A5-VA%20x%20LcWd",
+        "log": {
+            "access": "",
+            "error": "",
+            "loglevel": "warning"
+        },
+        "outbounds": [
+            {
+                "tag": "proxy",
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "162.159.130.25",
+                            "port": 443,
+                            "users": [
+                                {
+                                    "id": "f9e0b36b-f1d5-4f3f-87dd-1e14919915b9",
+                                    "alterId": 0,
+                                    "email": "t@t.tt",
+                                    "security": "auto",
+                                    "encryption": "none",
+                                    "flow": ""
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "wsSettings": {
+                        "path": "",
+                        "headers": {
+                            "Host": "fragment.leon4rdo78.WORKERS.deV"
+                        }
+                    },
+                    "security": "tls",
+                    "tlsSettings": {
+                        "allowInsecure": true,
+                        "serverName": "fragment.leon4rdo78.WORKERS.deV",
+                        "alpn": [
+                            "http/1.1",
+                            "h2",
+                            "h3"
+                        ],
+                        "show": false
+                    }
+                },
+                "mux": {
+                    "enabled": false,
+                    "concurrency": -1
+                }
+            },
+            {
+                "tag": "direct",
+                "protocol": "freedom",
+                "settings": {}
+            },
+            {
+                "tag": "block",
+                "protocol": "blackhole",
+                "settings": {
+                    "response": {
+                        "type": "http"
+                    }
+                }
+            }
+        ],
+        "inbounds": [
+            {
+                "tag": "socks",
+                "port": 10808,
+                "listen": "127.0.0.1",
+                "protocol": "socks",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            },
+            {
+                "tag": "http",
+                "port": 10809,
+                "listen": "127.0.0.1",
+                "protocol": "http",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            }
+        ]
+    },
+    {
+        "remarks": "\ud83c\uddf3\ud83c\udde6 Namibia-Vmix x LcWd",
+        "log": {
+            "access": "",
+            "error": "",
+            "loglevel": "warning"
+        },
+        "outbounds": [
+            {
+                "tag": "proxy",
+                "protocol": "vmess",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "188.114.98.224",
+                            "port": 443,
+                            "users": [
+                                {
+                                    "id": "1b9bcb02-11e8-4111-8f59-9480d2641a09",
+                                    "alterId": 0,
+                                    "email": "t@t.tt",
+                                    "security": "auto"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "wsSettings": {
+                        "path": "/fr2-vmess.sshmax.xyz:443/vmess",
+                        "headers": {
+                            "Host": "vmixed23.leon4rdo78.WORKers.dEV"
+                        }
+                    },
+                    "security": "tls",
+                    "tlsSettings": {
+                        "allowInsecure": true,
+                        "serverName": "vmixed23.leon4rdo78.WORKers.dEV",
+                        "alpn": [
+                            "http/1.1",
+                            "h2",
+                            "h3"
+                        ],
+                        "show": false,
+                        "fingerprint": "edge"
+                    }
+                },
+                "mux": {
+                    "enabled": false,
+                    "concurrency": -1
+                }
+            },
+            {
+                "tag": "direct",
+                "protocol": "freedom",
+                "settings": {}
+            },
+            {
+                "tag": "block",
+                "protocol": "blackhole",
+                "settings": {
+                    "response": {
+                        "type": "http"
+                    }
+                }
+            }
+        ],
+        "inbounds": [
+            {
+                "tag": "socks",
+                "port": 10808,
+                "listen": "127.0.0.1",
+                "protocol": "socks",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            },
+            {
+                "tag": "http",
+                "port": 10809,
+                "listen": "127.0.0.1",
+                "protocol": "http",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            }
+        ]
+    },
+    {
+        "remarks": "%F0%9F%87%B3%F0%9F%87%A6%20Namibia-Vmix%20x%20LcWd",
+        "log": {
+            "access": "",
+            "error": "",
+            "loglevel": "warning"
+        },
+        "outbounds": [
+            {
+                "tag": "proxy",
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "188.114.98.224",
+                            "port": 443,
+                            "users": [
+                                {
+                                    "id": "3490f22a-f4a3-48af-b073-41e328b30216",
+                                    "alterId": 0,
+                                    "email": "t@t.tt",
+                                    "security": "auto",
+                                    "encryption": "none",
+                                    "flow": ""
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "wsSettings": {
+                        "path": "",
+                        "headers": {
+                            "Host": "vmixed23.leon4rdo78.WoRKeRS.dev"
+                        }
+                    },
+                    "security": "tls",
+                    "tlsSettings": {
+                        "allowInsecure": true,
+                        "serverName": "vmixed23.leon4rdo78.WoRKeRS.dev",
+                        "alpn": [
+                            "http/1.1",
+                            "h2",
+                            "h3"
+                        ],
+                        "show": false
+                    }
+                },
+                "mux": {
+                    "enabled": false,
+                    "concurrency": -1
+                }
+            },
+            {
+                "tag": "direct",
+                "protocol": "freedom",
+                "settings": {}
+            },
+            {
+                "tag": "block",
+                "protocol": "blackhole",
+                "settings": {
+                    "response": {
+                        "type": "http"
+                    }
+                }
+            }
+        ],
+        "inbounds": [
+            {
+                "tag": "socks",
+                "port": 10808,
+                "listen": "127.0.0.1",
+                "protocol": "socks",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            },
+            {
+                "tag": "http",
+                "port": 10809,
+                "listen": "127.0.0.1",
+                "protocol": "http",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            }
+        ]
+    },
+    {
+        "remarks": "\ud83c\uddf3\ud83c\udde6 Namibia-VM x LcWd",
+        "log": {
+            "access": "",
+            "error": "",
+            "loglevel": "warning"
+        },
+        "outbounds": [
+            {
+                "tag": "proxy",
+                "protocol": "vmess",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "104.19.147.121",
+                            "port": 443,
+                            "users": [
+                                {
+                                    "id": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
+                                    "alterId": 0,
+                                    "email": "t@t.tt",
+                                    "security": "auto"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "wsSettings": {
+                        "path": "/obdii.cfd:443/linkws",
+                        "headers": {
+                            "Host": "vm23.leon4rdo78.WorKErs.DEV"
+                        }
+                    },
+                    "security": "tls",
+                    "tlsSettings": {
+                        "allowInsecure": true,
+                        "serverName": "vm23.leon4rdo78.WorKErs.DEV",
+                        "alpn": [
+                            "http/1.1",
+                            "h2",
+                            "h3"
+                        ],
+                        "show": false,
+                        "fingerprint": "firefox"
+                    }
+                },
+                "mux": {
+                    "enabled": false,
+                    "concurrency": -1
+                }
+            },
+            {
+                "tag": "direct",
+                "protocol": "freedom",
+                "settings": {}
+            },
+            {
+                "tag": "block",
+                "protocol": "blackhole",
+                "settings": {
+                    "response": {
+                        "type": "http"
+                    }
+                }
+            }
+        ],
+        "inbounds": [
+            {
+                "tag": "socks",
+                "port": 10808,
+                "listen": "127.0.0.1",
+                "protocol": "socks",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            },
+            {
+                "tag": "http",
+                "port": 10809,
+                "listen": "127.0.0.1",
+                "protocol": "http",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            }
+        ]
+    },
+    {
+        "remarks": "%E6%9C%AA%E7%9F%A5-VA%20x%20LcWd",
+        "log": {
+            "access": "",
+            "error": "",
+            "loglevel": "warning"
+        },
+        "outbounds": [
+            {
+                "tag": "proxy",
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "162.159.4.59",
+                            "port": 443,
+                            "users": [
+                                {
+                                    "id": "0f5d860d-204e-48dc-a384-76043a34add7",
+                                    "alterId": 0,
+                                    "email": "t@t.tt",
+                                    "security": "auto",
+                                    "encryption": "none",
+                                    "flow": ""
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "wsSettings": {
+                        "path": "",
+                        "headers": {
+                            "Host": "fragment.leon4rdo78.WORKeRs.dev"
+                        }
+                    },
+                    "security": "tls",
+                    "tlsSettings": {
+                        "allowInsecure": true,
+                        "serverName": "fragment.leon4rdo78.WORKeRs.dev",
+                        "alpn": [
+                            "http/1.1",
+                            "h2",
+                            "h3"
+                        ],
+                        "show": false
+                    }
+                },
+                "mux": {
+                    "enabled": false,
+                    "concurrency": -1
+                }
+            },
+            {
+                "tag": "direct",
+                "protocol": "freedom",
+                "settings": {}
+            },
+            {
+                "tag": "block",
+                "protocol": "blackhole",
+                "settings": {
+                    "response": {
+                        "type": "http"
+                    }
+                }
+            }
+        ],
+        "inbounds": [
+            {
+                "tag": "socks",
+                "port": 10808,
+                "listen": "127.0.0.1",
+                "protocol": "socks",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            },
+            {
+                "tag": "http",
+                "port": 10809,
+                "listen": "127.0.0.1",
+                "protocol": "http",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            }
+        ]
+    },
+    {
+        "remarks": "%5B%F0%9F%87%B8%F0%9F%87%AA%5Dt.me/ConfigsHub",
+        "log": {
+            "access": "",
+            "error": "",
+            "loglevel": "warning"
+        },
+        "outbounds": [
+            {
+                "tag": "proxy",
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "185.146.173.94",
+                            "port": 80,
+                            "users": [
+                                {
+                                    "id": "c5870b16-9eba-47b9-939d-2d117e927555",
+                                    "alterId": 0,
+                                    "email": "t@t.tt",
+                                    "security": "auto",
+                                    "encryption": "none",
+                                    "flow": ""
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "wsSettings": {
+                        "path": "",
+                        "headers": {
+                            "Host": "4.V2ray.mihanyas.ir.mbj.farsroid.com.%E5%88%97%E5%88%97%E7%94%B7%E4%BA%8B%E7%9A%84%E4%BA%8B%E5%88%97%E4%B8%8A%E8%B5%9B%E7%94%B778.StOre."
+                        }
+                    }
+                },
+                "mux": {
+                    "enabled": false,
+                    "concurrency": -1
+                }
+            },
+            {
+                "tag": "direct",
+                "protocol": "freedom",
+                "settings": {}
+            },
+            {
+                "tag": "block",
+                "protocol": "blackhole",
+                "settings": {
+                    "response": {
+                        "type": "http"
+                    }
+                }
+            }
+        ],
+        "inbounds": [
+            {
+                "tag": "socks",
+                "port": 10808,
+                "listen": "127.0.0.1",
+                "protocol": "socks",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            },
+            {
+                "tag": "http",
+                "port": 10809,
+                "listen": "127.0.0.1",
+                "protocol": "http",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            }
+        ]
+    },
+    {
+        "remarks": "%F0%9F%87%B3%F0%9F%87%A6%20Namibia-VA%20x%20LcWd",
+        "log": {
+            "access": "",
+            "error": "",
+            "loglevel": "warning"
+        },
+        "outbounds": [
+            {
+                "tag": "proxy",
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "162.159.4.59",
+                            "port": 443,
+                            "users": [
+                                {
+                                    "id": "2f0b8dcd-8c01-4714-89f0-5a855049cebd",
+                                    "alterId": 0,
+                                    "email": "t@t.tt",
+                                    "security": "auto",
+                                    "encryption": "none",
+                                    "flow": ""
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "wsSettings": {
+                        "path": "",
+                        "headers": {
+                            "Host": "fragment.leon4rdo78.wORKERS.DEv"
+                        }
+                    },
+                    "security": "tls",
+                    "tlsSettings": {
+                        "allowInsecure": true,
+                        "serverName": "fragment.leon4rdo78.wORKERS.DEv",
+                        "alpn": [
+                            "h2"
+                        ],
+                        "show": false
+                    }
+                },
+                "mux": {
+                    "enabled": false,
+                    "concurrency": -1
+                }
+            },
+            {
+                "tag": "direct",
+                "protocol": "freedom",
+                "settings": {}
+            },
+            {
+                "tag": "block",
+                "protocol": "blackhole",
+                "settings": {
+                    "response": {
+                        "type": "http"
+                    }
+                }
+            }
+        ],
+        "inbounds": [
+            {
+                "tag": "socks",
+                "port": 10808,
+                "listen": "127.0.0.1",
+                "protocol": "socks",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            },
+            {
+                "tag": "http",
+                "port": 10809,
+                "listen": "127.0.0.1",
+                "protocol": "http",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            }
+        ]
+    },
+    {
+        "remarks": "%F0%9F%87%B3%F0%9F%87%A6%20Namibia-Vmix%20x%20LcWd",
+        "log": {
+            "access": "",
+            "error": "",
+            "loglevel": "warning"
+        },
+        "outbounds": [
+            {
+                "tag": "proxy",
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "188.114.98.224",
+                            "port": 443,
+                            "users": [
+                                {
+                                    "id": "0fdd8743-50fe-4615-ba4d-be3bd6d98cb3",
+                                    "alterId": 0,
+                                    "email": "t@t.tt",
+                                    "security": "auto",
+                                    "encryption": "none",
+                                    "flow": ""
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "wsSettings": {
+                        "path": "",
+                        "headers": {
+                            "Host": "vmixed23.leon4rdo78.wORkeRS.deV"
+                        }
+                    },
+                    "security": "tls",
+                    "tlsSettings": {
+                        "allowInsecure": true,
+                        "serverName": "vmixed23.leon4rdo78.wORkeRS.deV",
+                        "alpn": [
+                            "http/1.1",
+                            "h2",
+                            "h3"
+                        ],
+                        "show": false
+                    }
+                },
+                "mux": {
+                    "enabled": false,
+                    "concurrency": -1
+                }
+            },
+            {
+                "tag": "direct",
+                "protocol": "freedom",
+                "settings": {}
+            },
+            {
+                "tag": "block",
+                "protocol": "blackhole",
+                "settings": {
+                    "response": {
+                        "type": "http"
+                    }
+                }
+            }
+        ],
+        "inbounds": [
+            {
+                "tag": "socks",
+                "port": 10808,
+                "listen": "127.0.0.1",
+                "protocol": "socks",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            },
+            {
+                "tag": "http",
+                "port": 10809,
+                "listen": "127.0.0.1",
+                "protocol": "http",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            }
+        ]
+    },
+    {
+        "remarks": "%E5%BE%B7%E5%9B%BD-Vmix%20x%20LcWd",
+        "log": {
+            "access": "",
+            "error": "",
+            "loglevel": "warning"
+        },
+        "outbounds": [
+            {
+                "tag": "proxy",
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "188.114.98.224",
+                            "port": 8443,
+                            "users": [
+                                {
+                                    "id": "38a2070d-a256-48f3-891b-c9b68b01c8f7",
+                                    "alterId": 0,
+                                    "email": "t@t.tt",
+                                    "security": "auto",
+                                    "encryption": "none",
+                                    "flow": ""
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "wsSettings": {
+                        "path": "",
+                        "headers": {
+                            "Host": "vmixed23.leon4rdo78.wORkeRs.DeV"
+                        }
+                    },
+                    "security": "tls",
+                    "tlsSettings": {
+                        "allowInsecure": true,
+                        "serverName": "vmixed23.leon4rdo78.wORkeRs.DeV",
+                        "alpn": [
+                            "h2"
+                        ],
+                        "show": false
+                    }
+                },
+                "mux": {
+                    "enabled": false,
+                    "concurrency": -1
+                }
+            },
+            {
+                "tag": "direct",
+                "protocol": "freedom",
+                "settings": {}
+            },
+            {
+                "tag": "block",
+                "protocol": "blackhole",
+                "settings": {
+                    "response": {
+                        "type": "http"
+                    }
+                }
+            }
+        ],
+        "inbounds": [
+            {
+                "tag": "socks",
+                "port": 10808,
+                "listen": "127.0.0.1",
+                "protocol": "socks",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            },
+            {
+                "tag": "http",
+                "port": 10809,
+                "listen": "127.0.0.1",
+                "protocol": "http",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            }
+        ]
+    },
+    {
+        "remarks": "%F0%9F%87%B3%F0%9F%87%A6%20Namibia-Vmix%20x%20LcWd",
+        "log": {
+            "access": "",
+            "error": "",
+            "loglevel": "warning"
+        },
+        "outbounds": [
+            {
+                "tag": "proxy",
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "188.114.98.224",
+                            "port": 443,
+                            "users": [
+                                {
+                                    "id": "e31c3ef9-b0ba-4353-abdd-ed7a2eac0ed8",
+                                    "alterId": 0,
+                                    "email": "t@t.tt",
+                                    "security": "auto",
+                                    "encryption": "none",
+                                    "flow": ""
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "wsSettings": {
+                        "path": "",
+                        "headers": {
+                            "Host": "vmixed23.leon4rdo78.workErS.dEv"
+                        }
+                    },
+                    "security": "tls",
+                    "tlsSettings": {
+                        "allowInsecure": true,
+                        "serverName": "vmixed23.leon4rdo78.workErS.dEv",
+                        "alpn": [
+                            "http/1.1",
+                            "h2"
+                        ],
+                        "show": false
+                    }
+                },
+                "mux": {
+                    "enabled": false,
+                    "concurrency": -1
+                }
+            },
+            {
+                "tag": "direct",
+                "protocol": "freedom",
+                "settings": {}
+            },
+            {
+                "tag": "block",
+                "protocol": "blackhole",
+                "settings": {
+                    "response": {
+                        "type": "http"
+                    }
+                }
+            }
+        ],
+        "inbounds": [
+            {
+                "tag": "socks",
+                "port": 10808,
+                "listen": "127.0.0.1",
+                "protocol": "socks",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            },
+            {
+                "tag": "http",
+                "port": 10809,
+                "listen": "127.0.0.1",
+                "protocol": "http",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            }
+        ]
+    },
+    {
+        "remarks": "\ud83c\uddf3\ud83c\udde6 Namibia-VM x LcWd",
+        "log": {
+            "access": "",
+            "error": "",
+            "loglevel": "warning"
+        },
+        "outbounds": [
+            {
+                "tag": "proxy",
+                "protocol": "vmess",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "104.19.147.121",
+                            "port": 443,
+                            "users": [
+                                {
+                                    "id": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
+                                    "alterId": 0,
+                                    "email": "t@t.tt",
+                                    "security": "auto"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "wsSettings": {
+                        "path": "/obdii.cfd:443/linkws",
+                        "headers": {
+                            "Host": "vm23.leon4rdo78.wOrKeRs.DeV"
+                        }
+                    },
+                    "security": "tls",
+                    "tlsSettings": {
+                        "allowInsecure": true,
+                        "serverName": "vm23.leon4rdo78.wOrKeRs.DeV",
+                        "alpn": [
+                            "http/1.1",
+                            "h2",
+                            "h3"
+                        ],
+                        "show": false,
+                        "fingerprint": "firefox"
+                    }
+                },
+                "mux": {
+                    "enabled": false,
+                    "concurrency": -1
+                }
+            },
+            {
+                "tag": "direct",
+                "protocol": "freedom",
+                "settings": {}
+            },
+            {
+                "tag": "block",
+                "protocol": "blackhole",
+                "settings": {
+                    "response": {
+                        "type": "http"
+                    }
+                }
+            }
+        ],
+        "inbounds": [
+            {
+                "tag": "socks",
+                "port": 10808,
+                "listen": "127.0.0.1",
+                "protocol": "socks",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            },
+            {
+                "tag": "http",
+                "port": 10809,
+                "listen": "127.0.0.1",
+                "protocol": "http",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            }
+        ]
+    },
+    {
+        "remarks": "%F0%9F%87%B3%F0%9F%87%A6%20Namibia-VA%20x%20LcWd",
+        "log": {
+            "access": "",
+            "error": "",
+            "loglevel": "warning"
+        },
+        "outbounds": [
+            {
+                "tag": "proxy",
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "162.159.130.25",
+                            "port": 8443,
+                            "users": [
+                                {
+                                    "id": "38a2070d-a256-48f3-891b-c9b68b01c8f7",
+                                    "alterId": 0,
+                                    "email": "t@t.tt",
+                                    "security": "auto",
+                                    "encryption": "none",
+                                    "flow": ""
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "wsSettings": {
+                        "path": "",
+                        "headers": {
+                            "Host": "fragment.leon4rdo78.wORkeRs.dEv"
+                        }
+                    },
+                    "security": "tls",
+                    "tlsSettings": {
+                        "allowInsecure": true,
+                        "serverName": "fragment.leon4rdo78.wORkeRs.dEv",
+                        "alpn": [
+                            "h2"
+                        ],
+                        "show": false
+                    }
+                },
+                "mux": {
+                    "enabled": false,
+                    "concurrency": -1
+                }
+            },
+            {
+                "tag": "direct",
+                "protocol": "freedom",
+                "settings": {}
+            },
+            {
+                "tag": "block",
+                "protocol": "blackhole",
+                "settings": {
+                    "response": {
+                        "type": "http"
+                    }
+                }
+            }
+        ],
+        "inbounds": [
+            {
+                "tag": "socks",
+                "port": 10808,
+                "listen": "127.0.0.1",
+                "protocol": "socks",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            },
+            {
+                "tag": "http",
+                "port": 10809,
+                "listen": "127.0.0.1",
+                "protocol": "http",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            }
+        ]
+    },
+    {
+        "remarks": "%F0%9F%87%B3%F0%9F%87%A6%20Namibia-VA%20x%20LcWd",
+        "log": {
+            "access": "",
+            "error": "",
+            "loglevel": "warning"
+        },
+        "outbounds": [
+            {
+                "tag": "proxy",
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "162.159.130.25",
+                            "port": 443,
+                            "users": [
+                                {
+                                    "id": "4804f14b-c1f8-452d-a6ec-eff1490aeac9",
+                                    "alterId": 0,
+                                    "email": "t@t.tt",
+                                    "security": "auto",
+                                    "encryption": "none",
+                                    "flow": ""
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "wsSettings": {
+                        "path": "",
+                        "headers": {
+                            "Host": "fragment.leon4rdo78.workErS.dEv"
+                        }
+                    },
+                    "security": "tls",
+                    "tlsSettings": {
+                        "allowInsecure": true,
+                        "serverName": "fragment.leon4rdo78.workErS.dEv",
+                        "alpn": [
+                            "http/1.1",
+                            "h2",
+                            "h3"
+                        ],
+                        "show": false
+                    }
+                },
+                "mux": {
+                    "enabled": false,
+                    "concurrency": -1
+                }
+            },
+            {
+                "tag": "direct",
+                "protocol": "freedom",
+                "settings": {}
+            },
+            {
+                "tag": "block",
+                "protocol": "blackhole",
+                "settings": {
+                    "response": {
+                        "type": "http"
+                    }
+                }
+            }
+        ],
+        "inbounds": [
+            {
+                "tag": "socks",
+                "port": 10808,
+                "listen": "127.0.0.1",
+                "protocol": "socks",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            },
+            {
+                "tag": "http",
+                "port": 10809,
+                "listen": "127.0.0.1",
+                "protocol": "http",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            }
+        ]
+    },
+    {
+        "remarks": "[\ud83c\udde8\ud83c\udde6]t.me/ConfigsHub",
+        "log": {
+            "access": "",
+            "error": "",
+            "loglevel": "warning"
+        },
+        "outbounds": [
+            {
+                "tag": "proxy",
+                "protocol": "vmess",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "104.22.30.97",
+                            "port": 80,
+                            "users": [
+                                {
+                                    "id": "6d3a8c49-85ea-47cc-97d1-0993959787c1",
+                                    "alterId": 0,
+                                    "email": "t@t.tt",
+                                    "security": "auto"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "wsSettings": {
+                        "path": "/RACEVPN",
+                        "headers": {
+                            "Host": "mrarsha.\u4fbf\u4fbf\u6cc9\u548c\u5176\u4ed6\u4eba.oldfoxyhelastkumite.\u5dde\u62c9\u7f57.suonycars.buzz."
+                        }
+                    },
+                    "security": "",
+                    "tlsSettings": {
+                        "allowInsecure": true,
+                        "serverName": "",
+                        "alpn": [],
+                        "show": false,
+                        "fingerprint": ""
+                    }
+                },
+                "mux": {
+                    "enabled": false,
+                    "concurrency": -1
+                }
+            },
+            {
+                "tag": "direct",
+                "protocol": "freedom",
+                "settings": {}
+            },
+            {
+                "tag": "block",
+                "protocol": "blackhole",
+                "settings": {
+                    "response": {
+                        "type": "http"
+                    }
+                }
+            }
+        ],
+        "inbounds": [
+            {
+                "tag": "socks",
+                "port": 10808,
+                "listen": "127.0.0.1",
+                "protocol": "socks",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            },
+            {
+                "tag": "http",
+                "port": 10809,
+                "listen": "127.0.0.1",
+                "protocol": "http",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            }
+        ]
+    },
+    {
+        "remarks": "\ud83c\uddf3\ud83c\udde6 Namibia-VM x LcWd",
+        "log": {
+            "access": "",
+            "error": "",
+            "loglevel": "warning"
+        },
+        "outbounds": [
+            {
+                "tag": "proxy",
+                "protocol": "vmess",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "104.19.147.121",
+                            "port": 443,
+                            "users": [
+                                {
+                                    "id": "1052f24e-7b09-45eb-b0c5-d858eb124192",
+                                    "alterId": 0,
+                                    "email": "t@t.tt",
+                                    "security": "auto"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "wsSettings": {
+                        "path": "/glweidf.cfd:443/linkws",
+                        "headers": {
+                            "Host": "vm23.leon4rdo78.wOrkeRS.dev"
+                        }
+                    },
+                    "security": "tls",
+                    "tlsSettings": {
+                        "allowInsecure": true,
+                        "serverName": "vm23.leon4rdo78.wOrkeRS.dev",
+                        "alpn": [
+                            "http/1.1",
+                            "h2"
+                        ],
+                        "show": false,
+                        "fingerprint": "android"
+                    }
+                },
+                "mux": {
+                    "enabled": false,
+                    "concurrency": -1
+                }
+            },
+            {
+                "tag": "direct",
+                "protocol": "freedom",
+                "settings": {}
+            },
+            {
+                "tag": "block",
+                "protocol": "blackhole",
+                "settings": {
+                    "response": {
+                        "type": "http"
+                    }
+                }
+            }
+        ],
+        "inbounds": [
+            {
+                "tag": "socks",
+                "port": 10808,
+                "listen": "127.0.0.1",
+                "protocol": "socks",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            },
+            {
+                "tag": "http",
+                "port": 10809,
+                "listen": "127.0.0.1",
+                "protocol": "http",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            }
+        ]
+    },
+    {
+        "remarks": "\ud83c\udfc1 RELAY-Vmix x LcWd",
+        "log": {
+            "access": "",
+            "error": "",
+            "loglevel": "warning"
+        },
+        "outbounds": [
+            {
+                "tag": "proxy",
+                "protocol": "vmess",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "188.114.98.224",
+                            "port": 443,
+                            "users": [
+                                {
+                                    "id": "0e4d17ea-1332-481a-aae2-ef9b790201cf",
+                                    "alterId": 0,
+                                    "email": "t@t.tt",
+                                    "security": "auto"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "wsSettings": {
+                        "path": "/ua2-vmess.sshmax.xyz:443/vmess",
+                        "headers": {
+                            "Host": "vmixed23.leon4rdo78.WorKerS.dEv"
+                        }
+                    },
+                    "security": "tls",
+                    "tlsSettings": {
+                        "allowInsecure": true,
+                        "serverName": "vmixed23.leon4rdo78.WorKerS.dEv",
+                        "alpn": [
+                            "http/1.1",
+                            "h2",
+                            "h3"
+                        ],
+                        "show": false,
+                        "fingerprint": "chrome"
+                    }
+                },
+                "mux": {
+                    "enabled": false,
+                    "concurrency": -1
+                }
+            },
+            {
+                "tag": "direct",
+                "protocol": "freedom",
+                "settings": {}
+            },
+            {
+                "tag": "block",
+                "protocol": "blackhole",
+                "settings": {
+                    "response": {
+                        "type": "http"
+                    }
+                }
+            }
+        ],
+        "inbounds": [
+            {
+                "tag": "socks",
+                "port": 10808,
+                "listen": "127.0.0.1",
+                "protocol": "socks",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            },
+            {
+                "tag": "http",
+                "port": 10809,
+                "listen": "127.0.0.1",
+                "protocol": "http",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            }
+        ]
+    },
+    {
+        "remarks": "%E7%BE%8E%E5%9B%BD-VA%20x%20LcWd",
+        "log": {
+            "access": "",
+            "error": "",
+            "loglevel": "warning"
+        },
+        "outbounds": [
+            {
+                "tag": "proxy",
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "162.159.130.25",
+                            "port": 443,
+                            "users": [
+                                {
+                                    "id": "38a2070d-a256-48f3-891b-c9b68b01c8f7",
+                                    "alterId": 0,
+                                    "email": "t@t.tt",
+                                    "security": "auto",
+                                    "encryption": "none",
+                                    "flow": ""
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "wsSettings": {
+                        "path": "",
+                        "headers": {
+                            "Host": "fragment.leon4rdo78.wORkErs.dEV"
+                        }
+                    },
+                    "security": "tls",
+                    "tlsSettings": {
+                        "allowInsecure": true,
+                        "serverName": "fragment.leon4rdo78.wORkErs.dEV",
+                        "alpn": [
+                            "http/1.1"
+                        ],
+                        "show": false
+                    }
+                },
+                "mux": {
+                    "enabled": false,
+                    "concurrency": -1
+                }
+            },
+            {
+                "tag": "direct",
+                "protocol": "freedom",
+                "settings": {}
+            },
+            {
+                "tag": "block",
+                "protocol": "blackhole",
+                "settings": {
+                    "response": {
+                        "type": "http"
+                    }
+                }
+            }
+        ],
+        "inbounds": [
+            {
+                "tag": "socks",
+                "port": 10808,
+                "listen": "127.0.0.1",
+                "protocol": "socks",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            },
+            {
+                "tag": "http",
+                "port": 10809,
+                "listen": "127.0.0.1",
+                "protocol": "http",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            }
+        ]
+    },
+    {
+        "remarks": "%F0%9F%87%B3%F0%9F%87%A6%20Namibia-Vmix%20x%20LcWd",
+        "log": {
+            "access": "",
+            "error": "",
+            "loglevel": "warning"
+        },
+        "outbounds": [
+            {
+                "tag": "proxy",
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "188.114.98.224",
+                            "port": 2053,
+                            "users": [
+                                {
+                                    "id": "38a2070d-a256-48f3-891b-c9b68b01c8f7",
+                                    "alterId": 0,
+                                    "email": "t@t.tt",
+                                    "security": "auto",
+                                    "encryption": "none",
+                                    "flow": ""
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "wsSettings": {
+                        "path": "",
+                        "headers": {
+                            "Host": "vmixed23.leon4rdo78.wORkErS.dEV"
+                        }
+                    },
+                    "security": "tls",
+                    "tlsSettings": {
+                        "allowInsecure": true,
+                        "serverName": "vmixed23.leon4rdo78.wORkErS.dEV",
+                        "alpn": [
+                            "http/1.1",
+                            "h2",
+                            "h3"
+                        ],
+                        "show": false
+                    }
+                },
+                "mux": {
+                    "enabled": false,
+                    "concurrency": -1
+                }
+            },
+            {
+                "tag": "direct",
+                "protocol": "freedom",
+                "settings": {}
+            },
+            {
+                "tag": "block",
+                "protocol": "blackhole",
+                "settings": {
+                    "response": {
+                        "type": "http"
+                    }
+                }
+            }
+        ],
+        "inbounds": [
+            {
+                "tag": "socks",
+                "port": 10808,
+                "listen": "127.0.0.1",
+                "protocol": "socks",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            },
+            {
+                "tag": "http",
+                "port": 10809,
+                "listen": "127.0.0.1",
+                "protocol": "http",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            }
+        ]
+    },
+    {
+        "remarks": "%F0%9F%87%B3%F0%9F%87%A6%20Namibia-Vmix%20x%20LcWd",
+        "log": {
+            "access": "",
+            "error": "",
+            "loglevel": "warning"
+        },
+        "outbounds": [
+            {
+                "tag": "proxy",
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "188.114.98.224",
+                            "port": 443,
+                            "users": [
+                                {
+                                    "id": "5bdf790f-0af2-4481-a624-41b66e7e3489",
+                                    "alterId": 0,
+                                    "email": "t@t.tt",
+                                    "security": "auto",
+                                    "encryption": "none",
+                                    "flow": ""
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "wsSettings": {
+                        "path": "",
+                        "headers": {
+                            "Host": "vmixed23.leon4rdo78.WOrKErS.dEv"
+                        }
+                    },
+                    "security": "tls",
+                    "tlsSettings": {
+                        "allowInsecure": true,
+                        "serverName": "vmixed23.leon4rdo78.WOrKErS.dEv",
+                        "alpn": [
+                            "http/1.1",
+                            "h2",
+                            "h3"
+                        ],
+                        "show": false
+                    }
+                },
+                "mux": {
+                    "enabled": false,
+                    "concurrency": -1
+                }
+            },
+            {
+                "tag": "direct",
+                "protocol": "freedom",
+                "settings": {}
+            },
+            {
+                "tag": "block",
+                "protocol": "blackhole",
+                "settings": {
+                    "response": {
+                        "type": "http"
+                    }
+                }
+            }
+        ],
+        "inbounds": [
+            {
+                "tag": "socks",
+                "port": 10808,
+                "listen": "127.0.0.1",
+                "protocol": "socks",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            },
+            {
+                "tag": "http",
+                "port": 10809,
+                "listen": "127.0.0.1",
+                "protocol": "http",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            }
+        ]
+    },
+    {
+        "remarks": "\ud83c\uddf3\ud83c\udde6 Namibia-Vmix x LcWd",
+        "log": {
+            "access": "",
+            "error": "",
+            "loglevel": "warning"
+        },
+        "outbounds": [
+            {
+                "tag": "proxy",
+                "protocol": "vmess",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "188.114.98.224",
+                            "port": 443,
+                            "users": [
+                                {
+                                    "id": "1052f24e-7b09-45eb-b0c5-d858eb124192",
+                                    "alterId": 0,
+                                    "email": "t@t.tt",
+                                    "security": "auto"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "wsSettings": {
+                        "path": "/glweidf.cfd:443/linkws",
+                        "headers": {
+                            "Host": "vmixed23.leon4rdo78.WorKErS.dEV"
+                        }
+                    },
+                    "security": "tls",
+                    "tlsSettings": {
+                        "allowInsecure": true,
+                        "serverName": "vmixed23.leon4rdo78.WorKErS.dEV",
+                        "alpn": [
+                            "h2",
+                            "h3"
+                        ],
+                        "show": false,
+                        "fingerprint": "safari"
+                    }
+                },
+                "mux": {
+                    "enabled": false,
+                    "concurrency": -1
+                }
+            },
+            {
+                "tag": "direct",
+                "protocol": "freedom",
+                "settings": {}
+            },
+            {
+                "tag": "block",
+                "protocol": "blackhole",
+                "settings": {
+                    "response": {
+                        "type": "http"
+                    }
+                }
+            }
+        ],
+        "inbounds": [
+            {
+                "tag": "socks",
+                "port": 10808,
+                "listen": "127.0.0.1",
+                "protocol": "socks",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            },
+            {
+                "tag": "http",
+                "port": 10809,
+                "listen": "127.0.0.1",
+                "protocol": "http",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            }
+        ]
+    },
+    {
+        "remarks": "[\ud83c\uddf8\ud83c\uddea]t.me/ConfigsHub",
+        "log": {
+            "access": "",
+            "error": "",
+            "loglevel": "warning"
+        },
+        "outbounds": [
+            {
+                "tag": "proxy",
+                "protocol": "vmess",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "web.mobilemostafa.ir",
+                            "port": 8080,
+                            "users": [
+                                {
+                                    "id": "4739c52b-c1a3-450a-822d-f9dbbbec2f3b",
+                                    "alterId": 0,
+                                    "email": "t@t.tt",
+                                    "security": "auto"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "wsSettings": {
+                        "path": "/mesh-vmws/package.zip",
+                        "headers": {
+                            "Host": "c311b5f2679ffadfddV2rayVDsdw.mobilemostafa.ir"
+                        }
+                    },
+                    "security": "",
+                    "tlsSettings": {
+                        "allowInsecure": true,
+                        "serverName": "",
+                        "alpn": [],
+                        "show": false,
+                        "fingerprint": ""
+                    }
+                },
+                "mux": {
+                    "enabled": false,
+                    "concurrency": -1
+                }
+            },
+            {
+                "tag": "direct",
+                "protocol": "freedom",
+                "settings": {}
+            },
+            {
+                "tag": "block",
+                "protocol": "blackhole",
+                "settings": {
+                    "response": {
+                        "type": "http"
+                    }
+                }
+            }
+        ],
+        "inbounds": [
+            {
+                "tag": "socks",
+                "port": 10808,
+                "listen": "127.0.0.1",
+                "protocol": "socks",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            },
+            {
+                "tag": "http",
+                "port": 10809,
+                "listen": "127.0.0.1",
+                "protocol": "http",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            }
+        ]
+    },
+    {
+        "remarks": "%F0%9F%87%B3%F0%9F%87%A6%20Namibia-Vmix%20x%20LcWd",
+        "log": {
+            "access": "",
+            "error": "",
+            "loglevel": "warning"
+        },
+        "outbounds": [
+            {
+                "tag": "proxy",
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "188.114.98.224",
+                            "port": 443,
+                            "users": [
+                                {
+                                    "id": "5bdf790f-0af2-4481-a624-41b66e7e3489",
+                                    "alterId": 0,
+                                    "email": "t@t.tt",
+                                    "security": "auto",
+                                    "encryption": "none",
+                                    "flow": ""
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "wsSettings": {
+                        "path": "",
+                        "headers": {
+                            "Host": "vmixed23.leon4rdo78.wORkErS.deV"
+                        }
+                    },
+                    "security": "tls",
+                    "tlsSettings": {
+                        "allowInsecure": true,
+                        "serverName": "vmixed23.leon4rdo78.wORkErS.deV",
+                        "alpn": [
+                            "http/1.1",
+                            "h2",
+                            "h3"
+                        ],
+                        "show": false
+                    }
+                },
+                "mux": {
+                    "enabled": false,
+                    "concurrency": -1
+                }
+            },
+            {
+                "tag": "direct",
+                "protocol": "freedom",
+                "settings": {}
+            },
+            {
+                "tag": "block",
+                "protocol": "blackhole",
+                "settings": {
+                    "response": {
+                        "type": "http"
+                    }
+                }
+            }
+        ],
+        "inbounds": [
+            {
+                "tag": "socks",
+                "port": 10808,
+                "listen": "127.0.0.1",
+                "protocol": "socks",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            },
+            {
+                "tag": "http",
+                "port": 10809,
+                "listen": "127.0.0.1",
+                "protocol": "http",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            }
+        ]
+    },
+    {
+        "remarks": "\ud83c\uddf3\ud83c\udde6 Namibia-VM x LcWd",
+        "log": {
+            "access": "",
+            "error": "",
+            "loglevel": "warning"
+        },
+        "outbounds": [
+            {
+                "tag": "proxy",
+                "protocol": "vmess",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "104.19.147.121",
+                            "port": 443,
+                            "users": [
+                                {
+                                    "id": "14079e58-c48c-473f-81b5-a680a20f614e",
+                                    "alterId": 0,
+                                    "email": "t@t.tt",
+                                    "security": "auto"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "wsSettings": {
+                        "path": "/de2-vmess.sshmax.xyz:443/vmess",
+                        "headers": {
+                            "Host": "vm23.leon4rdo78.WorkERs.dEV"
+                        }
+                    },
+                    "security": "tls",
+                    "tlsSettings": {
+                        "allowInsecure": true,
+                        "serverName": "vm23.leon4rdo78.WorkERs.dEV",
+                        "alpn": [
+                            "http/1.1",
+                            "h2",
+                            "h3"
+                        ],
+                        "show": false,
+                        "fingerprint": "chrome"
+                    }
+                },
+                "mux": {
+                    "enabled": false,
+                    "concurrency": -1
+                }
+            },
+            {
+                "tag": "direct",
+                "protocol": "freedom",
+                "settings": {}
+            },
+            {
+                "tag": "block",
+                "protocol": "blackhole",
+                "settings": {
+                    "response": {
+                        "type": "http"
+                    }
+                }
+            }
+        ],
+        "inbounds": [
+            {
+                "tag": "socks",
+                "port": 10808,
+                "listen": "127.0.0.1",
+                "protocol": "socks",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            },
+            {
+                "tag": "http",
+                "port": 10809,
+                "listen": "127.0.0.1",
+                "protocol": "http",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            }
+        ]
+    },
+    {
+        "remarks": "%5B%F0%9F%87%B8%F0%9F%87%AA%5Dt.me/ConfigsHub",
+        "log": {
+            "access": "",
+            "error": "",
+            "loglevel": "warning"
+        },
+        "outbounds": [
+            {
+                "tag": "proxy",
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "185.146.173.1",
+                            "port": 80,
+                            "users": [
+                                {
+                                    "id": "f560ede6-914c-4dd8-94e0-10ee1982d3f4",
+                                    "alterId": 0,
+                                    "email": "t@t.tt",
+                                    "security": "auto",
+                                    "encryption": "none",
+                                    "flow": ""
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "wsSettings": {
+                        "path": "",
+                        "headers": {
+                            "Host": "netflixv%F0%9F%A5%B1%F0%9F%96%95giufyduuvgguiigyquhoihtfxtopuihojV2rayolhgyfyvyvlknouvrdfed2s2svyhij22kkuogifjfkfifofotitirruye63467r8t8t8tgigjgjvnvmfsraew4w4w5e5e7t8y9u9uhoihopjjpkbbkvngnmcmchfyfdy6deuyeywueotogicih7uhihfyyydhdhfydfyjjhfdhfy1.1.naziitness.com."
+                        }
+                    }
+                },
+                "mux": {
+                    "enabled": false,
+                    "concurrency": -1
+                }
+            },
+            {
+                "tag": "direct",
+                "protocol": "freedom",
+                "settings": {}
+            },
+            {
+                "tag": "block",
+                "protocol": "blackhole",
+                "settings": {
+                    "response": {
+                        "type": "http"
+                    }
+                }
+            }
+        ],
+        "inbounds": [
+            {
+                "tag": "socks",
+                "port": 10808,
+                "listen": "127.0.0.1",
+                "protocol": "socks",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            },
+            {
+                "tag": "http",
+                "port": 10809,
+                "listen": "127.0.0.1",
+                "protocol": "http",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            }
+        ]
+    },
+    {
+        "remarks": "%E5%8A%A0%E6%8B%BF%E5%A4%A7-Vmix%20x%20LcWd",
+        "log": {
+            "access": "",
+            "error": "",
+            "loglevel": "warning"
+        },
+        "outbounds": [
+            {
+                "tag": "proxy",
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "188.114.98.224",
+                            "port": 8443,
+                            "users": [
+                                {
+                                    "id": "38a2070d-a256-48f3-891b-c9b68b01c8f7",
+                                    "alterId": 0,
+                                    "email": "t@t.tt",
+                                    "security": "auto",
+                                    "encryption": "none",
+                                    "flow": ""
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "wsSettings": {
+                        "path": "",
+                        "headers": {
+                            "Host": "vmixed23.leon4rdo78.woRkeRS.DEV"
+                        }
+                    },
+                    "security": "tls",
+                    "tlsSettings": {
+                        "allowInsecure": true,
+                        "serverName": "vmixed23.leon4rdo78.woRkeRS.DEV",
+                        "alpn": [
+                            "http/1.1",
+                            "h2",
+                            "h3"
+                        ],
+                        "show": false
+                    }
+                },
+                "mux": {
+                    "enabled": false,
+                    "concurrency": -1
+                }
+            },
+            {
+                "tag": "direct",
+                "protocol": "freedom",
+                "settings": {}
+            },
+            {
+                "tag": "block",
+                "protocol": "blackhole",
+                "settings": {
+                    "response": {
+                        "type": "http"
+                    }
+                }
+            }
+        ],
+        "inbounds": [
+            {
+                "tag": "socks",
+                "port": 10808,
+                "listen": "127.0.0.1",
+                "protocol": "socks",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            },
+            {
+                "tag": "http",
+                "port": 10809,
+                "listen": "127.0.0.1",
+                "protocol": "http",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            }
+        ]
+    },
+    {
+        "remarks": "%F0%9F%87%B3%F0%9F%87%A6%20Namibia-VA%20x%20LcWd",
+        "log": {
+            "access": "",
+            "error": "",
+            "loglevel": "warning"
+        },
+        "outbounds": [
+            {
+                "tag": "proxy",
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "162.159.130.25",
+                            "port": 443,
+                            "users": [
+                                {
+                                    "id": "f1dd1020-7b3f-491d-a9e3-0b2cb9a1daff",
+                                    "alterId": 0,
+                                    "email": "t@t.tt",
+                                    "security": "auto",
+                                    "encryption": "none",
+                                    "flow": ""
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "wsSettings": {
+                        "path": "",
+                        "headers": {
+                            "Host": "fragment.leon4rdo78.WorKeRs.dev"
+                        }
+                    },
+                    "security": "tls",
+                    "tlsSettings": {
+                        "allowInsecure": true,
+                        "serverName": "fragment.leon4rdo78.WorKeRs.dev",
+                        "alpn": [
+                            "http/1.1"
+                        ],
+                        "show": false
+                    }
+                },
+                "mux": {
+                    "enabled": false,
+                    "concurrency": -1
+                }
+            },
+            {
+                "tag": "direct",
+                "protocol": "freedom",
+                "settings": {}
+            },
+            {
+                "tag": "block",
+                "protocol": "blackhole",
+                "settings": {
+                    "response": {
+                        "type": "http"
+                    }
+                }
+            }
+        ],
+        "inbounds": [
+            {
+                "tag": "socks",
+                "port": 10808,
+                "listen": "127.0.0.1",
+                "protocol": "socks",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            },
+            {
+                "tag": "http",
+                "port": 10809,
+                "listen": "127.0.0.1",
+                "protocol": "http",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            }
+        ]
+    },
+    {
+        "remarks": "%5B%F0%9F%8F%81%5Dt.me/ConfigsHub",
+        "log": {
+            "access": "",
+            "error": "",
+            "loglevel": "warning"
+        },
+        "outbounds": [
+            {
+                "tag": "proxy",
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "91.231.182.218",
+                            "port": 33881,
+                            "users": [
+                                {
+                                    "id": "4fc63814-73e3-4c72-8932-32a611fe8e32",
+                                    "alterId": 0,
+                                    "email": "t@t.tt",
+                                    "security": "auto",
+                                    "encryption": "none",
+                                    "flow": ""
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "tcp",
+                    "tcpSettings": {
+                        "header": {
+                            "type": "http",
+                            "request": {
+                                "version": "1.1",
+                                "method": "GET",
+                                "path": [
+                                    "/"
+                                ],
+                                "headers": {
+                                    "Host": [
+                                        ""
+                                    ],
+                                    "User-Agent": [
+                                        ""
+                                    ],
+                                    "Accept-Encoding": [
+                                        "gzip, deflate"
+                                    ],
+                                    "Connection": [
+                                        "keep-alive"
+                                    ],
+                                    "Pragma": "no-cache"
+                                }
+                            }
+                        }
+                    }
+                },
+                "mux": {
+                    "enabled": false,
+                    "concurrency": -1
+                }
+            },
+            {
+                "tag": "direct",
+                "protocol": "freedom",
+                "settings": {}
+            },
+            {
+                "tag": "block",
+                "protocol": "blackhole",
+                "settings": {
+                    "response": {
+                        "type": "http"
+                    }
+                }
+            }
+        ],
+        "inbounds": [
+            {
+                "tag": "socks",
+                "port": 10808,
+                "listen": "127.0.0.1",
+                "protocol": "socks",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            },
+            {
+                "tag": "http",
+                "port": 10809,
+                "listen": "127.0.0.1",
+                "protocol": "http",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            }
+        ]
+    },
+    {
+        "remarks": "\ud83c\uddf3\ud83c\udde6 Namibia-VA x LcWd",
+        "log": {
+            "access": "",
+            "error": "",
+            "loglevel": "warning"
+        },
+        "outbounds": [
+            {
+                "tag": "proxy",
+                "protocol": "vmess",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "162.159.4.59",
+                            "port": 443,
+                            "users": [
+                                {
+                                    "id": "f584de15-2034-4170-a723-f48c2bae5e0f",
+                                    "alterId": 0,
+                                    "email": "t@t.tt",
+                                    "security": "auto"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "wsSettings": {
+                        "path": "/afrhms16v.bestxray.buzz:443/linkws",
+                        "headers": {
+                            "Host": "fragment.leon4rdo78.wOrkeRs.dev"
+                        }
+                    },
+                    "security": "tls",
+                    "tlsSettings": {
+                        "allowInsecure": true,
+                        "serverName": "fragment.leon4rdo78.wOrkeRs.dev",
+                        "alpn": [
+                            "http/1.1"
+                        ],
+                        "show": false,
+                        "fingerprint": "android"
+                    }
+                },
+                "mux": {
+                    "enabled": false,
+                    "concurrency": -1
+                }
+            },
+            {
+                "tag": "direct",
+                "protocol": "freedom",
+                "settings": {}
+            },
+            {
+                "tag": "block",
+                "protocol": "blackhole",
+                "settings": {
+                    "response": {
+                        "type": "http"
+                    }
+                }
+            }
+        ],
+        "inbounds": [
+            {
+                "tag": "socks",
+                "port": 10808,
+                "listen": "127.0.0.1",
+                "protocol": "socks",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            },
+            {
+                "tag": "http",
+                "port": 10809,
+                "listen": "127.0.0.1",
+                "protocol": "http",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            }
+        ]
+    },
+    {
+        "remarks": "%E6%96%B0%E5%8A%A0%E5%9D%A1-Vmix%20x%20LcWd",
+        "log": {
+            "access": "",
+            "error": "",
+            "loglevel": "warning"
+        },
+        "outbounds": [
+            {
+                "tag": "proxy",
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "188.114.98.224",
+                            "port": 2096,
+                            "users": [
+                                {
+                                    "id": "cfd0935c-8dda-4243-9622-dc2fe8f868c8",
+                                    "alterId": 0,
+                                    "email": "t@t.tt",
+                                    "security": "auto",
+                                    "encryption": "none",
+                                    "flow": ""
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "wsSettings": {
+                        "path": "",
+                        "headers": {
+                            "Host": "vmixed23.leon4rdo78.wOrKERs.dEv"
+                        }
+                    },
+                    "security": "tls",
+                    "tlsSettings": {
+                        "allowInsecure": true,
+                        "serverName": "vmixed23.leon4rdo78.wOrKERs.dEv",
+                        "alpn": [
+                            "http/1.1",
+                            "h2"
+                        ],
+                        "show": false
+                    }
+                },
+                "mux": {
+                    "enabled": false,
+                    "concurrency": -1
+                }
+            },
+            {
+                "tag": "direct",
+                "protocol": "freedom",
+                "settings": {}
+            },
+            {
+                "tag": "block",
+                "protocol": "blackhole",
+                "settings": {
+                    "response": {
+                        "type": "http"
+                    }
+                }
+            }
+        ],
+        "inbounds": [
+            {
+                "tag": "socks",
+                "port": 10808,
+                "listen": "127.0.0.1",
+                "protocol": "socks",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            },
+            {
+                "tag": "http",
+                "port": 10809,
+                "listen": "127.0.0.1",
+                "protocol": "http",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            }
+        ]
+    },
+    {
+        "remarks": "%5B%F0%9F%87%B8%F0%9F%87%AA%5Dt.me/ConfigsHub",
+        "log": {
+            "access": "",
+            "error": "",
+            "loglevel": "warning"
+        },
+        "outbounds": [
+            {
+                "tag": "proxy",
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "185.146.173.58",
+                            "port": 80,
+                            "users": [
+                                {
+                                    "id": "4188e131-7722-417d-93de-8f644007e7ae",
+                                    "alterId": 0,
+                                    "email": "t@t.tt",
+                                    "security": "auto",
+                                    "encryption": "none",
+                                    "flow": ""
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "wsSettings": {
+                        "path": "",
+                        "headers": {
+                            "Host": "3.ftp.debian.org.www.speedtest.net.%E5%85%8D%E8%B4%B9%E4%B8%8A%E7%BD%9167.Site."
+                        }
+                    }
+                },
+                "mux": {
+                    "enabled": false,
+                    "concurrency": -1
+                }
+            },
+            {
+                "tag": "direct",
+                "protocol": "freedom",
+                "settings": {}
+            },
+            {
+                "tag": "block",
+                "protocol": "blackhole",
+                "settings": {
+                    "response": {
+                        "type": "http"
+                    }
+                }
+            }
+        ],
+        "inbounds": [
+            {
+                "tag": "socks",
+                "port": 10808,
+                "listen": "127.0.0.1",
+                "protocol": "socks",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            },
+            {
+                "tag": "http",
+                "port": 10809,
+                "listen": "127.0.0.1",
+                "protocol": "http",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            }
+        ]
+    },
+    {
+        "remarks": "%5B%F0%9F%87%B8%F0%9F%87%AA%5Dt.me/ConfigsHub",
+        "log": {
+            "access": "",
+            "error": "",
+            "loglevel": "warning"
+        },
+        "outbounds": [
+            {
+                "tag": "proxy",
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "185.146.173.25",
+                            "port": 8080,
+                            "users": [
+                                {
+                                    "id": "a52a2085-c581-4f47-a848-256dae108790",
+                                    "alterId": 0,
+                                    "email": "t@t.tt",
+                                    "security": "auto",
+                                    "encryption": "none",
+                                    "flow": ""
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "wsSettings": {
+                        "path": "",
+                        "headers": {
+                            "Host": "its-legendaryking.com-so.ir-whereareyoumylady.4.4.4.4.ir.xn--9iqtb0z3kmg58ejur6wfbwf9muugk7rck30b0frbqkvk2bye0bm1a.arvancloud.online."
+                        }
+                    }
+                },
+                "mux": {
+                    "enabled": false,
+                    "concurrency": -1
+                }
+            },
+            {
+                "tag": "direct",
+                "protocol": "freedom",
+                "settings": {}
+            },
+            {
+                "tag": "block",
+                "protocol": "blackhole",
+                "settings": {
+                    "response": {
+                        "type": "http"
+                    }
+                }
+            }
+        ],
+        "inbounds": [
+            {
+                "tag": "socks",
+                "port": 10808,
+                "listen": "127.0.0.1",
+                "protocol": "socks",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            },
+            {
+                "tag": "http",
+                "port": 10809,
+                "listen": "127.0.0.1",
+                "protocol": "http",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            }
+        ]
+    },
+    {
+        "remarks": "%E4%BA%9A%E7%BE%8E%E5%B0%BC%E4%BA%9A-Vmix%20x%20LcWd",
+        "log": {
+            "access": "",
+            "error": "",
+            "loglevel": "warning"
+        },
+        "outbounds": [
+            {
+                "tag": "proxy",
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "188.114.98.224",
+                            "port": 443,
+                            "users": [
+                                {
+                                    "id": "38a2070d-a256-48f3-891b-c9b68b01c8f7",
+                                    "alterId": 0,
+                                    "email": "t@t.tt",
+                                    "security": "auto",
+                                    "encryption": "none",
+                                    "flow": ""
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "wsSettings": {
+                        "path": "",
+                        "headers": {
+                            "Host": "vmixed23.leon4rdo78.wOrkers.DEV"
+                        }
+                    },
+                    "security": "tls",
+                    "tlsSettings": {
+                        "allowInsecure": true,
+                        "serverName": "vmixed23.leon4rdo78.wOrkers.DEV",
+                        "alpn": [
+                            "http/1.1",
+                            "h2",
+                            "h3"
+                        ],
+                        "show": false
+                    }
+                },
+                "mux": {
+                    "enabled": false,
+                    "concurrency": -1
+                }
+            },
+            {
+                "tag": "direct",
+                "protocol": "freedom",
+                "settings": {}
+            },
+            {
+                "tag": "block",
+                "protocol": "blackhole",
+                "settings": {
+                    "response": {
+                        "type": "http"
+                    }
+                }
+            }
+        ],
+        "inbounds": [
+            {
+                "tag": "socks",
+                "port": 10808,
+                "listen": "127.0.0.1",
+                "protocol": "socks",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            },
+            {
+                "tag": "http",
+                "port": 10809,
+                "listen": "127.0.0.1",
+                "protocol": "http",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            }
+        ]
+    },
+    {
+        "remarks": "%E6%8B%89%E8%84%B1%E7%BB%B4%E4%BA%9A-VA%20x%20LcWd",
+        "log": {
+            "access": "",
+            "error": "",
+            "loglevel": "warning"
+        },
+        "outbounds": [
+            {
+                "tag": "proxy",
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "162.159.130.25",
+                            "port": 443,
+                            "users": [
+                                {
+                                    "id": "cb4fca5f-edf8-415b-aa8f-ac52f415296a",
+                                    "alterId": 0,
+                                    "email": "t@t.tt",
+                                    "security": "auto",
+                                    "encryption": "none",
+                                    "flow": ""
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "wsSettings": {
+                        "path": "",
+                        "headers": {
+                            "Host": "fragment.leon4rdo78.WoRkeRs.Dev"
+                        }
+                    },
+                    "security": "tls",
+                    "tlsSettings": {
+                        "allowInsecure": true,
+                        "serverName": "fragment.leon4rdo78.WoRkeRs.Dev",
+                        "alpn": [
+                            "http/1.1"
+                        ],
+                        "show": false
+                    }
+                },
+                "mux": {
+                    "enabled": false,
+                    "concurrency": -1
+                }
+            },
+            {
+                "tag": "direct",
+                "protocol": "freedom",
+                "settings": {}
+            },
+            {
+                "tag": "block",
+                "protocol": "blackhole",
+                "settings": {
+                    "response": {
+                        "type": "http"
+                    }
+                }
+            }
+        ],
+        "inbounds": [
+            {
+                "tag": "socks",
+                "port": 10808,
+                "listen": "127.0.0.1",
+                "protocol": "socks",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            },
+            {
+                "tag": "http",
+                "port": 10809,
+                "listen": "127.0.0.1",
+                "protocol": "http",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            }
+        ]
+    },
+    {
+        "remarks": "%E6%9C%AA%E7%9F%A5-VA%20x%20LcWd",
+        "log": {
+            "access": "",
+            "error": "",
+            "loglevel": "warning"
+        },
+        "outbounds": [
+            {
+                "tag": "proxy",
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "162.159.130.25",
+                            "port": 443,
+                            "users": [
+                                {
+                                    "id": "75769ab7-ebd9-49b7-af04-e542a45638b7",
+                                    "alterId": 0,
+                                    "email": "t@t.tt",
+                                    "security": "auto",
+                                    "encryption": "none",
+                                    "flow": ""
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "wsSettings": {
+                        "path": "",
+                        "headers": {
+                            "Host": "fragment.leon4rdo78.wOrKeRS.DEV"
+                        }
+                    },
+                    "security": "tls",
+                    "tlsSettings": {
+                        "allowInsecure": true,
+                        "serverName": "fragment.leon4rdo78.wOrKeRS.DEV",
+                        "alpn": [
+                            "h2"
+                        ],
+                        "show": false
+                    }
+                },
+                "mux": {
+                    "enabled": false,
+                    "concurrency": -1
+                }
+            },
+            {
+                "tag": "direct",
+                "protocol": "freedom",
+                "settings": {}
+            },
+            {
+                "tag": "block",
+                "protocol": "blackhole",
+                "settings": {
+                    "response": {
+                        "type": "http"
+                    }
+                }
+            }
+        ],
+        "inbounds": [
+            {
+                "tag": "socks",
+                "port": 10808,
+                "listen": "127.0.0.1",
+                "protocol": "socks",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            },
+            {
+                "tag": "http",
+                "port": 10809,
+                "listen": "127.0.0.1",
+                "protocol": "http",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "routeOnly": false
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            }
+        ]
+    }
+]
