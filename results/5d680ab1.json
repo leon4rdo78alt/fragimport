@@ -1,5 +1,5 @@
 {
-    "remarks": "%5B%F0%9F%87%B8%F0%9F%87%AA%5Dt.me/ConfigsHub",
+    "remarks": "112-%E6%96%B0%E5%8A%A0%E5%9D%A1_052718272-VA%20x%20LcWd",
     "log": {
         "access": "",
         "error": "",
@@ -12,11 +12,11 @@
             "settings": {
                 "vnext": [
                     {
-                        "address": "185.146.173.94",
-                        "port": 80,
+                        "address": "188.114.98.224",
+                        "port": 2087,
                         "users": [
                             {
-                                "id": "c5870b16-9eba-47b9-939d-2d117e927555",
+                                "id": "cfd0935c-8dda-4243-9622-dc2fe8f868c8",
                                 "alterId": 0,
                                 "email": "t@t.tt",
                                 "security": "auto",
@@ -32,8 +32,18 @@
                 "wsSettings": {
                     "path": "",
                     "headers": {
-                        "Host": "4.V2ray.mihanyas.ir.mbj.farsroid.com.%E5%88%97%E5%88%97%E7%94%B7%E4%BA%8B%E7%9A%84%E4%BA%8B%E5%88%97%E4%B8%8A%E8%B5%9B%E7%94%B778.StOre."
+                        "Host": "fragment.leon4rdo78.WorKERS.DEv"
                     }
+                },
+                "security": "tls",
+                "tlsSettings": {
+                    "allowInsecure": true,
+                    "serverName": "fragment.leon4rdo78.WorKERS.DEv",
+                    "alpn": [
+                        "http/1.1",
+                        "h2"
+                    ],
+                    "show": false
                 },
                 "sockopt": {
                     "dialerProxy": "fragment",

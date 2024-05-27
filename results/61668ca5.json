@@ -1,5 +1,5 @@
 {
-    "remarks": "%5B%F0%9F%8F%81%5Dt.me/ConfigsHub",
+    "remarks": "158-%E6%96%B0%E5%8A%A0%E5%9D%A1_052718231-VA%20x%20LcWd",
     "log": {
         "access": "",
         "error": "",
@@ -12,11 +12,11 @@
             "settings": {
                 "vnext": [
                     {
-                        "address": "91.231.182.218",
-                        "port": 33881,
+                        "address": "188.114.98.224",
+                        "port": 2096,
                         "users": [
                             {
-                                "id": "4fc63814-73e3-4c72-8932-32a611fe8e32",
+                                "id": "cfd0935c-8dda-4243-9622-dc2fe8f868c8",
                                 "alterId": 0,
                                 "email": "t@t.tt",
                                 "security": "auto",
@@ -28,33 +28,22 @@
                 ]
             },
             "streamSettings": {
-                "network": "tcp",
-                "tcpSettings": {
-                    "header": {
-                        "type": "http",
-                        "request": {
-                            "version": "1.1",
-                            "method": "GET",
-                            "path": [
-                                "/"
-                            ],
-                            "headers": {
-                                "Host": [
-                                    ""
-                                ],
-                                "User-Agent": [
-                                    ""
-                                ],
-                                "Accept-Encoding": [
-                                    "gzip, deflate"
-                                ],
-                                "Connection": [
-                                    "keep-alive"
-                                ],
-                                "Pragma": "no-cache"
-                            }
-                        }
+                "network": "ws",
+                "wsSettings": {
+                    "path": "",
+                    "headers": {
+                        "Host": "fragment.leon4rdo78.WoRKErS.dEv"
                     }
+                },
+                "security": "tls",
+                "tlsSettings": {
+                    "allowInsecure": true,
+                    "serverName": "fragment.leon4rdo78.WoRKErS.dEv",
+                    "alpn": [
+                        "http/1.1",
+                        "h2"
+                    ],
+                    "show": false
                 },
                 "sockopt": {
                     "dialerProxy": "fragment",

@@ -1,5 +1,5 @@
 {
-    "remarks": "🇳🇦 Namibia-VM x LcWd",
+    "remarks": "207-%E7%BE%8E%E5%9B%BD_0527183115-VA%20x%20LcWd",
     "log": {
         "access": "",
         "error": "",
@@ -8,18 +8,20 @@
     "outbounds": [
         {
             "tag": "proxy",
-            "protocol": "vmess",
+            "protocol": "vless",
             "settings": {
                 "vnext": [
                     {
-                        "address": "104.19.147.121",
-                        "port": 443,
+                        "address": "188.114.98.224",
+                        "port": 8443,
                         "users": [
                             {
-                                "id": "14079e58-c48c-473f-81b5-a680a20f614e",
+                                "id": "38a2070d-a256-48f3-891b-c9b68b01c8f7",
                                 "alterId": 0,
                                 "email": "t@t.tt",
-                                "security": "auto"
+                                "security": "auto",
+                                "encryption": "none",
+                                "flow": ""
                             }
                         ]
                     }
@@ -28,22 +30,21 @@
             "streamSettings": {
                 "network": "ws",
                 "wsSettings": {
-                    "path": "/de2-vmess.sshmax.xyz:443/vmess",
+                    "path": "",
                     "headers": {
-                        "Host": "vm23.leon4rdo78.WorkERs.dEV"
+                        "Host": "fragment.leon4rdo78.woRKErS.Dev"
                     }
                 },
                 "security": "tls",
                 "tlsSettings": {
                     "allowInsecure": true,
-                    "serverName": "vm23.leon4rdo78.WorkERs.dEV",
+                    "serverName": "fragment.leon4rdo78.woRKErS.Dev",
                     "alpn": [
                         "http/1.1",
                         "h2",
                         "h3"
                     ],
-                    "show": false,
-                    "fingerprint": "chrome"
+                    "show": false
                 },
                 "sockopt": {
                     "dialerProxy": "fragment",

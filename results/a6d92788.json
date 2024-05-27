@@ -1,5 +1,5 @@
 {
-    "remarks": "%E6%96%B0%E5%8A%A0%E5%9D%A1-VA%20x%20LcWd",
+    "remarks": "179-%E6%96%B0%E5%8A%A0%E5%9D%A1_052718276-VA%20x%20LcWd",
     "log": {
         "access": "",
         "error": "",
@@ -12,11 +12,11 @@
             "settings": {
                 "vnext": [
                     {
-                        "address": "162.159.4.59",
-                        "port": 443,
+                        "address": "188.114.98.224",
+                        "port": 2083,
                         "users": [
                             {
-                                "id": "cfd0935c-8dda-4243-9622-dc2fe8f868c8",
+                                "id": "38a2070d-a256-48f3-891b-c9b68b01c8f7",
                                 "alterId": 0,
                                 "email": "t@t.tt",
                                 "security": "auto",
@@ -32,15 +32,15 @@
                 "wsSettings": {
                     "path": "",
                     "headers": {
-                        "Host": "fragment.leon4rdo78.wOrKERs.DeV"
+                        "Host": "fragment.leon4rdo78.wORkErs.DeV"
                     }
                 },
                 "security": "tls",
                 "tlsSettings": {
                     "allowInsecure": true,
-                    "serverName": "fragment.leon4rdo78.wOrKERs.DeV",
+                    "serverName": "fragment.leon4rdo78.wORkErs.DeV",
                     "alpn": [
-                        "h2"
+                        "http/1.1"
                     ],
                     "show": false
                 },

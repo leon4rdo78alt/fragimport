@@ -1,5 +1,5 @@
 {
-    "remarks": "🏁 RELAY-Vmix x LcWd",
+    "remarks": "171-%E7%BE%8E%E5%9B%BD_0527182475-VA%20x%20LcWd",
     "log": {
         "access": "",
         "error": "",
@@ -8,7 +8,7 @@
     "outbounds": [
         {
             "tag": "proxy",
-            "protocol": "vmess",
+            "protocol": "vless",
             "settings": {
                 "vnext": [
                     {
@@ -16,10 +16,12 @@
                         "port": 443,
                         "users": [
                             {
-                                "id": "0e4d17ea-1332-481a-aae2-ef9b790201cf",
+                                "id": "38a2070d-a256-48f3-891b-c9b68b01c8f7",
                                 "alterId": 0,
                                 "email": "t@t.tt",
-                                "security": "auto"
+                                "security": "auto",
+                                "encryption": "none",
+                                "flow": ""
                             }
                         ]
                     }
@@ -28,22 +30,19 @@
             "streamSettings": {
                 "network": "ws",
                 "wsSettings": {
-                    "path": "/ua2-vmess.sshmax.xyz:443/vmess",
+                    "path": "",
                     "headers": {
-                        "Host": "vmixed23.leon4rdo78.WorKerS.dEv"
+                        "Host": "fragment.leon4rdo78.worKErS.dev"
                     }
                 },
                 "security": "tls",
                 "tlsSettings": {
                     "allowInsecure": true,
-                    "serverName": "vmixed23.leon4rdo78.WorKerS.dEv",
+                    "serverName": "fragment.leon4rdo78.worKErS.dev",
                     "alpn": [
-                        "http/1.1",
-                        "h2",
-                        "h3"
+                        "h2"
                     ],
-                    "show": false,
-                    "fingerprint": "chrome"
+                    "show": false
                 },
                 "sockopt": {
                     "dialerProxy": "fragment",

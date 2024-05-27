@@ -1,5 +1,5 @@
 {
-    "remarks": "[🇸🇪]t.me/ConfigsHub",
+    "remarks": "41-%E5%A1%9E%E8%88%8C%E5%B0%94_052718034-VA%20x%20LcWd",
     "log": {
         "access": "",
         "error": "",
@@ -8,18 +8,20 @@
     "outbounds": [
         {
             "tag": "proxy",
-            "protocol": "vmess",
+            "protocol": "vless",
             "settings": {
                 "vnext": [
                     {
-                        "address": "web.mobilemostafa.ir",
-                        "port": 8080,
+                        "address": "188.114.98.224",
+                        "port": 443,
                         "users": [
                             {
-                                "id": "4739c52b-c1a3-450a-822d-f9dbbbec2f3b",
+                                "id": "38a2070d-a256-48f3-891b-c9b68b01c8f7",
                                 "alterId": 0,
                                 "email": "t@t.tt",
-                                "security": "auto"
+                                "security": "auto",
+                                "encryption": "none",
+                                "flow": ""
                             }
                         ]
                     }
@@ -28,18 +30,19 @@
             "streamSettings": {
                 "network": "ws",
                 "wsSettings": {
-                    "path": "/mesh-vmws/package.zip",
+                    "path": "",
                     "headers": {
-                        "Host": "c311b5f2679ffadfddV2rayVDsdw.mobilemostafa.ir"
+                        "Host": "fragment.leon4rdo78.wOrkERs.dEV"
                     }
                 },
-                "security": "",
+                "security": "tls",
                 "tlsSettings": {
                     "allowInsecure": true,
-                    "serverName": "",
-                    "alpn": [],
-                    "show": false,
-                    "fingerprint": ""
+                    "serverName": "fragment.leon4rdo78.wOrkERs.dEV",
+                    "alpn": [
+                        "http/1.1"
+                    ],
+                    "show": false
                 },
                 "sockopt": {
                     "dialerProxy": "fragment",
