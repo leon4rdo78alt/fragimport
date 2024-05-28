@@ -13,10 +13,10 @@
                 "vnext": [
                     {
                         "address": "185.146.173.58",
-                        "port": 80,
+                        "port": 2095,
                         "users": [
                             {
-                                "id": "4188e131-7722-417d-93de-8f644007e7ae",
+                                "id": "68b139ae-d773-4aaf-b675-1d41e2a90734",
                                 "alterId": 0,
                                 "email": "t@t.tt",
                                 "security": "auto",
@@ -32,7 +32,7 @@
                 "wsSettings": {
                     "path": "",
                     "headers": {
-                        "Host": "3.ftp.debian.org.www.speedtest.net.%E5%85%8D%E8%B4%B9%E4%B8%8A%E7%BD%9167.Site."
+                        "Host": "V2ray-_-_-_-_vmesskhodam.lars1.nl."
                     }
                 },
                 "sockopt": {

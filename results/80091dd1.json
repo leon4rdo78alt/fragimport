@@ -1,5 +1,5 @@
 {
-    "remarks": "🇳🇦 Namibia-VM x LcWd",
+    "remarks": "%5B%F0%9F%87%A8%F0%9F%87%A6%5Dt.me/ConfigsHub",
     "log": {
         "access": "",
         "error": "",
@@ -8,18 +8,20 @@
     "outbounds": [
         {
             "tag": "proxy",
-            "protocol": "vmess",
+            "protocol": "vless",
             "settings": {
                 "vnext": [
                     {
-                        "address": "104.19.147.121",
-                        "port": 443,
+                        "address": "188.114.98.224",
+                        "port": 8080,
                         "users": [
                             {
-                                "id": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
+                                "id": "e599cfd8-154a-4705-ae2e-eb92b0f8843d",
                                 "alterId": 0,
                                 "email": "t@t.tt",
-                                "security": "auto"
+                                "security": "auto",
+                                "encryption": "none",
+                                "flow": ""
                             }
                         ]
                     }
@@ -28,22 +30,10 @@
             "streamSettings": {
                 "network": "ws",
                 "wsSettings": {
-                    "path": "/obdii.cfd:443/linkws",
+                    "path": "",
                     "headers": {
-                        "Host": "vm23.leon4rdo78.WorKErs.DEV"
+                        "Host": "V2ray-_-_-_-_-MdVpnSec.TelegramChannelJoinBede.com."
                     }
-                },
-                "security": "tls",
-                "tlsSettings": {
-                    "allowInsecure": true,
-                    "serverName": "vm23.leon4rdo78.WorKErs.DEV",
-                    "alpn": [
-                        "http/1.1",
-                        "h2",
-                        "h3"
-                    ],
-                    "show": false,
-                    "fingerprint": "firefox"
                 },
                 "sockopt": {
                     "dialerProxy": "fragment",

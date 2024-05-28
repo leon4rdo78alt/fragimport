@@ -1,5 +1,5 @@
 {
-    "remarks": "%F0%9F%87%B3%F0%9F%87%A6%20Namibia-VA%20x%20LcWd",
+    "remarks": "%5B%F0%9F%87%AE%F0%9F%87%B7%5Dt.me/ConfigsHub",
     "log": {
         "access": "",
         "error": "",
@@ -12,11 +12,11 @@
             "settings": {
                 "vnext": [
                     {
-                        "address": "162.159.130.25",
-                        "port": 8443,
+                        "address": "212.33.206.110",
+                        "port": 38597,
                         "users": [
                             {
-                                "id": "38a2070d-a256-48f3-891b-c9b68b01c8f7",
+                                "id": "fb8c4fdf-43b2-40fc-9a75-0f57931e6995",
                                 "alterId": 0,
                                 "email": "t@t.tt",
                                 "security": "auto",
@@ -28,21 +28,33 @@
                 ]
             },
             "streamSettings": {
-                "network": "ws",
-                "wsSettings": {
-                    "path": "",
-                    "headers": {
-                        "Host": "fragment.leon4rdo78.wORkeRs.dEv"
+                "network": "tcp",
+                "tcpSettings": {
+                    "header": {
+                        "type": "http",
+                        "request": {
+                            "version": "1.1",
+                            "method": "GET",
+                            "path": [
+                                "/"
+                            ],
+                            "headers": {
+                                "Host": [
+                                    ""
+                                ],
+                                "User-Agent": [
+                                    ""
+                                ],
+                                "Accept-Encoding": [
+                                    "gzip, deflate"
+                                ],
+                                "Connection": [
+                                    "keep-alive"
+                                ],
+                                "Pragma": "no-cache"
+                            }
+                        }
                     }
-                },
-                "security": "tls",
-                "tlsSettings": {
-                    "allowInsecure": true,
-                    "serverName": "fragment.leon4rdo78.wORkeRs.dEv",
-                    "alpn": [
-                        "h2"
-                    ],
-                    "show": false
                 },
                 "sockopt": {
                     "dialerProxy": "fragment",

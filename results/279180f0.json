@@ -1,5 +1,5 @@
 {
-    "remarks": "%5B%F0%9F%87%B8%F0%9F%87%AA%5Dt.me/ConfigsHub",
+    "remarks": "%5B%F0%9F%87%A8%F0%9F%87%A6%5Dt.me/ConfigsHub",
     "log": {
         "access": "",
         "error": "",
@@ -12,11 +12,11 @@
             "settings": {
                 "vnext": [
                     {
-                        "address": "185.146.173.1",
-                        "port": 80,
+                        "address": "188.114.98.224",
+                        "port": 2095,
                         "users": [
                             {
-                                "id": "f560ede6-914c-4dd8-94e0-10ee1982d3f4",
+                                "id": "cc42b47f-10d5-4f95-a2ae-d398e9f110a6",
                                 "alterId": 0,
                                 "email": "t@t.tt",
                                 "security": "auto",
@@ -32,7 +32,7 @@
                 "wsSettings": {
                     "path": "",
                     "headers": {
-                        "Host": "netflixv%F0%9F%A5%B1%F0%9F%96%95giufyduuvgguiigyquhoihtfxtopuihojV2rayolhgyfyvyvlknouvrdfed2s2svyhij22kkuogifjfkfifofotitirruye63467r8t8t8tgigjgjvnvmfsraew4w4w5e5e7t8y9u9uhoihopjjpkbbkvngnmcmchfyfdy6deuyeywueotogicih7uhihfyyydhdhfydfyjjhfdhfy1.1.naziitness.com."
+                        "Host": "V2ray-_-_-_-_-_-ShhProxy.TelegramChannelJoinBede.com."
                     }
                 },
                 "sockopt": {

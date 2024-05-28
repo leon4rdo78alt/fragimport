@@ -1,5 +1,5 @@
 {
-    "remarks": "🇳🇦 Namibia-VM x LcWd",
+    "remarks": "[🇸🇪]t.me/ConfigsHub",
     "log": {
         "access": "",
         "error": "",
@@ -12,11 +12,11 @@
             "settings": {
                 "vnext": [
                     {
-                        "address": "104.19.147.121",
-                        "port": 443,
+                        "address": "185.146.173.32",
+                        "port": 2052,
                         "users": [
                             {
-                                "id": "1052f24e-7b09-45eb-b0c5-d858eb124192",
+                                "id": "f97c3fee-8274-48f5-91f8-f7c09d82b712",
                                 "alterId": 0,
                                 "email": "t@t.tt",
                                 "security": "auto"
@@ -28,21 +28,18 @@
             "streamSettings": {
                 "network": "ws",
                 "wsSettings": {
-                    "path": "/glweidf.cfd:443/linkws",
+                    "path": "/index.php/SeYeDMT",
                     "headers": {
-                        "Host": "vm23.leon4rdo78.wOrkeRS.dev"
+                        "Host": "V2ray-_-_-_-_-_-Seyyedmt.Yahazrtabbassblogfamooshakbalestik.Blog."
                     }
                 },
-                "security": "tls",
+                "security": "",
                 "tlsSettings": {
                     "allowInsecure": true,
-                    "serverName": "vm23.leon4rdo78.wOrkeRS.dev",
-                    "alpn": [
-                        "http/1.1",
-                        "h2"
-                    ],
+                    "serverName": "",
+                    "alpn": [],
                     "show": false,
-                    "fingerprint": "android"
+                    "fingerprint": ""
                 },
                 "sockopt": {
                     "dialerProxy": "fragment",

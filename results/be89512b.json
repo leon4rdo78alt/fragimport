@@ -1,5 +1,5 @@
 {
-    "remarks": "[🇨🇦]t.me/ConfigsHub",
+    "remarks": "%5B%F0%9F%87%AE%F0%9F%87%B7%5Dt.me/ConfigsHub",
     "log": {
         "access": "",
         "error": "",
@@ -8,39 +8,27 @@
     "outbounds": [
         {
             "tag": "proxy",
-            "protocol": "vmess",
+            "protocol": "vless",
             "settings": {
                 "vnext": [
                     {
-                        "address": "104.22.30.97",
+                        "address": "213.176.0.186",
                         "port": 80,
                         "users": [
                             {
-                                "id": "6d3a8c49-85ea-47cc-97d1-0993959787c1",
+                                "id": "43f6debc-a04b-412f-b6fa-ce67783ab989",
                                 "alterId": 0,
                                 "email": "t@t.tt",
-                                "security": "auto"
+                                "security": "auto",
+                                "encryption": "none",
+                                "flow": ""
                             }
                         ]
                     }
                 ]
             },
             "streamSettings": {
-                "network": "ws",
-                "wsSettings": {
-                    "path": "/RACEVPN",
-                    "headers": {
-                        "Host": "mrarsha.便便泉和其他人.oldfoxyhelastkumite.州拉罗.suonycars.buzz."
-                    }
-                },
-                "security": "",
-                "tlsSettings": {
-                    "allowInsecure": true,
-                    "serverName": "",
-                    "alpn": [],
-                    "show": false,
-                    "fingerprint": ""
-                },
+                "network": "tcp",
                 "sockopt": {
                     "dialerProxy": "fragment",
                     "tcpKeepAliveIdle": 100,
