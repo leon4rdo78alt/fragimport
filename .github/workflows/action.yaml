@@ -150,3 +150,24 @@ jobs:
           git commit --allow-empty -m "Convert to base64"
           git pull
           git push
+
+    - name: Convert Channels base64
+      run: |
+          > gitChannels64
+          content=$(cat gitChannels | base64 | tr -d '\n')
+            echo "$content" > gitChannels64
+
+    - name: Check for Channels base64 Changes
+      id: changesChannels
+      run: |
+            git diff --quiet && echo 'No changes' || echo '::set-output name=changed::true'
+            
+    - name: Push Channels Base64
+      if: steps.changesChannels.outputs.changed == 'true'
+      run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          git commit --allow-empty -m "Convert to base64"
+          git pull
+          git push
