@@ -133,7 +133,7 @@ jobs:
     - name: Convert base64
       run: |
           > list64
-          content=$(cat list.txt | base64 | tr -d '\n')
+          content=$(cat list | base64 | tr -d '\n')
             echo "$content" > list64
 
     - name: Check for base64 Changes
