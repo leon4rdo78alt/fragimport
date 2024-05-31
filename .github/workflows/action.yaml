@@ -29,6 +29,8 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add .
+          timestamp=$(TZ='Asia/Tehran' date)
+          git commit -m "✅Updated on ${timestamp}"
           git commit --allow-empty -m "Convert to base64"
           git pull
           git push
@@ -50,6 +52,8 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add .
+          timestamp=$(TZ='Asia/Tehran' date)
+          git commit -m "✅Updated on ${timestamp}"
           git commit --allow-empty -m "Convert to base64"
           git pull
           git push
