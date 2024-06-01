@@ -32,7 +32,6 @@ jobs:
           timestamp=$(TZ='Asia/Tehran' date)
           git commit -m "✅Updated on ${timestamp}"
           git commit --allow-empty -m "Convert to base64"
-          git pull
           git push
 
     - name: Convert Channels base64
@@ -55,5 +54,4 @@ jobs:
           timestamp=$(TZ='Asia/Tehran' date)
           git commit -m "✅Updated on ${timestamp}"
           git commit --allow-empty -m "Convert to base64"
-          git pull
           git push
