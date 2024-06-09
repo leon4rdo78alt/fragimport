@@ -99,3 +99,42 @@ jobs:
           timestamp=$(TZ='Asia/Tehran' date)
           git commit -m "✅Updated on ${timestamp}"
           git push
+
+
+    - name: Run script to rename address
+      run: |
+          python iprename/iprename.py
+          
+    - name: Check for Renamed Base64 Changes
+      id: changesip
+      run: |
+            git diff --quiet && echo 'No changes' || echo '::set-output name=changed::true'   
+    - name: Commit and Push Renamed Base64
+      if: steps.changesip.outputs.changed == 'true'   
+      run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add iprename/iprename
+          timestamp=$(TZ='Asia/Tehran' date)
+          git commit -m "✅Updated on ${timestamp}"
+          git push
+
+    - name: Convert IPRename to base64
+      run: |
+          content=$(cat iprename/iprename | base64 | tr -d '\n')
+            echo "$content" > iprename/iprename64
+            
+    - name: Check for Renamed Base64 Changes
+      id: changesip64
+      run: |
+            git diff --quiet && echo 'No changes' || echo '::set-output name=changed::true'   
+    - name: Commit and Push Renamed Base64
+      if: steps.changesip64.outputs.changed == 'true'   
+      run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add iprename/iprename64
+          timestamp=$(TZ='Asia/Tehran' date)
+          git commit -m "✅Updated on ${timestamp}"
+          git push
+
