@@ -55,3 +55,47 @@ jobs:
           git commit -m "✅Updated on ${timestamp}"
           git commit --allow-empty -m "Convert to base64"
           git push
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
+      
+    - name: Install dependencies
+      run: |
+          python -m pip install --upgrade pip
+
+    - name: Run script to select random lines
+      run: |
+          python selector/random.py
+
+    - name: Push Random
+      if: steps.changesRandom.outputs.changed == 'true'
+      run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add selector/random
+          timestamp=$(TZ='Asia/Tehran' date)
+          git commit -m "✅Updated on ${timestamp}"
+          git push
+
+    - name: Convert Random to base64
+      run: |
+          > selector/random64
+          content=$(cat selector/random | base64 | tr -d '\n')
+            echo "$content" > selector/random64
+
+    - name: Check for Channels base64 Changes
+      id: changesRandom64
+      run: |
+            git diff --quiet && echo 'No changes' || echo '::set-output name=changed::true'
+            
+    - name: Push Channels Base64
+      if: steps.changesRandom64.outputs.changed == 'true'
+      run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          timestamp=$(TZ='Asia/Tehran' date)
+          git commit -m "✅Updated on ${timestamp}"
+          git push
