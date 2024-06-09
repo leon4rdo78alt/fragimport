@@ -67,7 +67,7 @@ jobs:
 
     - name: Run script to select random lines
       run: |
-          python selector/random.py
+          python selector/random_lines.py
 
     - name: Push Random
       if: steps.changesRandom.outputs.changed == 'true'
