@@ -57,7 +57,7 @@ def process_proxies(input_file, output_file, new_address):
 
 # Set Variables
 input_file = 'list'
-output_file = 'iprename/iprename.txt'
+output_file = 'iprename/iprename'
 new_address = '188.114.97.161'
 
 process_proxies(input_file, output_file, new_address)
