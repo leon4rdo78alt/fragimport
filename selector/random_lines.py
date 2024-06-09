@@ -2,7 +2,7 @@ import random
 
 # File names
 input_file = 'list'
-output_file = 'selector/random.txt'
+output_file = 'selector/random'
 
 # Number of lines to select
 num_lines_to_select = 10
