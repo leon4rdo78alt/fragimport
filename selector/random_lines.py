@@ -2,7 +2,7 @@ import random
 
 # File names
 input_file_1 = 'list'
-input_file_2 = 'Channels'
+input_file_2 = 'gitChannels'
 output_file = 'selector/random'
 
 # Number of lines to select
