@@ -99,6 +99,60 @@ jobs:
           timestamp=$(TZ='Asia/Tehran' date)
           git commit -m "✅Updated on ${timestamp}"
           git push
+          
+    - name: Run script to select random lines channels
+      run: |
+          python selector/random_lines_ch.py
+
+    - name: Push Random
+      if: steps.changesRandom.outputs.changed == 'true'
+      run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add selector/random_ch
+          timestamp=$(TZ='Asia/Tehran' date)
+          git commit -m "✅Updated on ${timestamp}"
+          git push
+
+    - name: Convert Random to base64
+      run: |
+          > selector/random_ch64
+          content=$(cat selector/random | base64 | tr -d '\n')
+            echo "$content" > selector/random_ch64
+
+    - name: Check for Channels base64 Changes
+      id: changesChRandom64
+      run: |
+            git diff --quiet && echo 'No changes' || echo '::set-output name=changed::true'
+            
+    - name: Push Channels Base64
+      if: steps.changesChRandom64.outputs.changed == 'true'
+      run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          timestamp=$(TZ='Asia/Tehran' date)
+          git commit -m "✅Updated on ${timestamp}"
+          git push
+
+
+    - name: Run script to rename address
+      run: |
+          python iprename/iprename.py
+          
+    - name: Check for Renamed Base64 Changes
+      id: changesip
+      run: |
+            git diff --quiet && echo 'No changes' || echo '::set-output name=changed::true'   
+    - name: Commit and Push Renamed Base64
+      if: steps.changesip.outputs.changed == 'true'   
+      run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add iprename/iprename
+          timestamp=$(TZ='Asia/Tehran' date)
+          git commit -m "✅Updated on ${timestamp}"
+          git push
 
 
     - name: Run script to rename address
