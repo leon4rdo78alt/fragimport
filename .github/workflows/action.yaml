@@ -85,12 +85,12 @@ jobs:
           content=$(cat selector/gitWrandom | base64 | tr -d '\n')
             echo "$content" > selector/gitWrandom64
 
-    - name: Check for Channels base64 Changes
+    - name: Check for Workers base64 Changes
       id: changesgitWrandom64
       run: |
             git diff --quiet && echo 'No changes' || echo '::set-output name=changed::true'
             
-    - name: Push Channels Base64
+    - name: Push Workers Base64
       if: steps.changesgitWrandom64.outputs.changed == 'true'
       run: |
           git config --local user.email "action@github.com"
@@ -126,7 +126,7 @@ jobs:
             git diff --quiet && echo 'No changes' || echo '::set-output name=changed::true'
             
     - name: Push Channels Base64
-      if: steps.changesChgitChgitChrandom64.outputs.changed == 'true'
+      if: steps.changesgitChrandom64.outputs.changed == 'true'
       run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
