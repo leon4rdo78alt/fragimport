@@ -121,7 +121,7 @@ jobs:
             echo "$content" > selector/gitChrandom64
 
     - name: Check for Channels base64 Changes
-      id: changesChgitChrandom64
+      id: changesgitChrandom64
       run: |
             git diff --quiet && echo 'No changes' || echo '::set-output name=changed::true'
             
