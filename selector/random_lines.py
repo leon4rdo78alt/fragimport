@@ -3,7 +3,7 @@ import random
 
 # File names
 input_file = 'list'
-output_file = 'selector/random'
+output_file = 'selector/gitWrandom'
 
 # Number of lines to select
 num_lines_to_select = 10
