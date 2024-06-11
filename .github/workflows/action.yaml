@@ -116,7 +116,7 @@ jobs:
 
     - name: Convert gitChrandom to base64
       run: |
-          > selector/gitChrandom_ch64
+          > selector/gitChrandom_64
           content=$(cat selector/gitChrandom | base64 | tr -d '\n')
             echo "$content" > selector/gitChrandom64
 
