@@ -137,6 +137,12 @@ jobs:
 
     - name: Merge output files
       run: cat selector/gitWrandom selector/gitChrandom > selector/merged_output
+    
+    - name: Commit merged output
+      run: |
+        git add selector/merged_output
+        timestamp=$(TZ='Asia/Tehran' date)
+        git commit -m "✅Updated merged output on ${timestamp}"
       
     - name: Convert merged output to base64
       run: |
