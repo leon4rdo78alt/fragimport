@@ -135,44 +135,30 @@ jobs:
           git commit -m "✅Updated on ${timestamp}"
           git push
 
-
-    - name: Run script to rename address
+    - name: Merge output files
+      run: cat selector/random selector/random_ch > selector/merged_output
+      
+    - name: Convert merged output to base64
       run: |
-          python iprename/iprename.py
-          
-    - name: Check for Renamed Base64 Changes
-      id: changesip
+          > selector/merged_output64
+          content=$(cat selector/merged_output | base64 | tr -d '\n')
+          echo "$content" > selector/merged_output64
+      
+    - name: Check for merged output base64 changes
+      id: changesMergedOutput64
       run: |
-            git diff --quiet && echo 'No changes' || echo '::set-output name=changed::true'   
-    - name: Commit and Push Renamed Base64
-      if: steps.changesip.outputs.changed == 'true'   
-      run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add iprename/iprename
-          timestamp=$(TZ='Asia/Tehran' date)
-          git commit -m "✅Updated on ${timestamp}"
-          git push
-
-
-    - name: Run script to rename address
-      run: |
-          python iprename/iprename.py
-          
-    - name: Check for Renamed Base64 Changes
-      id: changesip
-      run: |
-            git diff --quiet && echo 'No changes' || echo '::set-output name=changed::true'   
-    - name: Commit and Push Renamed Base64
-      if: steps.changesip.outputs.changed == 'true'   
+          git diff --quiet selector/merged_output64 && echo 'No changes' || echo '::set-output name=changed::true'
+      
+    - name: Push merged output base64
+      if: steps.changesMergedOutput64.outputs.changed == 'true'
       run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add iprename/iprename
+          git add selector/merged_output64
           timestamp=$(TZ='Asia/Tehran' date)
-          git commit -m "✅Updated on ${timestamp}"
+          git commit -m "✅Updated merged output on ${timestamp}"
           git push
-
+          
     - name: Convert IPRename to base64
       run: |
           content=$(cat iprename/iprename | base64 | tr -d '\n')
