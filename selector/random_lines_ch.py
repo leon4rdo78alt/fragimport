@@ -3,7 +3,7 @@ import random
 
 # File names
 input_file = 'gitWorker'
-output_file = 'selector/random'
+output_file = 'selector/random_ch'
 
 # Number of lines to select
 num_lines_to_select = 10
