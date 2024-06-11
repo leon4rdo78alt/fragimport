@@ -3,7 +3,7 @@ import random
 
 # File names
 input_file = 'gitChannels'
-output_file = 'selector/random_ch'
+output_file = 'selector/gitChrandom'
 
 # Number of lines to select
 num_lines_to_select = 10
