@@ -2,7 +2,7 @@
 import random
 
 # File names
-input_file = 'gitWorker'
+input_file = 'gitChannels'
 output_file = 'selector/random_ch'
 
 # Number of lines to select
