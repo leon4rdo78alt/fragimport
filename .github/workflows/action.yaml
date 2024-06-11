@@ -65,33 +65,33 @@ jobs:
       run: |
           python -m pip install --upgrade pip
 
-    - name: Run script to select random lines
+    - name: Run script to select gitWrandom
       run: |
           python selector/random_lines.py
 
-    - name: Push Random
-      if: steps.changesRandom.outputs.changed == 'true'
+    - name: Push gitWrandom
+      if: steps.changesgitWrandom.outputs.changed == 'true'
       run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add selector/random
+          git add selector/gitWrandom
           timestamp=$(TZ='Asia/Tehran' date)
           git commit -m "✅Updated on ${timestamp}"
           git push
 
-    - name: Convert Random to base64
+    - name: Convert gitWrandom to base64
       run: |
-          > selector/random64
-          content=$(cat selector/random | base64 | tr -d '\n')
-            echo "$content" > selector/random64
+          > selector/gitWrandom64
+          content=$(cat selector/gitWrandom | base64 | tr -d '\n')
+            echo "$content" > selector/gitWrandom64
 
     - name: Check for Channels base64 Changes
-      id: changesRandom64
+      id: changesgitWrandom64
       run: |
             git diff --quiet && echo 'No changes' || echo '::set-output name=changed::true'
             
     - name: Push Channels Base64
-      if: steps.changesRandom64.outputs.changed == 'true'
+      if: steps.changesgitWrandom64.outputs.changed == 'true'
       run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
@@ -100,33 +100,33 @@ jobs:
           git commit -m "✅Updated on ${timestamp}"
           git push
           
-    - name: Run script to select random lines channels
+    - name: Run script to select gitWrandom lines channels
       run: |
           python selector/random_lines_ch.py
 
-    - name: Push Random
-      if: steps.changesRandom.outputs.changed == 'true'
+    - name: Push gitChrandom
+      if: steps.changesgitChrandom.outputs.changed == 'true'
       run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add selector/random_ch
+          git add selector/gitChrandom_ch
           timestamp=$(TZ='Asia/Tehran' date)
           git commit -m "✅Updated on ${timestamp}"
           git push
 
-    - name: Convert Random to base64
+    - name: Convert gitChrandom to base64
       run: |
-          > selector/random_ch64
-          content=$(cat selector/random | base64 | tr -d '\n')
-            echo "$content" > selector/random_ch64
+          > selector/gitChrandom_ch64
+          content=$(cat selector/gitChrandom | base64 | tr -d '\n')
+            echo "$content" > selector/gitChrandom_ch64
 
     - name: Check for Channels base64 Changes
-      id: changesChRandom64
+      id: changesChgitChrandom64
       run: |
             git diff --quiet && echo 'No changes' || echo '::set-output name=changed::true'
             
     - name: Push Channels Base64
-      if: steps.changesChRandom64.outputs.changed == 'true'
+      if: steps.changesChgitChgitChrandom64.outputs.changed == 'true'
       run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
@@ -136,7 +136,7 @@ jobs:
           git push
 
     - name: Merge output files
-      run: cat selector/random selector/random_ch > selector/merged_output
+      run: cat selector/gitWrandom selector/gitChrandom > selector/merged_output
       
     - name: Convert merged output to base64
       run: |
