@@ -37,7 +37,7 @@ jobs:
           git commit -m "✅Updated on ${timestamp}"
           git push
 
-      - name: Run script to select gitWrandom lines channels
+      - name: Run script to select gitChrandom lines channels
         run: |
           python selector/random_lines_ch.py
 
