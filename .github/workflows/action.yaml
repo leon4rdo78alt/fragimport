@@ -1,4 +1,4 @@
-name: Convert to base64
+name: let it begin
 
 on:
   push:
