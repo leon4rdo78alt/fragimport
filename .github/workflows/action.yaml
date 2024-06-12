@@ -140,6 +140,8 @@ jobs:
     
     - name: Commit merged output
       run: |
+        git config --global user.name 'GitHub Actions Bot'
+        git config --global user.email 'actions@github.com'
         git add selector/merged_output
         timestamp=$(TZ='Asia/Tehran' date)
         git commit -m "✅Updated merged output on ${timestamp}"
