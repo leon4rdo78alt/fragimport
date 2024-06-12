@@ -1,7 +1,7 @@
 name: let it begin
 on:
   schedule:
-  - cron: '0 */12 * * *'
+  - cron: '0 */3 * * *'
   push:
     branches: [ main ]
   workflow_dispatch:
@@ -60,7 +60,7 @@ jobs:
   scheduled_job:
     name: Scheduled Job
     runs-on: ubuntu-latest
-    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch' || github.event_name == 'push'
     steps:
     - name: Set up Python
       uses: actions/setup-python@v4
