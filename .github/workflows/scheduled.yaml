@@ -5,6 +5,7 @@ on:
     - cron: '0 */12 * * *' # Run every 12 hours
   push:
     branches: [ main ] # Run on pushes to the main branch
+  workflow_dispatch:
 
 jobs:
 
