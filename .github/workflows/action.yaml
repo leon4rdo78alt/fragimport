@@ -1,7 +1,9 @@
 name: let it begin
 on:
   schedule:
-  - cron: '0 */3 * * *'
+  - cron: '0 20,23,2,5,8,11,14,17 * * *'
+  push:
+    branches: [ main ]
   push:
     branches: [ main ]
   workflow_dispatch:
