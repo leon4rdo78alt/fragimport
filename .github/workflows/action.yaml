@@ -82,6 +82,7 @@ jobs:
       run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
+          git pull origin main --rebase
           git add selector/gitWrandom
           timestamp=$(TZ='Asia/Tehran' date)
           git commit -m "✅Updated on ${timestamp}"
@@ -103,6 +104,7 @@ jobs:
       run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
+          git pull origin main --rebase
           git add .
           timestamp=$(TZ='Asia/Tehran' date)
           git commit -m "✅Updated on ${timestamp}"
@@ -117,6 +119,7 @@ jobs:
       run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
+          git pull origin main --rebase
           git add selector/gitChrandom
           timestamp=$(TZ='Asia/Tehran' date)
           git commit -m "✅Updated on ${timestamp}"
@@ -128,16 +131,17 @@ jobs:
           content=$(cat selector/gitChrandom | base64 | tr -d '\n')
             echo "$content" > selector/gitChrandom64
 
-    - name: Check for Channels base64 Changes
+    - name: Check for gitChannels base64 Changes
       id: changesgitChrandom64
       run: |
             git diff --quiet && echo 'No changes' || echo '::set-output name=changed::true'
             
-    - name: Push Channels Base64
+    - name: Push gitChannels Base64
       if: steps.changesgitChrandom64.outputs.changed == 'true'
       run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
+          git pull origin main --rebase
           git add .
           timestamp=$(TZ='Asia/Tehran' date)
           git commit -m "✅Updated on ${timestamp}"
