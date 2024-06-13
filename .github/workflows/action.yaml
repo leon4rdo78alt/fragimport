@@ -1,14 +1,15 @@
 name: let it begin
-
 on:
+  schedule:
+  - cron: '0 */3 * * *'
   push:
     branches: [ main ]
   workflow_dispatch:
 
 jobs:
-  build:
+  commit-job:
     runs-on: ubuntu-latest
-
+    if: github.event_name == 'push'  
     steps:
     - uses: actions/checkout@v2
     
@@ -55,7 +56,14 @@ jobs:
           git commit -m "✅Updated on ${timestamp}"
           git commit --allow-empty -m "Convert to base64"
           git push
-
+          
+  scheduled_job:
+    name: Scheduled Job
+    runs-on: ubuntu-latest
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch' || github.event_name == 'push'
+    steps:
+    - uses: actions/checkout@v2
+    
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
@@ -168,14 +176,14 @@ jobs:
           git push
           
     #- name: Convert IPRename to base64
-     # run: |
-      #    content=$(cat iprename/iprename | base64 | tr -d '\n')
-       #     echo "$content" > iprename/iprename64
+      #run: |
+       #   content=$(cat iprename/iprename | base64 | tr -d '\n')
+        #    echo "$content" > iprename/iprename64
             
     #- name: Check for Renamed Base64 Changes
      # id: changesip64
       #run: |
-       #     git diff --quiet && echo 'No changes' || echo '::set-output name=changed::true'   
+      #      git diff --quiet && echo 'No changes' || echo '::set-output name=changed::true'   
     #- name: Commit and Push Renamed Base64
      # if: steps.changesip64.outputs.changed == 'true'   
       #run: |
