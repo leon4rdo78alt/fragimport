@@ -1,7 +1,7 @@
 name: let it begin
 on:
   schedule:
-  - cron: '0 0,3,6,9,12,15,18,21 * * *'
+  - cron: '0 */3 * * *'
   push:
     branches: [ main ]
   workflow_dispatch:
@@ -18,7 +18,6 @@ jobs:
           > list64
           content=$(cat list | base64 | tr -d '\n')
             echo "$content" > list64
-
     - name: Check for base64 Changes
       id: changes64
       run: |
@@ -34,13 +33,11 @@ jobs:
           git commit -m "✅Updated on ${timestamp}"
           git commit --allow-empty -m "Convert to base64"
           git push
-
     - name: Convert Channels base64
       run: |
           > gitChannels64
           content=$(cat gitChannels | base64 | tr -d '\n')
             echo "$content" > gitChannels64
-
     - name: Check for Channels base64 Changes
       id: changesChannels
       run: |
@@ -72,28 +69,23 @@ jobs:
     - name: Install dependencies
       run: |
           python -m pip install --upgrade pip
-
     - name: Run script to select gitWrandom
       run: |
           python selector/random_lines.py
-
     - name: Push gitWrandom
       if: steps.changesgitWrandom.outputs.changed == 'true'
       run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git pull origin main --rebase
           git add selector/gitWrandom
           timestamp=$(TZ='Asia/Tehran' date)
           git commit -m "✅Updated on ${timestamp}"
           git push
-
     - name: Convert gitWrandom to base64
       run: |
           > selector/gitWrandom64
           content=$(cat selector/gitWrandom | base64 | tr -d '\n')
             echo "$content" > selector/gitWrandom64
-
     - name: Check for gitWrandom base64 Changes
       id: changesgitWrandom64
       run: |
@@ -104,7 +96,6 @@ jobs:
       run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git pull origin main --rebase
           git add .
           timestamp=$(TZ='Asia/Tehran' date)
           git commit -m "✅Updated on ${timestamp}"
@@ -113,40 +104,34 @@ jobs:
     - name: Run script to select gitWrandom lines channels
       run: |
           python selector/random_lines_ch.py
-
     - name: Push gitChrandom
       if: steps.changesgitChrandom.outputs.changed == 'true'
       run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git pull origin main --rebase
           git add selector/gitChrandom
           timestamp=$(TZ='Asia/Tehran' date)
           git commit -m "✅Updated on ${timestamp}"
           git push
-
     - name: Convert gitChrandom to base64
       run: |
           > selector/gitChrandom64
           content=$(cat selector/gitChrandom | base64 | tr -d '\n')
             echo "$content" > selector/gitChrandom64
-
-    - name: Check for gitChannels base64 Changes
+    - name: Check for Channels base64 Changes
       id: changesgitChrandom64
       run: |
             git diff --quiet && echo 'No changes' || echo '::set-output name=changed::true'
             
-    - name: Push gitChannels Base64
+    - name: Push Channels Base64
       if: steps.changesgitChrandom64.outputs.changed == 'true'
       run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git pull origin main --rebase
           git add .
           timestamp=$(TZ='Asia/Tehran' date)
           git commit -m "✅Updated on ${timestamp}"
           git push
-
     - name: Merge output files
       run: cat selector/gitWrandom selector/gitChrandom > selector/merged_output
     
