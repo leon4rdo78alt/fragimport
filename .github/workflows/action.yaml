@@ -1,15 +1,14 @@
 name: let it begin
+
 on:
-  schedule:
-  - cron: '0 */3 * * *'
   push:
     branches: [ main ]
   workflow_dispatch:
 
 jobs:
-  commit-job:
+  build:
     runs-on: ubuntu-latest
-    if: github.event_name == 'push'  
+
     steps:
     - uses: actions/checkout@v2
     
@@ -56,14 +55,7 @@ jobs:
           git commit -m "✅Updated on ${timestamp}"
           git commit --allow-empty -m "Convert to base64"
           git push
-          
-  scheduled_job:
-    name: Scheduled Job
-    runs-on: ubuntu-latest
-    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch' || github.event_name == 'push'
-    steps:
-    - uses: actions/checkout@v2
-    
+
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
@@ -83,7 +75,6 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add selector/gitWrandom
-          echo "$content" > selector/gitWrandom
           timestamp=$(TZ='Asia/Tehran' date)
           git commit -m "✅Updated on ${timestamp}"
           git push
@@ -119,7 +110,6 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add selector/gitChrandom
-          echo "$content" > selector/gitWrandom
           timestamp=$(TZ='Asia/Tehran' date)
           git commit -m "✅Updated on ${timestamp}"
           git push
