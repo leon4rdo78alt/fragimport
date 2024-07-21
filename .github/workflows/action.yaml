@@ -53,6 +53,28 @@ jobs:
           git commit -m "✅Updated on ${timestamp}"
           git commit --allow-empty -m "Convert to base64"
           git push
+
+    - name: Convert gitpaid base64
+      run: |
+          > gitpaid64
+          content=$(cat gitpaid | base64 | tr -d '\n')
+            echo "$content" > gitpaid64
+    - name: Check for gitpaid base64 Changes
+      id: changesgitpaid
+      run: |
+            git diff --quiet && echo 'No changes' || echo '::set-output name=changed::true'
+            
+    - name: Push gitpaid Base64
+      if: steps.changesgitpaid.outputs.changed == 'true'
+      run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          timestamp=$(TZ='Asia/Tehran' date)
+          git commit -m "✅Updated on ${timestamp}"
+          git commit --allow-empty -m "Convert to base64"
+          git push
+
     - name: Run script to select gitWrandom
       run: |
           python selector/random_lines.py
@@ -85,7 +107,7 @@ jobs:
           git commit -m "✅Updated on ${timestamp}"
           git push
           
-    - name: Run script to select gitWrandom lines channels
+    - name: Run script to select gitchrandom lines from channels
       run: |
           python selector/random_lines_ch.py
     - name: Push gitChrandom
@@ -116,6 +138,39 @@ jobs:
           timestamp=$(TZ='Asia/Tehran' date)
           git commit -m "✅Updated on ${timestamp}"
           git push
+    
+    - name: Run script to select gitpaidrandom
+      run: |
+          python selector/random_lines_paid.py
+    - name: Push gitpaidrandom
+      if: steps.changesgitpaidrandom.outputs.changed == 'true'
+      run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add selector/gitpaidrandom
+          timestamp=$(TZ='Asia/Tehran' date)
+          git commit -m "✅Updated on ${timestamp}"
+          git push
+    - name: Convert gitpaidrandom to base64
+      run: |
+          > selector/gitpaidrandom64
+          content=$(cat selector/gitpaidrandom | base64 | tr -d '\n')
+            echo "$content" > selector/gitpaidrandom64
+    - name: Check for gitpaidrandom base64 Changes
+      id: changesgitpaidrandom64
+      run: |
+            git diff --quiet && echo 'No changes' || echo '::set-output name=changed::true'
+            
+    - name: Push gitpaidrandom Base64
+      if: steps.changesgitpaidrandom64.outputs.changed == 'true'
+      run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          timestamp=$(TZ='Asia/Tehran' date)
+          git commit -m "✅Updated on ${timestamp}"
+          git push
+
     - name: Merge output files
       run: cat selector/gitWrandom selector/gitChrandom > selector/merged_output
     
@@ -226,6 +281,39 @@ jobs:
           timestamp=$(TZ='Asia/Tehran' date)
           git commit -m "✅Updated on ${timestamp}"
           git push
+    
+    - name: Run script to select gitpaidrandom
+      run: |
+          python selector/random_lines_paid.py
+    - name: Push gitpaidrandom
+      if: steps.changesgitpaidrandom.outputs.changed == 'true'
+      run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add selector/gitpaidrandom
+          timestamp=$(TZ='Asia/Tehran' date)
+          git commit -m "✅Updated on ${timestamp}"
+          git push
+    - name: Convert gitpaidrandom to base64
+      run: |
+          > selector/gitpaidrandom64
+          content=$(cat selector/gitpaidrandom | base64 | tr -d '\n')
+            echo "$content" > selector/gitpaidrandom64
+    - name: Check for gitpaidrandom base64 Changes
+      id: changesgitpaidrandom64
+      run: |
+            git diff --quiet && echo 'No changes' || echo '::set-output name=changed::true'
+            
+    - name: Push gitpaidrandom Base64
+      if: steps.changesgitpaidrandom64.outputs.changed == 'true'
+      run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          timestamp=$(TZ='Asia/Tehran' date)
+          git commit -m "✅Updated on ${timestamp}"
+          git push
+
     - name: Merge output files
       run: cat selector/gitWrandom selector/gitChrandom > selector/merged_output
     
