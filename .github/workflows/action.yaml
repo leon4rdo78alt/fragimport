@@ -272,7 +272,7 @@ jobs:
   scheduled_job:
     name: Scheduled Job
     runs-on: ubuntu-latest
-    if: github.event_name == 'push'  
+    if: github.event_name == 'schedule'  
     steps:
     - uses: actions/checkout@v2
     
