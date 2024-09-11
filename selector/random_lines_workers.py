@@ -1,7 +1,7 @@
 import random
 
 # File names
-input_file = 'list'
+input_file = 'gitWorkers'
 output_file = 'selector/gitWrandom'
 
 # Number of lines to select
