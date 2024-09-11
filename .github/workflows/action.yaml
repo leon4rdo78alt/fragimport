@@ -174,6 +174,39 @@ jobs:
           git commit -m "✅Updated on ${timestamp}"
           git push
 
+    - name: Run script to select gitMTNMCIrandom
+      run: |
+          python selector/random_lines_MTNMCI.py
+    - name: Push gitMTNMCIrandom
+      if: steps.changesgitMTNMCIrandom.outputs.changed == 'true'
+      run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add selector/gitMTNMCIrandom
+          timestamp=$(TZ='Asia/Tehran' date)
+          git commit -m "✅Updated on ${timestamp}"
+          git push
+    - name: Convert gitMTNMCIrandom to base64
+      run: |
+          > selector/gitMTNMCIrandom64
+          content=$(cat selector/gitMTNMCIrandom | base64 | tr -d '\n')
+            echo "$content" > selector/gitpMTCMCIrandom64
+    - name: Check for gitMTNMCIrandom base64 Changes
+      id: changesgitMTCMCIrandom64
+      run: |
+            git diff --quiet && echo 'No changes' || echo '::set-output name=changed::true'
+            
+    - name: Push gitMTCMCIrandom Base64
+      if: steps.changesgitMTNMCIrandom64.outputs.changed == 'true'
+      run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          timestamp=$(TZ='Asia/Tehran' date)
+          git commit -m "✅Updated on ${timestamp}"
+          git push
+
+
     - name: Merge output files
       run: cat selector/gitChrandom selector/gitWrandom > selector/merged_output
     
