@@ -15,9 +15,9 @@ jobs:
     
     - name: Convert Workers base64
       run: |
-          > list64
-          content=$(cat list | base64 | tr -d '\n')
-            echo "$content" > list64
+          > gitWorkers64
+          content=$(cat gitWorkers | base64 | tr -d '\n')
+            echo "$content" > gitWorkers64
     - name: Check for base64 Changes
       id: changes64
       run: |
@@ -266,11 +266,11 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     
-    - name: Convert base64
+    - name: Convert Workers base64
       run: |
-          > list64
-          content=$(cat list | base64 | tr -d '\n')
-            echo "$content" > list64
+          > gitWorkers64
+          content=$(cat gitWorkers | base64 | tr -d '\n')
+            echo "$content" > gitWorkers64
     - name: Check for base64 Changes
       id: changes64
       run: |
@@ -319,6 +319,27 @@ jobs:
             
     - name: Push gitpaid Base64
       if: steps.changesgitpaid.outputs.changed == 'true'
+      run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          timestamp=$(TZ='Asia/Tehran' date)
+          git commit -m "✅Updated on ${timestamp}"
+          git commit --allow-empty -m "Convert to base64"
+          git push
+
+    - name: Convert MTNMCI base64
+      run: |
+          > gitMTNMCI64
+          content=$(cat gitMTNMCI | base64 | tr -d '\n')
+            echo "$content" > gitMTNMCI64
+    - name: Check for base64 Changes
+      id: changesMTNMCI64
+      run: |
+            git diff --quiet && echo 'No changes' || echo '::set-output name=changed::true'
+            
+    - name: Push Base64
+      if: steps.changesMTNMCI64.outputs.changed == 'true'
       run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
@@ -394,36 +415,6 @@ jobs:
           timestamp=$(TZ='Asia/Tehran' date)
           git commit -m "✅Updated on ${timestamp}"
           git push
-
-    - name: Push gitMTNMCIrandom
-      if: steps.changesgitMTNMCIrandom.outputs.changed == 'true'
-      run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add selector/gitMTNMCIrandom
-          timestamp=$(TZ='Asia/Tehran' date)
-          git commit -m "✅Updated on ${timestamp}"
-          git push
-          
-    - name: Convert gitMTNMCIrandom to base64
-      run: |
-          > selector/gitMTNMCIrandom64
-          content=$(cat selector/gitMTNMCIrandom | base64 | tr -d '\n')
-            echo "$content" > selector/gitMTNMCIrandom64
-    - name: Check for gitMTNMCIrandom base64 Changes
-      id: changesgitMTNMCIrandom64
-      run: |
-            git diff --quiet && echo 'No changes' || echo '::set-output name=changed::true'
-            
-    - name: Push gitMTNMCIrandom Base64
-      if: steps.changesgitMTNMCIrandom64.outputs.changed == 'true'
-      run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add .
-          timestamp=$(TZ='Asia/Tehran' date)
-          git commit -m "✅Updated on ${timestamp}"
-          git push
           
     - name: Run script to select gitpaidrandom
       run: |
@@ -475,11 +466,11 @@ jobs:
           content=$(cat selector/gitMTNMCIrandom | base64 | tr -d '\n')
             echo "$content" > selector/gitpMTCMCIrandom64
     - name: Check for gitMTNMCIrandom base64 Changes
-      id: changesgitMTCMCIrandom64
+      id: changesgitMTNMCIrandom64
       run: |
             git diff --quiet && echo 'No changes' || echo '::set-output name=changed::true'
             
-    - name: Push gitMTCMCIrandom Base64
+    - name: Push gitMTNMCIrandom Base64
       if: steps.changesgitMTNMCIrandom64.outputs.changed == 'true'
       run: |
           git config --local user.email "action@github.com"
@@ -488,7 +479,6 @@ jobs:
           timestamp=$(TZ='Asia/Tehran' date)
           git commit -m "✅Updated on ${timestamp}"
           git push
-
 
     - name: Merge output files
       run: cat selector/gitChrandom selector/gitWrandom selector/gitMTNMCIrandom > selector/merged_output
