@@ -1,7 +1,7 @@
 name: let it begin
 on:
   schedule:
-  - cron: '41 2,6,10,14,18,22 * * *'
+  - cron: '41 2,4,6,8,10,12,14,16,18,20,22 * * *'
   push:
     branches: [ main ]
   workflow_dispatch:
